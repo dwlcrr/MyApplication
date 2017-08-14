@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_line">#F6F6F6</color>
+    <color name="gray_ae">#AEAEAE</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_light">#c8c8c8</color>
+    <color name="black2">#555555</color>
+    <color name="steelblue">#4682B4</color><!--钢兰色 -->
+    <color name="royalblue">#4169E1</color><!--皇家蓝 -->
+
+    <color name="light_blue">#01ABE9</color>
+
+    <color name="rg_quotation_select">#169BD5</color>
+    <color name="indicatorText_color">#0790ee</color>
+</resources>

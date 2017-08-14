@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="request_get">Get请求</string>
+    <string name="request_post">Post请求</string>
+    <string name="request_put">Put请求</string>
+    <string name="request_delete">Delete请求</string>
+    <string name="des_demo_net">RxJava+OkHttp实现的网络请求Demo</string>
+</resources>

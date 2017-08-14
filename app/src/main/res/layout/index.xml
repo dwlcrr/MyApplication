@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_get"
+        style="@style/style_btn"
+        android:text="@string/request_get"/>
+
+    <Button
+        android:id="@+id/btn_post"
+        style="@style/style_btn"
+        android:text="@string/request_post"/>
+
+    <com.example.testapplication.view.myView.MyView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        custom:titleText="3712"
+        custom:titleTextColor="#ff0000"
+        custom:titleTextSize="40sp"/>
+
+    <com.example.testapplication.MyView1
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp" />
+
+</LinearLayout>

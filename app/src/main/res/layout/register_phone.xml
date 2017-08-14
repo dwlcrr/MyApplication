@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/il_titile"
+        layout="@layout/layout_title" />
+
+    <!-- 输入手机号 -->
+    <LinearLayout
+        android:id="@+id/ll_reg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/corner_bg" >
+
+            <EditText
+                android:id="@+id/et_reg_phone"
+                style="@style/et_style_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:hint="请输入手机号"
+                android:inputType="number"
+                android:maxLength="11"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/regPhoneNext"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/cancel_bt_bg"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <!-- 验证码 -->
+
+	<LinearLayout
+        android:id="@+id/ll_reg_vercode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/corner_bg" >
+
+            <EditText
+                android:id="@+id/et_reg_vercode"
+                style="@style/et_style_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true" />
+            
+            <TextView
+	            android:id="@+id/tv_vercode"
+	            android:layout_width="80dip"
+	            android:layout_height="40dip"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/corner_bg"
+	            android:layout_centerVertical="true"
+	            android:text="重新获取"
+	            android:layout_marginRight="10dp"
+	            style="@style/vercode_style" 
+	            android:textColor="@color/light_blue"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_regVercode_next"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/cancel_bt_bg"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 输入密码 -->
+
+    <LinearLayout
+        android:id="@+id/ll_reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" 
+            android:orientation="vertical">
+			<View 
+			    style="@style/Horizontal"/>
+            <EditText
+                android:id="@+id/et_reg_pass"
+                style="@style/et_style_login"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:hint="请输入密码(6-20位)"
+                android:maxLength="20"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+            <View 
+			    style="@style/Horizontal"/>
+            <EditText
+                android:id="@+id/et_reg_confirmPass"
+                style="@style/et_style_login"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:hint="请再次输入密码(6-20位)"
+                android:maxLength="20"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+            <View
+			    style="@style/Horizontal"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_reg_comfirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/cancel_bt_bg"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

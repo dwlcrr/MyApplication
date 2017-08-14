@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_mallcenterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/royalblue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="报盘"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="商城"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="我的"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    <com.gxz.PagerSlidingTabStrip
+        android:id="@+id/mallcenterTabs"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/rl_mallcenterTitle"
+        android:textColor="@color/light_blue"
+        android:textSize="16sp"
+        app:pstsDividerColor="@android:color/transparent"
+        app:pstsIndicatorColor="@color/accent_material_light"
+        app:pstsIndicatorHeight="5dp"
+        app:pstsShouldExpand="false"
+        app:pstsTextSelectedColor="@color/accent_material_light"
+        app:pstsUnderlineColor="@color/colorAccent" />
+
+     <android.support.v4.view.ViewPager
+        android:id="@+id/mallcenterViewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mallcenterTabs" />
+
+</RelativeLayout>

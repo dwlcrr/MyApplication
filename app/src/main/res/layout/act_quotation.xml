@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_heightPercent="10%">
+
+        <RadioButton
+            android:id="@+id/rb_main_one"
+            style="@style/radioButton_style"
+            android:checked="true"
+            android:tag="0"
+            android:text="自主报盘" />
+
+        <RadioButton
+            android:id="@+id/rb_main_two"
+            style="@style/radioButton_style"
+            android:tag="1"
+            android:text="快速报盘"
+            />
+        <RadioButton
+            android:id="@+id/rb_main_mobile"
+            style="@style/radioButton_style"
+            android:tag="2"
+            android:text="电话报盘"
+            />
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/fg_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rg_main" />
+</com.zhy.android.percent.support.PercentRelativeLayout>

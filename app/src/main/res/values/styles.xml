@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- EditText hint的样式 -->
+    <style name="editText_hint_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">@color/gray_ae</item>
+        <item name="android:textColor">@color/gray_66</item>
+    </style>
+    <!-- 横线 -->
+    <style name="Horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/gray_66</item>
+    </style>
+    <!-- 横线 -->
+    <style name="homeTitle">
+        <item name="android:textColor">@color/gray_66</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 登录页 -->
+    <style name="et_style_login2">
+        <item name="android:textColor">@color/gray_66</item>
+        <item name="android:textColorHint">@color/gray_66</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="et_style_login">
+        <item name="android:textColor">@color/gray_66</item>
+        <item name="android:textColorHint">@color/gray_66</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <style name="vercode_style">
+        <item name="android:textColor">@color/gray_66</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="radioButton_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/quotation_bg_color</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/quotation_textcolor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- 按钮Style -->
+    <style name="style_btn">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="style_text">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
