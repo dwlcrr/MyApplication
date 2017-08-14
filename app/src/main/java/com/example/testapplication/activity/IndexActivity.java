@@ -3,7 +3,6 @@ package com.example.testapplication.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.example.testapplication.R;
 import com.example.testapplication.base.BaseActivity;
 import com.example.testapplication.entity.AppConfigResult;
@@ -13,9 +12,7 @@ import com.example.testapplication.utils.BaseUtils;
 import com.example.testapplication.utils.XgoLog;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
-
 import java.io.IOException;
-
 import butterknife.ButterKnife;
 import rx.Observable;
 import rx.Subscriber;
