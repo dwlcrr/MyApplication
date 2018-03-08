@@ -1,4 +1,4 @@
-package com.loveplusplus.update;
+package com.loveplusplus.update.updateApp;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

@@ -1,4 +1,4 @@
-package com.loveplusplus.update;
+package com.loveplusplus.update.updateApp;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -15,6 +15,13 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.loveplusplus.update.DownloadService;
+import com.loveplusplus.update.HttpUtils;
+import com.loveplusplus.update.R;
+import com.loveplusplus.update.UpdateConstants;
+import com.loveplusplus.update.updateApp.AppUtils;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 

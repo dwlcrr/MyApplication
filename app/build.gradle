@@ -37,8 +37,9 @@ dependencies {
     compile 'io.reactivex:rxjava:1.0.14'
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'com.squareup.okhttp:okhttp:2.7.2'
-    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.lzy.widget:imagepicker:0.3.2'
+//    compile 'com.jakewharton:butterknife:7.0.1'
     compile project(path: ':library')
     compile project(path: ':okgo')
-    compile project(path: ":okrx")
+    compile project(path: ':okrx')
 }

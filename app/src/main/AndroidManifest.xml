@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testapplication" >
 
-
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
@@ -21,7 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.UpdateActivity" />
-    </application>
 
+        <activity android:name=".activity.UpdateActivity" />
+        <activity android:name=".activity.SimpleViewActivity" />
+        <activity android:name=".activity.TestRequestActivity" />
+        <activity android:name=".activity.SimpleRequestActivity" />
+        <activity android:name=".activity.RxRequestActivity" />
+    </application>
 </manifest>

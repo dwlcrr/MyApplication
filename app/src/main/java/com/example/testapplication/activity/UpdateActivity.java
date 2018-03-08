@@ -8,14 +8,12 @@ import com.example.testapplication.R;
 import com.example.testapplication.base.BaseActivity;
 import com.example.testapplication.net.callback.JsonCallback;
 import com.example.testapplication.utils.Constant;
-import com.loveplusplus.update.CheckUpdateTask;
+import com.loveplusplus.update.updateApp.CheckUpdateTask;
 import com.loveplusplus.update.UpdateConstants;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.model.Response;
 
 import org.json.JSONObject;
-
-import butterknife.ButterKnife;
 
 /**
  * 更新软件
@@ -27,7 +25,6 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.update);
-        ButterKnife.bind(this);
     }
 
     @Override
