@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
+//apply plugin: 'me.tatarka.retrolambda'
 android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
@@ -40,4 +40,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     compile project(path: ':library')
     compile project(path: ':okgo')
+    compile project(path: ":okrx")
 }

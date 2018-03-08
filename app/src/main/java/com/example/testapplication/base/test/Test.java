@@ -1,8 +1,9 @@
-package com.example.testapplication.base;
+package com.example.testapplication.base.test;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.ParseException;

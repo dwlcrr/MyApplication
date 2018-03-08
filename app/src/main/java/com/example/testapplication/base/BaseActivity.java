@@ -23,5 +23,4 @@ public class BaseActivity extends Activity {
         mGson = new Gson();
     }
 
-
 }

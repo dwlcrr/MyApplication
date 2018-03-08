@@ -1,4 +1,4 @@
-package com.example.test.myapplication;
+package com.example.testapplication.base.test;
 
 import rx.subjects.BehaviorSubject;
 

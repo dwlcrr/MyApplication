@@ -1,4 +1,4 @@
-package com.example.testapplication.base;
+package com.example.testapplication.base.test;
 
 import com.example.testapplication.utils.Md5Utils;
 
@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.HashMap;
-  
+
 public class GsonTest {
 
 
