@@ -15,7 +15,6 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
