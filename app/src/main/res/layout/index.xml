@@ -15,7 +15,7 @@
         style="@style/style_btn"
         android:text="@string/request_post"/>
 
-    <com.example.testapplication.view.myView.MyView
+    <com.example.testapplication.view.myview.MyView
         android:layout_width="100dp"
         android:layout_height="60dp"
         custom:titleText="3712"

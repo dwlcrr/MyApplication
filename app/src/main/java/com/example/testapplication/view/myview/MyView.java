@@ -1,4 +1,4 @@
-package com.example.testapplication.view.myView;
+package com.example.testapplication.view.myview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,13 +9,14 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+
 import com.example.testapplication.R;
 
 /**
  * Created by dongwanlin on 2017/4/6.
  */
 
-public class MyView extends View{
+public class MyView extends View {
     /**
      * 文本
      */
@@ -35,12 +36,13 @@ public class MyView extends View{
     private Paint mPaint;
 
     public MyView(Context context) {
-        this(context,null);
+        this(context, null);
     }
 
     public MyView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
+
     /**
      * 获得我自定义的样式属性
      *
@@ -48,19 +50,16 @@ public class MyView extends View{
      * @param attrs
      * @param defStyle
      */
-    public MyView(Context context, AttributeSet attrs, int defStyle)
-    {
+    public MyView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         /**
          * 获得我们所定义的自定义样式属性
          */
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.MyView, defStyle, 0);
         int n = a.getIndexCount();
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             int attr = a.getIndex(i);
-            switch (attr)
-            {
+            switch (attr) {
                 case R.styleable.MyView_titleText:
                     mTitleText = a.getString(attr);
                     break;
@@ -84,23 +83,22 @@ public class MyView extends View{
          */
         mPaint = new Paint();
         mPaint.setTextSize(mTitleTextSize);
-         mPaint.setColor(mTitleTextColor);
+        mPaint.setColor(mTitleTextColor);
         mBound = new Rect();
         mPaint.getTextBounds(mTitleText, 0, mTitleText.length(), mBound);
 
     }
+
     @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
-    {
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
-
+    //开始转型，必须转型。学习，学习，学习。
     @Override
-    protected void onDraw(Canvas canvas)
-    {
+    protected void onDraw(Canvas canvas) {
         mPaint.setColor(Color.YELLOW);
         canvas.drawRect(0, 0, getMeasuredWidth(), getMeasuredHeight(), mPaint);
-
+        canvas.drawRect(0,0,getMeasuredWidth(),getMeasuredHeight(),mPaint);
         mPaint.setColor(mTitleTextColor);
         float width = mPaint.measureText(mTitleText);
         float height = mPaint.ascent() - mPaint.descent();
