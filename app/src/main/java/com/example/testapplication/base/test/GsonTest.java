@@ -1,6 +1,6 @@
 package com.example.testapplication.base.test;
 
-import com.example.testapplication.utils.Md5Utils;
+import com.example.testapplication.utils.other.Md5Utils;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

@@ -3,21 +3,14 @@ package com.example.testapplication.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.example.testapplication.R;
 import com.example.testapplication.base.BaseActivity;
 import com.example.testapplication.entity.AppConfigResult;
-import com.example.testapplication.net.callback.JsonCallback;
 import com.example.testapplication.protocol.BusinessProtocol;
 import com.example.testapplication.protocol.ResponseCallback;
-import com.example.testapplication.utils.Constant;
-import com.example.testapplication.utils.XgoLog;
-import com.lzy.okgo.OkGo;
+import com.example.testapplication.utils.other.XgoLog;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
-
-import org.json.JSONObject;
-
 import java.io.IOException;
 
 /**
@@ -44,19 +37,9 @@ public class SimpleRequestActivity extends BaseActivity implements OnClickListen
 
     private void testOk() {
 
-        OkGo.<JSONObject>get(Constant.UPDATE_URL)
-                .execute(new JsonCallback<JSONObject>() {
-                    @Override
-                    public void onSuccess(com.lzy.okgo.model.Response<JSONObject> response) {
-                        System.out.println(response.body());
-                    }
-
-                    @Override
-                    public void onError(com.lzy.okgo.model.Response<JSONObject> response) {
-                        response.getException().printStackTrace();
-                    }
-                });
-
+        /**
+         * 封装
+         */
         BusinessProtocol.getAppConfig(new  ResponseCallback() {
             @Override
             public void onFailure(Request request, IOException e) {

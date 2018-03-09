@@ -3,21 +3,9 @@ manifest
 ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
-		INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
-	android:versionName
-		INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
-	android:versionCode
-		INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:2:11-69

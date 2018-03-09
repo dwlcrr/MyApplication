@@ -1,6 +1,6 @@
 package com.example.testapplication.entity;
 
-import com.example.testapplication.utils.Status;
+import com.example.testapplication.utils.other.Status;
 /**
  * 数组常量类
  */

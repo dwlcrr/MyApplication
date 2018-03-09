@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/okgo/okgo.iml" filepath="$PROJECT_DIR$/okgo/okgo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/okrx/okrx.iml" filepath="$PROJECT_DIR$/okrx/okrx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umeng/umeng.iml" filepath="$PROJECT_DIR$/umeng/umeng.iml" />
     </modules>
   </component>
 </project>

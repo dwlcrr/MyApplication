@@ -15,8 +15,8 @@ import android.widget.LinearLayout;
 import com.bumptech.glide.Glide;
 import com.example.testapplication.R;
 import com.example.testapplication.entity.AdLunboData;
-import com.example.testapplication.utils.BaseUtils;
-import com.example.testapplication.utils.DisplayUtils;
+import com.example.testapplication.utils.base.BaseUtils;
+import com.example.testapplication.utils.base.DisplayUtils;
 
 import java.util.ArrayList;
 import java.util.List;

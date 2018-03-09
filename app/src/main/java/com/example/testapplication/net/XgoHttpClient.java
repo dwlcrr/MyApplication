@@ -3,7 +3,7 @@ package com.example.testapplication.net;
 import android.net.Uri;
 
 import com.example.testapplication.net.interceptor.XgoLogInterceptor;
-import com.example.testapplication.utils.XgoLog;
+import com.example.testapplication.utils.other.XgoLog;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.MultipartBuilder;
