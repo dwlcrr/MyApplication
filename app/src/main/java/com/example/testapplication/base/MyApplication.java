@@ -5,12 +5,12 @@ import android.content.Context;
 import android.support.multidex.MultiDex;
 
 import com.example.testapplication.net.NetConfig;
-import com.example.testapplication.utils.base.Logger;
 import com.example.testapplication.utils.other.UUIDUtils;
-import com.loveplusplus.update.BuildConfig;
-import com.loveplusplus.update.net.SmmNet;
-import com.loveplusplus.update.utils.DisplayUtils;
-import com.loveplusplus.update.utils.StrUtil;
+import com.smm.lib.BuildConfig;
+import com.smm.lib.net.SmmNet;
+import com.smm.lib.utils.base.DisplayUtils;
+import com.smm.lib.utils.base.Logger;
+import com.smm.lib.utils.base.StrUtil;
 import com.tencent.bugly.crashreport.CrashReport;
 import com.umeng.socialize.Config;
 import com.umeng.socialize.PlatformConfig;

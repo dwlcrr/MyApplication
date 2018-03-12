@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.loveplusplus.update" >
+    package="com.smm.lib" >
 
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application>
         <service
-            android:name="com.loveplusplus.update.DownloadService"
+            android:name="com.smm.lib.update.DownloadService"
             android:exported="false" />
 
         <provider
-            android:name="com.loveplusplus.update.UpdateApkFileProvider"
+            android:name="com.smm.lib.UpdateApkFileProvider"
             android:authorities="${applicationId}.update.provider"
             android:exported="false"
             android:grantUriPermissions="true" >

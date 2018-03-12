@@ -14,7 +14,9 @@ public class IndexActivity extends BaseActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.index);
-        View view = findView(R.id.btn_view);
+        findView(R.id.btn_request).setOnClickListener(this);
+        findView(R.id.btn_view).setOnClickListener(this);
+        findView(R.id.btn_update).setOnClickListener(this);
     }
 
     @Override

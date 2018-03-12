@@ -1,8 +1,7 @@
 package com.example.testapplication.entity.greendao;
 
 import android.database.sqlite.SQLiteDatabase;
-
-import cn.smm.en.base.SmmEnApp;
+import com.example.testapplication.base.MyApplication;
 
 /**
  * Created by guizhen on 2017/5/22.
@@ -20,7 +19,7 @@ public class SmmDbHelper {
     }
 
     private SmmDbHelper() {
-        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(SmmEnApp.getContext(), SMM_HTTP_CACHE_DB);
+        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(MyApplication.getContext(), SMM_HTTP_CACHE_DB);
         SQLiteDatabase db = helper.getWritableDatabase();
         DaoMaster daoMaster = new DaoMaster(db);
         session = daoMaster.newSession();

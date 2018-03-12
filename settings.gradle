@@ -1,1 +1,1 @@
-include ':app',':okgo', ':library', ':umeng'
+include ':app',':library', ':umeng'

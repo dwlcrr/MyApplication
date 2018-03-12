@@ -1,10 +1,13 @@
 package com.example.testapplication.utils.rx;
 
 import java.util.concurrent.TimeUnit;
-
 import rx.Observable;
+import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action1;
+import rx.functions.Actions;
 import rx.schedulers.Schedulers;
+import rx.internal.util.ActionSubscriber;
 
 /**
  * @Description: Rx的工具类
@@ -25,8 +28,10 @@ public class RxUtils {
     public static <T> Observable.Transformer<T, T> subscribeInMain() {
 
         return Observable -> Observable.subscribeOn(Schedulers.io())
+                .materialize()
                 .unsubscribeOn(AndroidSchedulers.mainThread())
-                .observeOn(AndroidSchedulers.mainThread());
+                .observeOn(AndroidSchedulers.mainThread())
+                .dematerialize();
 
     }
 
@@ -41,9 +46,16 @@ public class RxUtils {
 
         final int countTime = time;
         return Observable.interval(0, 1, TimeUnit.SECONDS)
-                .observeOn(AndroidSchedulers.mainThread())
                 .map(increaseTime -> countTime - increaseTime.intValue())
                 .take(countTime + 1);
+    }
+
+    public static <T> Subscriber<T> subscribeNext(final Action1<? super T> onNext) {
+        return new ActionSubscriber<T>(onNext, Actions.empty(), Actions.empty());
+    }
+
+    public static <T> Subscriber<T> subscribeEmpty() {
+        return new ActionSubscriber<T>(Actions.empty(), Actions.empty(), Actions.empty());
     }
 
 }

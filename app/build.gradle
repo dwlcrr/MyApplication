@@ -1,30 +1,131 @@
 apply plugin: 'com.android.application'
 //apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'org.greenrobot.greendao'
 apply plugin: 'bugly'
+
+bugly {
+    appId = 'd3c9965132'
+    appKey = '761b8a3f-19bb-4d41-971d-091d13562156'
+}
+
+def releaseTime() {
+    return new Date().format("yyyyMMdd-HHmm")
+}
 
 def online = false
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.example.testapplication"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.5.0"
+        ndk {
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        defaultkey {
+            keyAlias "mml"
+            keyPassword "qwerasd"
+            storeFile file("smm_en.jks")
+            storePassword "qwerasd"
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.defaultkey
+        }
+        release {
+//          ./gradlew clean
+//          ./gradlew assembleRelease
+            // zipAlign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+            minifyEnabled true
+            signingConfig signingConfigs.defaultkey
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                if (variant.buildType.name == 'release') {
+                    variant.outputs.each { output ->
+                        def outputFile = output.outputFile
+                        if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                            def channel = "${variant.productFlavors[0].name}"
+                            output.outputFileName = "${channel}-v${defaultConfig.versionName}-${releaseTime()}${online ? "" : "test"}.apk"
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    flavorDimensions "release"
+
+    productFlavors {
+        dev {
+            // To avoid using legacy multidex, set minSdkVersion to 21 or higher.
+            minSdkVersion 21
+            dimension "release"
+        }
+        smm { dimension "release" }
+        googleplay { dimension "release" }
+        huawei { dimension "release" }
+        samsung { dimension "release" }
+        productFlavors.all {
+            flavor ->
+                buildConfigField "boolean", "online", "${online}"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    defaultConfig {
-        applicationId "com.example.testapplication"
-        minSdkVersion 17
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INFTICE.txt'
+        exclude 'META-INFTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INFtice.txt'
+        exclude 'META-INFcense.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs', 'src/main/jniLibs']
         }
     }
+    lintOptions {
+        abortOnError false
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+greendao {
+    schemaVersion 1
+    daoPackage 'cn.smm.en.model.greendao'
+    targetGenDir 'src/main/java'
 }
 
 dependencies {
@@ -33,7 +134,7 @@ dependencies {
     compile 'com.android.support:support-v4:26.1.0'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
-    compile 'com.zhy:percent-support-extends:1.0.1'
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
     compile 'com.github.bumptech.glide:glide:3.5.2'
     compile 'com.google.code.gson:gson:2.5'
     compile 'org.greenrobot:greendao:3.2.2'
@@ -42,13 +143,12 @@ dependencies {
     compile 'com.google.protobuf:protobuf-java:3.2.0'
     compile 'com.koushikdutta.async:androidasync:2.1.9'
     compile 'com.android.support:multidex:1.0.1'
-    compile 'io.reactivex:rxjava:1.0.14'
-    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.2.1'
     compile 'com.lzy.widget:imagepicker:0.3.2'
     compile 'com.tencent.bugly:crashreport:latest.release'
 //    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
 //    compile 'com.jakewharton:butterknife:7.0.1'
     compile project(path: ':library')
-    compile project(path: ':okgo')
     compile project(path: ':umeng')
 }

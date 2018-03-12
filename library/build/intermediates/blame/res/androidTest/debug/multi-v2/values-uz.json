@@ -4,7 +4,7 @@
             "outputFile": "E:\\company project\\MyApplication\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
-                    "source": "E:\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ead53e064974a08f9878a049994e3f08\\res\\values-uz\\values-uz.xml",
+                    "source": "E:\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1374f3381a68609dd877918843bba88b\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,7 +1,8 @@
 package com.example.testapplication.net.request;
 
 import com.example.testapplication.utils.rx.RxUtils;
-import com.loveplusplus.update.utils.Logger;
+import com.smm.lib.utils.base.Logger;
+
 import okhttp3.Call;
 import rx.Observable;
 import rx.Subscriber;

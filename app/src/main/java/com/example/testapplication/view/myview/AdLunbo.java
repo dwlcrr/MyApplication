@@ -12,11 +12,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
 import com.bumptech.glide.Glide;
 import com.example.testapplication.R;
 import com.example.testapplication.entity.AdLunboData;
-import com.example.testapplication.utils.base.BaseUtils;
-import com.example.testapplication.utils.base.DisplayUtils;
+import com.smm.lib.utils.base.BaseUtils;
+import com.smm.lib.utils.base.DisplayUtils;
 
 import java.util.ArrayList;
 import java.util.List;

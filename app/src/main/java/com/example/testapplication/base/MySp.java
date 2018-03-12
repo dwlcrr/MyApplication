@@ -2,7 +2,7 @@ package com.example.testapplication.base;
 
 import android.content.Context;
 import com.example.testapplication.utils.data.UserInfoManager;
-import com.loveplusplus.update.utils.StrUtil;
+import com.smm.lib.utils.base.StrUtil;
 
 /**
  * Created by guizhen on 2017/5/21.

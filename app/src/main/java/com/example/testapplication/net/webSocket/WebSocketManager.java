@@ -1,17 +1,19 @@
 package com.example.testapplication.net.webSocket;
 
 import android.os.Handler;
+
 import com.example.testapplication.base.MyApplication;
 import com.example.testapplication.base.MySp;
 import com.example.testapplication.entity.WsLiveMsg;
 import com.example.testapplication.net.NetConfig;
-import com.example.testapplication.utils.base.Logger;
-import com.example.testapplication.utils.base.NetWorkUtils;
 import com.google.gson.Gson;
 import com.koushikdutta.async.callback.CompletedCallback;
 import com.koushikdutta.async.http.AsyncHttpClient;
 import com.koushikdutta.async.http.WebSocket;
-import com.loveplusplus.update.utils.StrUtil;
+import com.smm.lib.utils.base.Logger;
+import com.smm.lib.utils.base.NetWorkUtils;
+import com.smm.lib.utils.base.StrUtil;
+
 import rx.Observable;
 import rx.subjects.PublishSubject;
 

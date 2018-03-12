@@ -12,17 +12,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
 import com.example.testapplication.R;
-import com.example.testapplication.protocol.RxBusinessProtocol;
 import com.google.gson.Gson;
 import com.lzy.imagepicker.view.SystemBarTintManager;
 
 public class BaseActivity extends AppCompatActivity {
 
     public BaseActivity baseActivity;
-    protected RxBusinessProtocol rxBusinessProtocol;
     protected Gson mGson;
 
     @SuppressWarnings("unchecked")
@@ -39,7 +36,6 @@ public class BaseActivity extends AppCompatActivity {
 
     private void initView() {
         baseActivity = this;
-        rxBusinessProtocol = new RxBusinessProtocol();
         mGson = new Gson();
     }
 

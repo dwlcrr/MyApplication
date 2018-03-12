@@ -2,7 +2,7 @@ package com.example.testapplication.utils.base;
 
 import android.util.Log;
 
-import com.example.testapplication.BuildConfig;
+import com.smm.lib.BuildConfig;
 
 /**
  * 日志工具类
