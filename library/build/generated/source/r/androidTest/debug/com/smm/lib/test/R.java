@@ -3631,35 +3631,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.loveplusplus.update.test:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.loveplusplus.update.test:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.loveplusplus.update.test:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.loveplusplus.update.test:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.loveplusplus.update.test:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.loveplusplus.update.test:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.loveplusplus.update.test:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.loveplusplus.update.test:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.loveplusplus.update.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.loveplusplus.update.test:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.loveplusplus.update.test:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.loveplusplus.update.test:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.loveplusplus.update.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.loveplusplus.update.test:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.loveplusplus.update.test:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.loveplusplus.update.test:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.loveplusplus.update.test:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.loveplusplus.update.test:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.loveplusplus.update.test:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.loveplusplus.update.test:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.loveplusplus.update.test:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.loveplusplus.update.test:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.loveplusplus.update.test:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.loveplusplus.update.test:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.loveplusplus.update.test:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.loveplusplus.update.test:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.loveplusplus.update.test:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.loveplusplus.update.test:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.loveplusplus.update.test:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.smm.lib.test:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.smm.lib.test:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.smm.lib.test:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.smm.lib.test:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.smm.lib.test:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.smm.lib.test:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.smm.lib.test:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.smm.lib.test:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.smm.lib.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.smm.lib.test:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.smm.lib.test:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.smm.lib.test:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.smm.lib.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.smm.lib.test:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.smm.lib.test:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.smm.lib.test:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.smm.lib.test:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.smm.lib.test:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.smm.lib.test:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.smm.lib.test:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.smm.lib.test:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.smm.lib.test:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.smm.lib.test:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.smm.lib.test:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.smm.lib.test:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.smm.lib.test:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.smm.lib.test:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.smm.lib.test:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.smm.lib.test:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3753,7 +3753,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:background
+     * @attr name com.smm.lib.test:background
      */
     public static final int ActionBar_background=0;
     /**
@@ -3768,7 +3768,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:backgroundSplit
+     * @attr name com.smm.lib.test:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
@@ -3783,7 +3783,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:backgroundStacked
+     * @attr name com.smm.lib.test:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
@@ -3796,7 +3796,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetEnd
+     * @attr name com.smm.lib.test:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
@@ -3809,7 +3809,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetEndWithActions
+     * @attr name com.smm.lib.test:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
@@ -3822,7 +3822,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetLeft
+     * @attr name com.smm.lib.test:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
@@ -3835,7 +3835,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetRight
+     * @attr name com.smm.lib.test:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
@@ -3848,7 +3848,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetStart
+     * @attr name com.smm.lib.test:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
@@ -3861,7 +3861,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetStartWithNavigation
+     * @attr name com.smm.lib.test:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
@@ -3873,7 +3873,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:customNavigationLayout
+     * @attr name com.smm.lib.test:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
@@ -3895,7 +3895,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:displayOptions
+     * @attr name com.smm.lib.test:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
@@ -3907,7 +3907,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:divider
+     * @attr name com.smm.lib.test:divider
      */
     public static final int ActionBar_divider=11;
     /**
@@ -3920,7 +3920,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:elevation
+     * @attr name com.smm.lib.test:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
@@ -3933,7 +3933,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:height
+     * @attr name com.smm.lib.test:height
      */
     public static final int ActionBar_height=13;
     /**
@@ -3943,7 +3943,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:hideOnContentScroll
+     * @attr name com.smm.lib.test:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
@@ -3955,7 +3955,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:homeAsUpIndicator
+     * @attr name com.smm.lib.test:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
@@ -3967,7 +3967,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:homeLayout
+     * @attr name com.smm.lib.test:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
@@ -3979,7 +3979,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:icon
+     * @attr name com.smm.lib.test:icon
      */
     public static final int ActionBar_icon=17;
     /**
@@ -3991,7 +3991,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:indeterminateProgressStyle
+     * @attr name com.smm.lib.test:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
@@ -4004,7 +4004,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:itemPadding
+     * @attr name com.smm.lib.test:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
@@ -4016,7 +4016,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:logo
+     * @attr name com.smm.lib.test:logo
      */
     public static final int ActionBar_logo=20;
     /**
@@ -4034,7 +4034,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:navigationMode
+     * @attr name com.smm.lib.test:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
@@ -4046,7 +4046,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:popupTheme
+     * @attr name com.smm.lib.test:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
@@ -4059,7 +4059,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:progressBarPadding
+     * @attr name com.smm.lib.test:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
@@ -4071,7 +4071,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:progressBarStyle
+     * @attr name com.smm.lib.test:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
@@ -4081,7 +4081,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:subtitle
+     * @attr name com.smm.lib.test:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
@@ -4093,7 +4093,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:subtitleTextStyle
+     * @attr name com.smm.lib.test:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
@@ -4103,7 +4103,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:title
+     * @attr name com.smm.lib.test:title
      */
     public static final int ActionBar_title=27;
     /**
@@ -4115,7 +4115,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:titleTextStyle
+     * @attr name com.smm.lib.test:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4154,12 +4154,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.loveplusplus.update.test:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.loveplusplus.update.test:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.loveplusplus.update.test:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.loveplusplus.update.test:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.loveplusplus.update.test:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.loveplusplus.update.test:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.smm.lib.test:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.smm.lib.test:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.smm.lib.test:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.smm.lib.test:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.smm.lib.test:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.smm.lib.test:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4181,7 +4181,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:background
+     * @attr name com.smm.lib.test:background
      */
     public static final int ActionMode_background=0;
     /**
@@ -4196,7 +4196,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:backgroundSplit
+     * @attr name com.smm.lib.test:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
@@ -4208,7 +4208,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:closeItemLayout
+     * @attr name com.smm.lib.test:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
@@ -4221,7 +4221,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:height
+     * @attr name com.smm.lib.test:height
      */
     public static final int ActionMode_height=3;
     /**
@@ -4233,7 +4233,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:subtitleTextStyle
+     * @attr name com.smm.lib.test:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
@@ -4245,7 +4245,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:titleTextStyle
+     * @attr name com.smm.lib.test:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4255,8 +4255,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.loveplusplus.update.test:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.loveplusplus.update.test:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.smm.lib.test:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.smm.lib.test:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4273,7 +4273,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:expandActivityOverflowButtonDrawable
+     * @attr name com.smm.lib.test:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
@@ -4283,7 +4283,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:initialActivityCount
+     * @attr name com.smm.lib.test:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4294,12 +4294,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.loveplusplus.update.test:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.loveplusplus.update.test:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.loveplusplus.update.test:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.loveplusplus.update.test:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.loveplusplus.update.test:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.loveplusplus.update.test:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.smm.lib.test:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.smm.lib.test:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.smm.lib.test:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.smm.lib.test:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.smm.lib.test:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.smm.lib.test:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -4334,7 +4334,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonPanelSideLayout
+     * @attr name com.smm.lib.test:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
@@ -4346,7 +4346,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:listItemLayout
+     * @attr name com.smm.lib.test:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
@@ -4358,7 +4358,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:listLayout
+     * @attr name com.smm.lib.test:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
@@ -4370,7 +4370,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:multiChoiceItemLayout
+     * @attr name com.smm.lib.test:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
@@ -4380,7 +4380,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:showTitle
+     * @attr name com.smm.lib.test:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
@@ -4392,7 +4392,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:singleChoiceItemLayout
+     * @attr name com.smm.lib.test:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -4403,8 +4403,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.loveplusplus.update.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.loveplusplus.update.test:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.smm.lib.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.smm.lib.test:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_elevation
@@ -4420,8 +4420,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.loveplusplus.update.test:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.loveplusplus.update.test:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.smm.lib.test:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.smm.lib.test:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -4436,7 +4436,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:state_collapsed
+     * @attr name com.smm.lib.test:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
@@ -4446,7 +4446,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:state_collapsible
+     * @attr name com.smm.lib.test:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -4456,8 +4456,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.loveplusplus.update.test:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.loveplusplus.update.test:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.smm.lib.test:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.smm.lib.test:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -4482,7 +4482,7 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:layout_scrollFlags
+     * @attr name com.smm.lib.test:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
@@ -4494,7 +4494,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:layout_scrollInterpolator
+     * @attr name com.smm.lib.test:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -4522,7 +4522,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:elevation
+     * @attr name com.smm.lib.test:elevation
      */
     public static final int AppBarLayout_elevation=1;
     /**
@@ -4532,7 +4532,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:expanded
+     * @attr name com.smm.lib.test:expanded
      */
     public static final int AppBarLayout_expanded=2;
     /**
@@ -4543,7 +4543,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.loveplusplus.update.test:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.smm.lib.test:srcCompat}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4575,7 +4575,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:srcCompat
+     * @attr name com.smm.lib.test:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -4586,9 +4586,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.loveplusplus.update.test:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.loveplusplus.update.test:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.loveplusplus.update.test:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.smm.lib.test:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.smm.lib.test:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.smm.lib.test:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4619,7 +4619,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tickMark
+     * @attr name com.smm.lib.test:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
@@ -4630,7 +4630,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tickMarkTint
+     * @attr name com.smm.lib.test:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
@@ -4651,7 +4651,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:tickMarkTintMode
+     * @attr name com.smm.lib.test:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4791,7 +4791,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.loveplusplus.update.test:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.smm.lib.test:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_textAllCaps
@@ -4822,7 +4822,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:textAllCaps
+     * @attr name com.smm.lib.test:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
     /**
@@ -4834,119 +4834,119 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.loveplusplus.update.test:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.loveplusplus.update.test:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.loveplusplus.update.test:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.loveplusplus.update.test:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.loveplusplus.update.test:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.loveplusplus.update.test:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.loveplusplus.update.test:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.loveplusplus.update.test:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.loveplusplus.update.test:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.loveplusplus.update.test:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.loveplusplus.update.test:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.loveplusplus.update.test:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.loveplusplus.update.test:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.loveplusplus.update.test:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.loveplusplus.update.test:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.loveplusplus.update.test:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.loveplusplus.update.test:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.loveplusplus.update.test:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.loveplusplus.update.test:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.loveplusplus.update.test:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.loveplusplus.update.test:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.loveplusplus.update.test:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.loveplusplus.update.test:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.loveplusplus.update.test:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.loveplusplus.update.test:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.loveplusplus.update.test:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.loveplusplus.update.test:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.loveplusplus.update.test:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.loveplusplus.update.test:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.loveplusplus.update.test:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.loveplusplus.update.test:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.loveplusplus.update.test:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.loveplusplus.update.test:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.loveplusplus.update.test:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.loveplusplus.update.test:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.loveplusplus.update.test:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.loveplusplus.update.test:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.loveplusplus.update.test:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.loveplusplus.update.test:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.loveplusplus.update.test:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.loveplusplus.update.test:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.loveplusplus.update.test:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.loveplusplus.update.test:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.loveplusplus.update.test:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.loveplusplus.update.test:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.loveplusplus.update.test:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.loveplusplus.update.test:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.loveplusplus.update.test:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.loveplusplus.update.test:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.loveplusplus.update.test:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.loveplusplus.update.test:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.loveplusplus.update.test:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.loveplusplus.update.test:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.loveplusplus.update.test:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.loveplusplus.update.test:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.loveplusplus.update.test:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.loveplusplus.update.test:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.loveplusplus.update.test:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.loveplusplus.update.test:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.loveplusplus.update.test:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.loveplusplus.update.test:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.loveplusplus.update.test:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.loveplusplus.update.test:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.loveplusplus.update.test:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.loveplusplus.update.test:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.loveplusplus.update.test:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.loveplusplus.update.test:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.loveplusplus.update.test:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.loveplusplus.update.test:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.loveplusplus.update.test:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.loveplusplus.update.test:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.loveplusplus.update.test:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.loveplusplus.update.test:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.loveplusplus.update.test:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.loveplusplus.update.test:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.loveplusplus.update.test:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.loveplusplus.update.test:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.loveplusplus.update.test:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.loveplusplus.update.test:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.loveplusplus.update.test:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.loveplusplus.update.test:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.loveplusplus.update.test:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.loveplusplus.update.test:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.loveplusplus.update.test:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.loveplusplus.update.test:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.loveplusplus.update.test:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.loveplusplus.update.test:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.loveplusplus.update.test:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.loveplusplus.update.test:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.loveplusplus.update.test:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.loveplusplus.update.test:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.loveplusplus.update.test:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.loveplusplus.update.test:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.loveplusplus.update.test:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.loveplusplus.update.test:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.loveplusplus.update.test:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.loveplusplus.update.test:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.loveplusplus.update.test:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.loveplusplus.update.test:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.loveplusplus.update.test:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.loveplusplus.update.test:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.loveplusplus.update.test:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.loveplusplus.update.test:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.loveplusplus.update.test:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.loveplusplus.update.test:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.loveplusplus.update.test:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.loveplusplus.update.test:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.loveplusplus.update.test:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.loveplusplus.update.test:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.loveplusplus.update.test:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.loveplusplus.update.test:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.loveplusplus.update.test:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.loveplusplus.update.test:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.smm.lib.test:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.smm.lib.test:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.smm.lib.test:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.smm.lib.test:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.smm.lib.test:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.smm.lib.test:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.smm.lib.test:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.smm.lib.test:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.smm.lib.test:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.smm.lib.test:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.smm.lib.test:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.smm.lib.test:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.smm.lib.test:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.smm.lib.test:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.smm.lib.test:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.smm.lib.test:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.smm.lib.test:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.smm.lib.test:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.smm.lib.test:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.smm.lib.test:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.smm.lib.test:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.smm.lib.test:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.smm.lib.test:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.smm.lib.test:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.smm.lib.test:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.smm.lib.test:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.smm.lib.test:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.smm.lib.test:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.smm.lib.test:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.smm.lib.test:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.smm.lib.test:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.smm.lib.test:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.smm.lib.test:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.smm.lib.test:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.smm.lib.test:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.smm.lib.test:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.smm.lib.test:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.smm.lib.test:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.smm.lib.test:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.smm.lib.test:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.smm.lib.test:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.smm.lib.test:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.smm.lib.test:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.smm.lib.test:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.smm.lib.test:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.smm.lib.test:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.smm.lib.test:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.smm.lib.test:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.smm.lib.test:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.smm.lib.test:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.smm.lib.test:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.smm.lib.test:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.smm.lib.test:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.smm.lib.test:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.smm.lib.test:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.smm.lib.test:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.smm.lib.test:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.smm.lib.test:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.smm.lib.test:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.smm.lib.test:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.smm.lib.test:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.smm.lib.test:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.smm.lib.test:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.smm.lib.test:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.smm.lib.test:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.smm.lib.test:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.smm.lib.test:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.smm.lib.test:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.smm.lib.test:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.smm.lib.test:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.smm.lib.test:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.smm.lib.test:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.smm.lib.test:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.smm.lib.test:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.smm.lib.test:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.smm.lib.test:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.smm.lib.test:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.smm.lib.test:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.smm.lib.test:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.smm.lib.test:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.smm.lib.test:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.smm.lib.test:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.smm.lib.test:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.smm.lib.test:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.smm.lib.test:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.smm.lib.test:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.smm.lib.test:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.smm.lib.test:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.smm.lib.test:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.smm.lib.test:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.smm.lib.test:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.smm.lib.test:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.smm.lib.test:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.smm.lib.test:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.smm.lib.test:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.smm.lib.test:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.smm.lib.test:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.smm.lib.test:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.smm.lib.test:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.smm.lib.test:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.smm.lib.test:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.smm.lib.test:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.smm.lib.test:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.smm.lib.test:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.smm.lib.test:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.smm.lib.test:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.smm.lib.test:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.smm.lib.test:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.smm.lib.test:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.smm.lib.test:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.smm.lib.test:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.smm.lib.test:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.smm.lib.test:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5104,7 +5104,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarDivider
+     * @attr name com.smm.lib.test:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
@@ -5116,7 +5116,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarItemBackground
+     * @attr name com.smm.lib.test:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
@@ -5128,7 +5128,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarPopupTheme
+     * @attr name com.smm.lib.test:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
@@ -5149,7 +5149,7 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:actionBarSize
+     * @attr name com.smm.lib.test:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
@@ -5161,7 +5161,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarSplitStyle
+     * @attr name com.smm.lib.test:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
@@ -5173,7 +5173,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarStyle
+     * @attr name com.smm.lib.test:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
@@ -5185,7 +5185,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarTabBarStyle
+     * @attr name com.smm.lib.test:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
@@ -5197,7 +5197,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarTabStyle
+     * @attr name com.smm.lib.test:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
@@ -5209,7 +5209,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarTabTextStyle
+     * @attr name com.smm.lib.test:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
@@ -5221,7 +5221,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarTheme
+     * @attr name com.smm.lib.test:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
@@ -5233,7 +5233,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionBarWidgetTheme
+     * @attr name com.smm.lib.test:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
@@ -5245,7 +5245,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionButtonStyle
+     * @attr name com.smm.lib.test:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
@@ -5257,7 +5257,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionDropDownStyle
+     * @attr name com.smm.lib.test:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
@@ -5269,7 +5269,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionMenuTextAppearance
+     * @attr name com.smm.lib.test:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
@@ -5284,7 +5284,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionMenuTextColor
+     * @attr name com.smm.lib.test:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
@@ -5296,7 +5296,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeBackground
+     * @attr name com.smm.lib.test:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
@@ -5308,7 +5308,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeCloseButtonStyle
+     * @attr name com.smm.lib.test:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
@@ -5320,7 +5320,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeCloseDrawable
+     * @attr name com.smm.lib.test:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
@@ -5332,7 +5332,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeCopyDrawable
+     * @attr name com.smm.lib.test:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
@@ -5344,7 +5344,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeCutDrawable
+     * @attr name com.smm.lib.test:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
@@ -5356,7 +5356,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeFindDrawable
+     * @attr name com.smm.lib.test:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
@@ -5368,7 +5368,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModePasteDrawable
+     * @attr name com.smm.lib.test:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
@@ -5380,7 +5380,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModePopupWindowStyle
+     * @attr name com.smm.lib.test:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
@@ -5392,7 +5392,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeSelectAllDrawable
+     * @attr name com.smm.lib.test:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
@@ -5404,7 +5404,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeShareDrawable
+     * @attr name com.smm.lib.test:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
@@ -5416,7 +5416,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeSplitBackground
+     * @attr name com.smm.lib.test:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
@@ -5428,7 +5428,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeStyle
+     * @attr name com.smm.lib.test:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
@@ -5440,7 +5440,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionModeWebSearchDrawable
+     * @attr name com.smm.lib.test:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
@@ -5452,7 +5452,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionOverflowButtonStyle
+     * @attr name com.smm.lib.test:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
@@ -5464,7 +5464,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionOverflowMenuStyle
+     * @attr name com.smm.lib.test:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
@@ -5476,7 +5476,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:activityChooserViewStyle
+     * @attr name com.smm.lib.test:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
@@ -5488,7 +5488,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:alertDialogButtonGroupStyle
+     * @attr name com.smm.lib.test:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
@@ -5498,7 +5498,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:alertDialogCenterButtons
+     * @attr name com.smm.lib.test:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
@@ -5510,7 +5510,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:alertDialogStyle
+     * @attr name com.smm.lib.test:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
@@ -5522,7 +5522,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:alertDialogTheme
+     * @attr name com.smm.lib.test:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -5556,7 +5556,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:autoCompleteTextViewStyle
+     * @attr name com.smm.lib.test:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
@@ -5568,7 +5568,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:borderlessButtonStyle
+     * @attr name com.smm.lib.test:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
@@ -5580,7 +5580,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonBarButtonStyle
+     * @attr name com.smm.lib.test:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
@@ -5592,7 +5592,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonBarNegativeButtonStyle
+     * @attr name com.smm.lib.test:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
@@ -5604,7 +5604,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonBarNeutralButtonStyle
+     * @attr name com.smm.lib.test:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
@@ -5616,7 +5616,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonBarPositiveButtonStyle
+     * @attr name com.smm.lib.test:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
@@ -5628,7 +5628,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonBarStyle
+     * @attr name com.smm.lib.test:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
@@ -5640,7 +5640,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonStyle
+     * @attr name com.smm.lib.test:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
@@ -5652,7 +5652,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonStyleSmall
+     * @attr name com.smm.lib.test:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
@@ -5664,7 +5664,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:checkboxStyle
+     * @attr name com.smm.lib.test:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
@@ -5676,7 +5676,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:checkedTextViewStyle
+     * @attr name com.smm.lib.test:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
@@ -5687,7 +5687,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorAccent
+     * @attr name com.smm.lib.test:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
@@ -5698,7 +5698,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorBackgroundFloating
+     * @attr name com.smm.lib.test:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
@@ -5709,7 +5709,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorButtonNormal
+     * @attr name com.smm.lib.test:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
@@ -5720,7 +5720,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorControlActivated
+     * @attr name com.smm.lib.test:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
@@ -5731,7 +5731,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorControlHighlight
+     * @attr name com.smm.lib.test:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
@@ -5742,7 +5742,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorControlNormal
+     * @attr name com.smm.lib.test:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
@@ -5753,7 +5753,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorPrimary
+     * @attr name com.smm.lib.test:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=54;
     /**
@@ -5764,7 +5764,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorPrimaryDark
+     * @attr name com.smm.lib.test:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=55;
     /**
@@ -5775,7 +5775,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:colorSwitchThumbNormal
+     * @attr name com.smm.lib.test:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=56;
     /**
@@ -5787,7 +5787,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:controlBackground
+     * @attr name com.smm.lib.test:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=57;
     /**
@@ -5800,7 +5800,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:dialogPreferredPadding
+     * @attr name com.smm.lib.test:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=58;
     /**
@@ -5812,7 +5812,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:dialogTheme
+     * @attr name com.smm.lib.test:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=59;
     /**
@@ -5824,7 +5824,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:dividerHorizontal
+     * @attr name com.smm.lib.test:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=60;
     /**
@@ -5836,7 +5836,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:dividerVertical
+     * @attr name com.smm.lib.test:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=61;
     /**
@@ -5848,7 +5848,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:dropDownListViewStyle
+     * @attr name com.smm.lib.test:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=62;
     /**
@@ -5861,7 +5861,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:dropdownListPreferredItemHeight
+     * @attr name com.smm.lib.test:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=63;
     /**
@@ -5873,7 +5873,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:editTextBackground
+     * @attr name com.smm.lib.test:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=64;
     /**
@@ -5888,7 +5888,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:editTextColor
+     * @attr name com.smm.lib.test:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=65;
     /**
@@ -5900,7 +5900,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:editTextStyle
+     * @attr name com.smm.lib.test:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=66;
     /**
@@ -5912,7 +5912,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:homeAsUpIndicator
+     * @attr name com.smm.lib.test:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=67;
     /**
@@ -5924,7 +5924,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:imageButtonStyle
+     * @attr name com.smm.lib.test:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=68;
     /**
@@ -5936,7 +5936,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:listChoiceBackgroundIndicator
+     * @attr name com.smm.lib.test:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=69;
     /**
@@ -5948,7 +5948,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:listDividerAlertDialog
+     * @attr name com.smm.lib.test:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=70;
     /**
@@ -5960,7 +5960,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:listMenuViewStyle
+     * @attr name com.smm.lib.test:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=71;
     /**
@@ -5972,7 +5972,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:listPopupWindowStyle
+     * @attr name com.smm.lib.test:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=72;
     /**
@@ -5985,7 +5985,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:listPreferredItemHeight
+     * @attr name com.smm.lib.test:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=73;
     /**
@@ -5998,7 +5998,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:listPreferredItemHeightLarge
+     * @attr name com.smm.lib.test:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=74;
     /**
@@ -6011,7 +6011,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:listPreferredItemHeightSmall
+     * @attr name com.smm.lib.test:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=75;
     /**
@@ -6024,7 +6024,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:listPreferredItemPaddingLeft
+     * @attr name com.smm.lib.test:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=76;
     /**
@@ -6037,7 +6037,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:listPreferredItemPaddingRight
+     * @attr name com.smm.lib.test:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=77;
     /**
@@ -6049,7 +6049,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:panelBackground
+     * @attr name com.smm.lib.test:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=78;
     /**
@@ -6061,7 +6061,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:panelMenuListTheme
+     * @attr name com.smm.lib.test:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=79;
     /**
@@ -6074,7 +6074,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:panelMenuListWidth
+     * @attr name com.smm.lib.test:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=80;
     /**
@@ -6086,7 +6086,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:popupMenuStyle
+     * @attr name com.smm.lib.test:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=81;
     /**
@@ -6098,7 +6098,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:popupWindowStyle
+     * @attr name com.smm.lib.test:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=82;
     /**
@@ -6110,7 +6110,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:radioButtonStyle
+     * @attr name com.smm.lib.test:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=83;
     /**
@@ -6122,7 +6122,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:ratingBarStyle
+     * @attr name com.smm.lib.test:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=84;
     /**
@@ -6134,7 +6134,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:ratingBarStyleIndicator
+     * @attr name com.smm.lib.test:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=85;
     /**
@@ -6146,7 +6146,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:ratingBarStyleSmall
+     * @attr name com.smm.lib.test:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=86;
     /**
@@ -6158,7 +6158,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:searchViewStyle
+     * @attr name com.smm.lib.test:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=87;
     /**
@@ -6170,7 +6170,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:seekBarStyle
+     * @attr name com.smm.lib.test:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=88;
     /**
@@ -6182,7 +6182,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:selectableItemBackground
+     * @attr name com.smm.lib.test:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=89;
     /**
@@ -6194,7 +6194,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:selectableItemBackgroundBorderless
+     * @attr name com.smm.lib.test:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=90;
     /**
@@ -6206,7 +6206,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:spinnerDropDownItemStyle
+     * @attr name com.smm.lib.test:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=91;
     /**
@@ -6218,7 +6218,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:spinnerStyle
+     * @attr name com.smm.lib.test:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=92;
     /**
@@ -6230,7 +6230,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:switchStyle
+     * @attr name com.smm.lib.test:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=93;
     /**
@@ -6242,7 +6242,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearanceLargePopupMenu
+     * @attr name com.smm.lib.test:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=94;
     /**
@@ -6254,7 +6254,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearanceListItem
+     * @attr name com.smm.lib.test:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=95;
     /**
@@ -6266,7 +6266,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearanceListItemSmall
+     * @attr name com.smm.lib.test:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=96;
     /**
@@ -6278,7 +6278,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearancePopupMenuHeader
+     * @attr name com.smm.lib.test:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=97;
     /**
@@ -6290,7 +6290,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearanceSearchResultSubtitle
+     * @attr name com.smm.lib.test:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=98;
     /**
@@ -6302,7 +6302,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearanceSearchResultTitle
+     * @attr name com.smm.lib.test:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=99;
     /**
@@ -6314,7 +6314,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textAppearanceSmallPopupMenu
+     * @attr name com.smm.lib.test:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=100;
     /**
@@ -6329,7 +6329,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textColorAlertDialogListItem
+     * @attr name com.smm.lib.test:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=101;
     /**
@@ -6344,7 +6344,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textColorSearchUrl
+     * @attr name com.smm.lib.test:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=102;
     /**
@@ -6356,7 +6356,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:toolbarNavigationButtonStyle
+     * @attr name com.smm.lib.test:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=103;
     /**
@@ -6368,7 +6368,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:toolbarStyle
+     * @attr name com.smm.lib.test:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=104;
     /**
@@ -6378,7 +6378,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:windowActionBar
+     * @attr name com.smm.lib.test:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=105;
     /**
@@ -6388,7 +6388,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:windowActionBarOverlay
+     * @attr name com.smm.lib.test:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=106;
     /**
@@ -6398,7 +6398,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:windowActionModeOverlay
+     * @attr name com.smm.lib.test:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=107;
     /**
@@ -6415,7 +6415,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.loveplusplus.update.test:windowFixedHeightMajor
+     * @attr name com.smm.lib.test:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=108;
     /**
@@ -6432,7 +6432,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.loveplusplus.update.test:windowFixedHeightMinor
+     * @attr name com.smm.lib.test:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=109;
     /**
@@ -6449,7 +6449,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.loveplusplus.update.test:windowFixedWidthMajor
+     * @attr name com.smm.lib.test:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=110;
     /**
@@ -6466,7 +6466,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.loveplusplus.update.test:windowFixedWidthMinor
+     * @attr name com.smm.lib.test:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=111;
     /**
@@ -6483,7 +6483,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.loveplusplus.update.test:windowMinWidthMajor
+     * @attr name com.smm.lib.test:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=112;
     /**
@@ -6500,7 +6500,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.loveplusplus.update.test:windowMinWidthMinor
+     * @attr name com.smm.lib.test:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=113;
     /**
@@ -6510,7 +6510,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:windowNoTitle
+     * @attr name com.smm.lib.test:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=114;
     /**
@@ -6520,11 +6520,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.loveplusplus.update.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.loveplusplus.update.test:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.loveplusplus.update.test:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.loveplusplus.update.test:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.loveplusplus.update.test:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.smm.lib.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.smm.lib.test:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.smm.lib.test:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.smm.lib.test:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.smm.lib.test:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -6546,7 +6546,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:elevation
+     * @attr name com.smm.lib.test:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
@@ -6558,7 +6558,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemBackground
+     * @attr name com.smm.lib.test:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
@@ -6569,7 +6569,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemIconTint
+     * @attr name com.smm.lib.test:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
@@ -6580,7 +6580,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemTextColor
+     * @attr name com.smm.lib.test:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
@@ -6592,7 +6592,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:menu
+     * @attr name com.smm.lib.test:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -6602,9 +6602,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.loveplusplus.update.test:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.loveplusplus.update.test:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.loveplusplus.update.test:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.smm.lib.test:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.smm.lib.test:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.smm.lib.test:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -6620,7 +6620,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:behavior_hideable
+     * @attr name com.smm.lib.test:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
@@ -6641,7 +6641,7 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:behavior_peekHeight
+     * @attr name com.smm.lib.test:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
@@ -6651,7 +6651,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:behavior_skipCollapsed
+     * @attr name com.smm.lib.test:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -6661,7 +6661,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.loveplusplus.update.test:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.smm.lib.test:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6675,7 +6675,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:allowStacking
+     * @attr name com.smm.lib.test:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6685,22 +6685,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.loveplusplus.update.test:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.loveplusplus.update.test:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.loveplusplus.update.test:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.loveplusplus.update.test:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.loveplusplus.update.test:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.loveplusplus.update.test:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.loveplusplus.update.test:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.loveplusplus.update.test:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.loveplusplus.update.test:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.loveplusplus.update.test:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.loveplusplus.update.test:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.loveplusplus.update.test:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.loveplusplus.update.test:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.loveplusplus.update.test:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.loveplusplus.update.test:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.loveplusplus.update.test:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.smm.lib.test:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.smm.lib.test:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.smm.lib.test:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.smm.lib.test:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.smm.lib.test:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.smm.lib.test:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.smm.lib.test:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.smm.lib.test:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.smm.lib.test:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.smm.lib.test:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.smm.lib.test:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.smm.lib.test:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.smm.lib.test:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.smm.lib.test:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.smm.lib.test:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.smm.lib.test:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6732,8 +6732,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.loveplusplus.update.test:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.loveplusplus.update.test:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.smm.lib.test:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.smm.lib.test:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -6756,7 +6756,7 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:layout_collapseMode
+     * @attr name com.smm.lib.test:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
@@ -6765,7 +6765,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.loveplusplus.update.test:layout_collapseParallaxMultiplier
+     * @attr name com.smm.lib.test:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -6790,7 +6790,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:collapsedTitleGravity
+     * @attr name com.smm.lib.test:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
@@ -6802,7 +6802,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:collapsedTitleTextAppearance
+     * @attr name com.smm.lib.test:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
@@ -6813,7 +6813,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:contentScrim
+     * @attr name com.smm.lib.test:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
@@ -6838,7 +6838,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleGravity
+     * @attr name com.smm.lib.test:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
@@ -6851,7 +6851,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleMargin
+     * @attr name com.smm.lib.test:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
@@ -6864,7 +6864,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleMarginBottom
+     * @attr name com.smm.lib.test:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
@@ -6877,7 +6877,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleMarginEnd
+     * @attr name com.smm.lib.test:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
@@ -6890,7 +6890,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleMarginStart
+     * @attr name com.smm.lib.test:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
@@ -6903,7 +6903,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleMarginTop
+     * @attr name com.smm.lib.test:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
@@ -6915,7 +6915,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:expandedTitleTextAppearance
+     * @attr name com.smm.lib.test:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
@@ -6924,7 +6924,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.loveplusplus.update.test:scrimAnimationDuration
+     * @attr name com.smm.lib.test:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
@@ -6937,7 +6937,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:scrimVisibleHeightTrigger
+     * @attr name com.smm.lib.test:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
@@ -6948,7 +6948,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:statusBarScrim
+     * @attr name com.smm.lib.test:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
@@ -6958,7 +6958,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:title
+     * @attr name com.smm.lib.test:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
@@ -6968,7 +6968,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:titleEnabled
+     * @attr name com.smm.lib.test:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
@@ -6980,7 +6980,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:toolbarId
+     * @attr name com.smm.lib.test:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -6992,7 +6992,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.loveplusplus.update.test:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.smm.lib.test:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7007,7 +7007,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.loveplusplus.update.test:alpha
+     * @attr name com.smm.lib.test:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -7038,8 +7038,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.loveplusplus.update.test:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.loveplusplus.update.test:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.smm.lib.test:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.smm.lib.test:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -7068,7 +7068,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:buttonTint
+     * @attr name com.smm.lib.test:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
@@ -7088,7 +7088,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:buttonTintMode
+     * @attr name com.smm.lib.test:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -7098,8 +7098,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.loveplusplus.update.test:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.loveplusplus.update.test:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.smm.lib.test:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.smm.lib.test:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -7115,12 +7115,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.loveplusplus.update.test:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.loveplusplus.update.test:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.loveplusplus.update.test:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.loveplusplus.update.test:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.loveplusplus.update.test:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.loveplusplus.update.test:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.smm.lib.test:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.smm.lib.test:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.smm.lib.test:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.smm.lib.test:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.smm.lib.test:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.smm.lib.test:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -7172,7 +7172,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:layout_anchor
+     * @attr name com.smm.lib.test:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
@@ -7201,7 +7201,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:layout_anchorGravity
+     * @attr name com.smm.lib.test:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
@@ -7211,7 +7211,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:layout_behavior
+     * @attr name com.smm.lib.test:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
@@ -7234,7 +7234,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:layout_dodgeInsetEdges
+     * @attr name com.smm.lib.test:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
@@ -7256,7 +7256,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:layout_insetEdge
+     * @attr name com.smm.lib.test:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
@@ -7265,7 +7265,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.loveplusplus.update.test:layout_keyline
+     * @attr name com.smm.lib.test:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -7277,7 +7277,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:keylines
+     * @attr name com.smm.lib.test:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
@@ -7289,7 +7289,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:statusBarBackground
+     * @attr name com.smm.lib.test:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -7299,9 +7299,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.loveplusplus.update.test:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.loveplusplus.update.test:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.loveplusplus.update.test:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.smm.lib.test:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.smm.lib.test:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError com.smm.lib.test:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -7319,7 +7319,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:bottomSheetDialogTheme
+     * @attr name com.smm.lib.test:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
@@ -7331,7 +7331,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:bottomSheetStyle
+     * @attr name com.smm.lib.test:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -7342,7 +7342,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:textColorError
+     * @attr name com.smm.lib.test:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -7352,14 +7352,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.loveplusplus.update.test:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.loveplusplus.update.test:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.loveplusplus.update.test:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.loveplusplus.update.test:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.loveplusplus.update.test:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.loveplusplus.update.test:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.loveplusplus.update.test:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.loveplusplus.update.test:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.smm.lib.test:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.smm.lib.test:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.smm.lib.test:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.smm.lib.test:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.smm.lib.test:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.smm.lib.test:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.smm.lib.test:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.smm.lib.test:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -7384,7 +7384,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:arrowHeadLength
+     * @attr name com.smm.lib.test:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
@@ -7397,7 +7397,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:arrowShaftLength
+     * @attr name com.smm.lib.test:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
@@ -7410,7 +7410,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:barLength
+     * @attr name com.smm.lib.test:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
@@ -7421,7 +7421,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:color
+     * @attr name com.smm.lib.test:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
@@ -7434,7 +7434,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:drawableSize
+     * @attr name com.smm.lib.test:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
@@ -7447,7 +7447,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:gapBetweenBars
+     * @attr name com.smm.lib.test:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
@@ -7457,7 +7457,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:spinBars
+     * @attr name com.smm.lib.test:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
@@ -7470,7 +7470,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:thickness
+     * @attr name com.smm.lib.test:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -7480,14 +7480,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.loveplusplus.update.test:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.loveplusplus.update.test:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.loveplusplus.update.test:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.loveplusplus.update.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.loveplusplus.update.test:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.loveplusplus.update.test:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.loveplusplus.update.test:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.loveplusplus.update.test:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.smm.lib.test:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.smm.lib.test:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.smm.lib.test:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.smm.lib.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.smm.lib.test:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.smm.lib.test:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.smm.lib.test:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.smm.lib.test:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -7509,7 +7509,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.loveplusplus.update.test:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.smm.lib.test:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -7523,7 +7523,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:behavior_autoHide
+     * @attr name com.smm.lib.test:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -7534,7 +7534,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:backgroundTint
+     * @attr name com.smm.lib.test:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
@@ -7554,7 +7554,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:backgroundTintMode
+     * @attr name com.smm.lib.test:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
@@ -7567,7 +7567,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:borderWidth
+     * @attr name com.smm.lib.test:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
@@ -7580,7 +7580,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:elevation
+     * @attr name com.smm.lib.test:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
@@ -7598,7 +7598,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:fabSize
+     * @attr name com.smm.lib.test:fabSize
      */
     public static final int FloatingActionButton_fabSize=4;
     /**
@@ -7611,7 +7611,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:pressedTranslationZ
+     * @attr name com.smm.lib.test:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=5;
     /**
@@ -7622,7 +7622,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:rippleColor
+     * @attr name com.smm.lib.test:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=6;
     /**
@@ -7632,7 +7632,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:useCompatPadding
+     * @attr name com.smm.lib.test:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=7;
     /**
@@ -7642,12 +7642,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.loveplusplus.update.test:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.loveplusplus.update.test:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.loveplusplus.update.test:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.loveplusplus.update.test:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.loveplusplus.update.test:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.loveplusplus.update.test:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.smm.lib.test:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.smm.lib.test:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.smm.lib.test:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.smm.lib.test:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.smm.lib.test:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.smm.lib.test:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -7667,9 +7667,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.loveplusplus.update.test:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.loveplusplus.update.test:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.loveplusplus.update.test:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.smm.lib.test:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.smm.lib.test:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.smm.lib.test:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
@@ -7687,7 +7687,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:font
+     * @attr name com.smm.lib.test:font
      */
     public static final int FontFamilyFont_font=0;
     /**
@@ -7704,7 +7704,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:fontStyle
+     * @attr name com.smm.lib.test:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
@@ -7713,7 +7713,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.loveplusplus.update.test:fontWeight
+     * @attr name com.smm.lib.test:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
     /**
@@ -7723,7 +7723,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:fontProviderAuthority
+     * @attr name com.smm.lib.test:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -7735,7 +7735,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:fontProviderCerts
+     * @attr name com.smm.lib.test:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -7752,7 +7752,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:fontProviderFetchStrategy
+     * @attr name com.smm.lib.test:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -7769,7 +7769,7 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:fontProviderFetchTimeout
+     * @attr name com.smm.lib.test:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -7779,7 +7779,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:fontProviderPackage
+     * @attr name com.smm.lib.test:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -7789,7 +7789,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:fontProviderQuery
+     * @attr name com.smm.lib.test:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -7801,7 +7801,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.loveplusplus.update.test:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.smm.lib.test:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -7859,7 +7859,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:foregroundInsidePadding
+     * @attr name com.smm.lib.test:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -7874,10 +7874,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.loveplusplus.update.test:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.loveplusplus.update.test:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.loveplusplus.update.test:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.loveplusplus.update.test:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.smm.lib.test:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.smm.lib.test:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.smm.lib.test:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.smm.lib.test:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -8081,7 +8081,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:divider
+     * @attr name com.smm.lib.test:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
@@ -8094,7 +8094,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:dividerPadding
+     * @attr name com.smm.lib.test:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
@@ -8104,7 +8104,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:measureWithLargestChild
+     * @attr name com.smm.lib.test:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
@@ -8123,7 +8123,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:showDividers
+     * @attr name com.smm.lib.test:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -8291,10 +8291,10 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.loveplusplus.update.test:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.loveplusplus.update.test:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.loveplusplus.update.test:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.loveplusplus.update.test:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.smm.lib.test:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.smm.lib.test:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.smm.lib.test:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.smm.lib.test:showAsAction}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -8330,7 +8330,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:actionLayout
+     * @attr name com.smm.lib.test:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
@@ -8340,7 +8340,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:actionProviderClass
+     * @attr name com.smm.lib.test:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
@@ -8350,7 +8350,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:actionViewClass
+     * @attr name com.smm.lib.test:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -8512,7 +8512,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:showAsAction
+     * @attr name com.smm.lib.test:showAsAction
      */
     public static final int MenuItem_showAsAction=16;
     /**
@@ -8529,8 +8529,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.loveplusplus.update.test:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.loveplusplus.update.test:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.smm.lib.test:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.smm.lib.test:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -8641,7 +8641,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:preserveIconSpacing
+     * @attr name com.smm.lib.test:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
@@ -8653,7 +8653,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:subMenuArrow
+     * @attr name com.smm.lib.test:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -8666,13 +8666,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.loveplusplus.update.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.loveplusplus.update.test:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.loveplusplus.update.test:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.loveplusplus.update.test:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.loveplusplus.update.test:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.loveplusplus.update.test:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.loveplusplus.update.test:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.smm.lib.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.smm.lib.test:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.smm.lib.test:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.smm.lib.test:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.smm.lib.test:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.smm.lib.test:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.smm.lib.test:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -8738,7 +8738,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:elevation
+     * @attr name com.smm.lib.test:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
@@ -8750,7 +8750,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:headerLayout
+     * @attr name com.smm.lib.test:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
@@ -8762,7 +8762,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemBackground
+     * @attr name com.smm.lib.test:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
@@ -8773,7 +8773,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemIconTint
+     * @attr name com.smm.lib.test:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
@@ -8785,7 +8785,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemTextAppearance
+     * @attr name com.smm.lib.test:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
@@ -8796,7 +8796,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:itemTextColor
+     * @attr name com.smm.lib.test:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
@@ -8808,7 +8808,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:menu
+     * @attr name com.smm.lib.test:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -8818,20 +8818,20 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.loveplusplus.update.test:pstsDividerColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPaddingTopBottom com.loveplusplus.update.test:pstsDividerPaddingTopBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.loveplusplus.update.test:pstsIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.loveplusplus.update.test:pstsIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsScaleZoomMax com.loveplusplus.update.test:pstsScaleZoomMax}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.loveplusplus.update.test:pstsScrollOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.loveplusplus.update.test:pstsShouldExpand}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsSmoothScrollWhenClickTab com.loveplusplus.update.test:pstsSmoothScrollWhenClickTab}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.loveplusplus.update.test:pstsTabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.loveplusplus.update.test:pstsTabPaddingLeftRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.loveplusplus.update.test:pstsTextAllCaps}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextSelectedColor com.loveplusplus.update.test:pstsTextSelectedColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.loveplusplus.update.test:pstsUnderlineColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.loveplusplus.update.test:pstsUnderlineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.smm.lib.test:pstsDividerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPaddingTopBottom com.smm.lib.test:pstsDividerPaddingTopBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.smm.lib.test:pstsIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.smm.lib.test:pstsIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsScaleZoomMax com.smm.lib.test:pstsScaleZoomMax}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.smm.lib.test:pstsScrollOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.smm.lib.test:pstsShouldExpand}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsSmoothScrollWhenClickTab com.smm.lib.test:pstsSmoothScrollWhenClickTab}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.smm.lib.test:pstsTabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.smm.lib.test:pstsTabPaddingLeftRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.smm.lib.test:pstsTextAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextSelectedColor com.smm.lib.test:pstsTextSelectedColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.smm.lib.test:pstsUnderlineColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.smm.lib.test:pstsUnderlineHeight}</code></td><td></td></tr>
      * </table>
      * @see #PagerSlidingTabStrip_pstsDividerColor
      * @see #PagerSlidingTabStrip_pstsDividerPaddingTopBottom
@@ -8862,7 +8862,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsDividerColor
+     * @attr name com.smm.lib.test:pstsDividerColor
      */
     public static final int PagerSlidingTabStrip_pstsDividerColor=0;
     /**
@@ -8875,7 +8875,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:pstsDividerPaddingTopBottom
+     * @attr name com.smm.lib.test:pstsDividerPaddingTopBottom
      */
     public static final int PagerSlidingTabStrip_pstsDividerPaddingTopBottom=1;
     /**
@@ -8886,7 +8886,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsIndicatorColor
+     * @attr name com.smm.lib.test:pstsIndicatorColor
      */
     public static final int PagerSlidingTabStrip_pstsIndicatorColor=2;
     /**
@@ -8899,7 +8899,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:pstsIndicatorHeight
+     * @attr name com.smm.lib.test:pstsIndicatorHeight
      */
     public static final int PagerSlidingTabStrip_pstsIndicatorHeight=3;
     /**
@@ -8908,7 +8908,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsScaleZoomMax
+     * @attr name com.smm.lib.test:pstsScaleZoomMax
      */
     public static final int PagerSlidingTabStrip_pstsScaleZoomMax=4;
     /**
@@ -8921,7 +8921,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:pstsScrollOffset
+     * @attr name com.smm.lib.test:pstsScrollOffset
      */
     public static final int PagerSlidingTabStrip_pstsScrollOffset=5;
     /**
@@ -8931,7 +8931,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsShouldExpand
+     * @attr name com.smm.lib.test:pstsShouldExpand
      */
     public static final int PagerSlidingTabStrip_pstsShouldExpand=6;
     /**
@@ -8941,7 +8941,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsSmoothScrollWhenClickTab
+     * @attr name com.smm.lib.test:pstsSmoothScrollWhenClickTab
      */
     public static final int PagerSlidingTabStrip_pstsSmoothScrollWhenClickTab=7;
     /**
@@ -8953,7 +8953,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsTabBackground
+     * @attr name com.smm.lib.test:pstsTabBackground
      */
     public static final int PagerSlidingTabStrip_pstsTabBackground=8;
     /**
@@ -8966,7 +8966,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:pstsTabPaddingLeftRight
+     * @attr name com.smm.lib.test:pstsTabPaddingLeftRight
      */
     public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight=9;
     /**
@@ -8976,7 +8976,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsTextAllCaps
+     * @attr name com.smm.lib.test:pstsTextAllCaps
      */
     public static final int PagerSlidingTabStrip_pstsTextAllCaps=10;
     /**
@@ -8987,7 +8987,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsTextSelectedColor
+     * @attr name com.smm.lib.test:pstsTextSelectedColor
      */
     public static final int PagerSlidingTabStrip_pstsTextSelectedColor=11;
     /**
@@ -8998,7 +8998,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:pstsUnderlineColor
+     * @attr name com.smm.lib.test:pstsUnderlineColor
      */
     public static final int PagerSlidingTabStrip_pstsUnderlineColor=12;
     /**
@@ -9011,7 +9011,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:pstsUnderlineHeight
+     * @attr name com.smm.lib.test:pstsUnderlineHeight
      */
     public static final int PagerSlidingTabStrip_pstsUnderlineHeight=13;
     /**
@@ -9023,7 +9023,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.loveplusplus.update.test:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.smm.lib.test:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -9039,7 +9039,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.loveplusplus.update.test:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.smm.lib.test:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -9053,7 +9053,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:state_above_anchor
+     * @attr name com.smm.lib.test:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -9090,7 +9090,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:overlapAnchor
+     * @attr name com.smm.lib.test:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -9100,8 +9100,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.loveplusplus.update.test:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.loveplusplus.update.test:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.smm.lib.test:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.smm.lib.test:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -9119,7 +9119,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:paddingBottomNoButtons
+     * @attr name com.smm.lib.test:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
@@ -9132,7 +9132,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:paddingTopNoTitle
+     * @attr name com.smm.lib.test:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -9144,10 +9144,10 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.loveplusplus.update.test:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.loveplusplus.update.test:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.loveplusplus.update.test:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.loveplusplus.update.test:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.smm.lib.test:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.smm.lib.test:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.smm.lib.test:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.smm.lib.test:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -9202,7 +9202,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:layoutManager
+     * @attr name com.smm.lib.test:layoutManager
      */
     public static final int RecyclerView_layoutManager=2;
     /**
@@ -9212,7 +9212,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:reverseLayout
+     * @attr name com.smm.lib.test:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=3;
     /**
@@ -9221,7 +9221,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.loveplusplus.update.test:spanCount
+     * @attr name com.smm.lib.test:spanCount
      */
     public static final int RecyclerView_spanCount=4;
     /**
@@ -9231,7 +9231,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:stackFromEnd
+     * @attr name com.smm.lib.test:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=5;
     /**
@@ -9241,7 +9241,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.loveplusplus.update.test:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.smm.lib.test:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -9260,7 +9260,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:insetForeground
+     * @attr name com.smm.lib.test:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -9270,7 +9270,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.loveplusplus.update.test:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.smm.lib.test:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -9287,7 +9287,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:behavior_overlapTop
+     * @attr name com.smm.lib.test:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -9301,19 +9301,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.loveplusplus.update.test:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.loveplusplus.update.test:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.loveplusplus.update.test:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.loveplusplus.update.test:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.loveplusplus.update.test:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.loveplusplus.update.test:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.loveplusplus.update.test:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.loveplusplus.update.test:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.loveplusplus.update.test:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.loveplusplus.update.test:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.loveplusplus.update.test:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.loveplusplus.update.test:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.loveplusplus.update.test:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.smm.lib.test:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.smm.lib.test:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.smm.lib.test:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.smm.lib.test:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.smm.lib.test:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.smm.lib.test:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.smm.lib.test:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.smm.lib.test:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.smm.lib.test:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.smm.lib.test:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.smm.lib.test:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.smm.lib.test:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.smm.lib.test:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -9459,7 +9459,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:closeIcon
+     * @attr name com.smm.lib.test:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
@@ -9471,7 +9471,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:commitIcon
+     * @attr name com.smm.lib.test:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
@@ -9481,7 +9481,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:defaultQueryHint
+     * @attr name com.smm.lib.test:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
@@ -9493,7 +9493,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:goIcon
+     * @attr name com.smm.lib.test:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
@@ -9503,7 +9503,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:iconifiedByDefault
+     * @attr name com.smm.lib.test:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
@@ -9515,7 +9515,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:layout
+     * @attr name com.smm.lib.test:layout
      */
     public static final int SearchView_layout=9;
     /**
@@ -9527,7 +9527,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:queryBackground
+     * @attr name com.smm.lib.test:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
@@ -9537,7 +9537,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:queryHint
+     * @attr name com.smm.lib.test:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
@@ -9549,7 +9549,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:searchHintIcon
+     * @attr name com.smm.lib.test:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
@@ -9561,7 +9561,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:searchIcon
+     * @attr name com.smm.lib.test:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
@@ -9573,7 +9573,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:submitBackground
+     * @attr name com.smm.lib.test:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
@@ -9585,7 +9585,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:suggestionRowLayout
+     * @attr name com.smm.lib.test:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
@@ -9597,7 +9597,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:voiceIcon
+     * @attr name com.smm.lib.test:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -9608,8 +9608,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.loveplusplus.update.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.loveplusplus.update.test:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.smm.lib.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.smm.lib.test:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -9641,7 +9641,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:elevation
+     * @attr name com.smm.lib.test:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
@@ -9654,7 +9654,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:maxActionInlineWidth
+     * @attr name com.smm.lib.test:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -9668,7 +9668,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.loveplusplus.update.test:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.smm.lib.test:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -9751,7 +9751,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:popupTheme
+     * @attr name com.smm.lib.test:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -9764,17 +9764,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.loveplusplus.update.test:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.loveplusplus.update.test:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.loveplusplus.update.test:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.loveplusplus.update.test:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.loveplusplus.update.test:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.loveplusplus.update.test:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.loveplusplus.update.test:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.loveplusplus.update.test:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.loveplusplus.update.test:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.loveplusplus.update.test:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.loveplusplus.update.test:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.smm.lib.test:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.smm.lib.test:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.smm.lib.test:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.smm.lib.test:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.smm.lib.test:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.smm.lib.test:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.smm.lib.test:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.smm.lib.test:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.smm.lib.test:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.smm.lib.test:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.smm.lib.test:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -9836,7 +9836,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:showText
+     * @attr name com.smm.lib.test:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
@@ -9846,7 +9846,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:splitTrack
+     * @attr name com.smm.lib.test:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
@@ -9859,7 +9859,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:switchMinWidth
+     * @attr name com.smm.lib.test:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
@@ -9872,7 +9872,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:switchPadding
+     * @attr name com.smm.lib.test:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
@@ -9884,7 +9884,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:switchTextAppearance
+     * @attr name com.smm.lib.test:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
@@ -9897,7 +9897,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:thumbTextPadding
+     * @attr name com.smm.lib.test:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
@@ -9908,7 +9908,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:thumbTint
+     * @attr name com.smm.lib.test:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
@@ -9929,7 +9929,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:thumbTintMode
+     * @attr name com.smm.lib.test:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
@@ -9941,7 +9941,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:track
+     * @attr name com.smm.lib.test:track
      */
     public static final int SwitchCompat_track=11;
     /**
@@ -9952,7 +9952,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:trackTint
+     * @attr name com.smm.lib.test:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
@@ -9973,7 +9973,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:trackTintMode
+     * @attr name com.smm.lib.test:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -10035,22 +10035,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.loveplusplus.update.test:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.loveplusplus.update.test:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.loveplusplus.update.test:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.loveplusplus.update.test:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.loveplusplus.update.test:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.loveplusplus.update.test:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.loveplusplus.update.test:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.loveplusplus.update.test:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.loveplusplus.update.test:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.loveplusplus.update.test:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.loveplusplus.update.test:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.loveplusplus.update.test:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.loveplusplus.update.test:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.loveplusplus.update.test:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.loveplusplus.update.test:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.loveplusplus.update.test:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.smm.lib.test:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.smm.lib.test:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.smm.lib.test:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.smm.lib.test:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.smm.lib.test:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.smm.lib.test:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.smm.lib.test:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.smm.lib.test:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.smm.lib.test:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.smm.lib.test:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.smm.lib.test:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.smm.lib.test:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.smm.lib.test:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.smm.lib.test:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.smm.lib.test:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.smm.lib.test:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -10084,7 +10084,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tabBackground
+     * @attr name com.smm.lib.test:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
@@ -10097,7 +10097,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabContentStart
+     * @attr name com.smm.lib.test:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
@@ -10114,7 +10114,7 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:tabGravity
+     * @attr name com.smm.lib.test:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
@@ -10125,7 +10125,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tabIndicatorColor
+     * @attr name com.smm.lib.test:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
@@ -10138,7 +10138,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabIndicatorHeight
+     * @attr name com.smm.lib.test:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
@@ -10151,7 +10151,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabMaxWidth
+     * @attr name com.smm.lib.test:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
@@ -10164,7 +10164,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabMinWidth
+     * @attr name com.smm.lib.test:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
@@ -10181,7 +10181,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:tabMode
+     * @attr name com.smm.lib.test:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
@@ -10194,7 +10194,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabPadding
+     * @attr name com.smm.lib.test:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
@@ -10207,7 +10207,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabPaddingBottom
+     * @attr name com.smm.lib.test:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
@@ -10220,7 +10220,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabPaddingEnd
+     * @attr name com.smm.lib.test:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
@@ -10233,7 +10233,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabPaddingStart
+     * @attr name com.smm.lib.test:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
@@ -10246,7 +10246,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:tabPaddingTop
+     * @attr name com.smm.lib.test:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
@@ -10257,7 +10257,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tabSelectedTextColor
+     * @attr name com.smm.lib.test:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
@@ -10269,7 +10269,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tabTextAppearance
+     * @attr name com.smm.lib.test:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
@@ -10280,7 +10280,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:tabTextColor
+     * @attr name com.smm.lib.test:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -10299,7 +10299,7 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.loveplusplus.update.test:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.smm.lib.test:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -10446,7 +10446,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:textAllCaps
+     * @attr name com.smm.lib.test:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=9;
     /**
@@ -10458,20 +10458,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.loveplusplus.update.test:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.loveplusplus.update.test:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.loveplusplus.update.test:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.loveplusplus.update.test:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.loveplusplus.update.test:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.loveplusplus.update.test:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.loveplusplus.update.test:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.loveplusplus.update.test:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.loveplusplus.update.test:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.loveplusplus.update.test:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.loveplusplus.update.test:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.loveplusplus.update.test:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.loveplusplus.update.test:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.loveplusplus.update.test:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.smm.lib.test:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.smm.lib.test:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.smm.lib.test:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.smm.lib.test:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.smm.lib.test:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.smm.lib.test:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.smm.lib.test:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.smm.lib.test:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.smm.lib.test:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.smm.lib.test:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.smm.lib.test:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.smm.lib.test:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.smm.lib.test:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.smm.lib.test:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -10528,7 +10528,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:counterEnabled
+     * @attr name com.smm.lib.test:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
@@ -10537,7 +10537,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.loveplusplus.update.test:counterMaxLength
+     * @attr name com.smm.lib.test:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
@@ -10549,7 +10549,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:counterOverflowTextAppearance
+     * @attr name com.smm.lib.test:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
@@ -10561,7 +10561,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:counterTextAppearance
+     * @attr name com.smm.lib.test:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
@@ -10571,7 +10571,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:errorEnabled
+     * @attr name com.smm.lib.test:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
@@ -10583,7 +10583,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:errorTextAppearance
+     * @attr name com.smm.lib.test:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
@@ -10593,7 +10593,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:hintAnimationEnabled
+     * @attr name com.smm.lib.test:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
@@ -10603,7 +10603,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:hintEnabled
+     * @attr name com.smm.lib.test:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
@@ -10615,7 +10615,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:hintTextAppearance
+     * @attr name com.smm.lib.test:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
@@ -10625,7 +10625,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:passwordToggleContentDescription
+     * @attr name com.smm.lib.test:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
@@ -10637,7 +10637,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:passwordToggleDrawable
+     * @attr name com.smm.lib.test:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
@@ -10647,7 +10647,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.loveplusplus.update.test:passwordToggleEnabled
+     * @attr name com.smm.lib.test:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
@@ -10658,7 +10658,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:passwordToggleTint
+     * @attr name com.smm.lib.test:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
@@ -10678,7 +10678,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:passwordToggleTintMode
+     * @attr name com.smm.lib.test:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -10690,33 +10690,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.loveplusplus.update.test:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.loveplusplus.update.test:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.loveplusplus.update.test:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.loveplusplus.update.test:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.loveplusplus.update.test:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.loveplusplus.update.test:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.loveplusplus.update.test:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.loveplusplus.update.test:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.loveplusplus.update.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.loveplusplus.update.test:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.loveplusplus.update.test:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.loveplusplus.update.test:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.loveplusplus.update.test:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.loveplusplus.update.test:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.loveplusplus.update.test:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.loveplusplus.update.test:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.loveplusplus.update.test:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.loveplusplus.update.test:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.loveplusplus.update.test:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.loveplusplus.update.test:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.loveplusplus.update.test:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.loveplusplus.update.test:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.loveplusplus.update.test:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.loveplusplus.update.test:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.loveplusplus.update.test:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.loveplusplus.update.test:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.loveplusplus.update.test:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.smm.lib.test:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.smm.lib.test:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.smm.lib.test:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.smm.lib.test:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.smm.lib.test:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.smm.lib.test:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.smm.lib.test:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.smm.lib.test:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.smm.lib.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.smm.lib.test:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.smm.lib.test:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.smm.lib.test:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.smm.lib.test:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.smm.lib.test:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.smm.lib.test:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.smm.lib.test:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.smm.lib.test:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.smm.lib.test:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.smm.lib.test:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.smm.lib.test:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.smm.lib.test:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.smm.lib.test:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.smm.lib.test:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.smm.lib.test:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.smm.lib.test:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.smm.lib.test:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.smm.lib.test:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -10814,7 +10814,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:buttonGravity
+     * @attr name com.smm.lib.test:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
@@ -10824,7 +10824,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:collapseContentDescription
+     * @attr name com.smm.lib.test:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
@@ -10836,7 +10836,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:collapseIcon
+     * @attr name com.smm.lib.test:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
@@ -10849,7 +10849,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetEnd
+     * @attr name com.smm.lib.test:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
@@ -10862,7 +10862,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetEndWithActions
+     * @attr name com.smm.lib.test:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
@@ -10875,7 +10875,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetLeft
+     * @attr name com.smm.lib.test:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
@@ -10888,7 +10888,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetRight
+     * @attr name com.smm.lib.test:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
@@ -10901,7 +10901,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetStart
+     * @attr name com.smm.lib.test:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
@@ -10914,7 +10914,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:contentInsetStartWithNavigation
+     * @attr name com.smm.lib.test:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
@@ -10926,7 +10926,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:logo
+     * @attr name com.smm.lib.test:logo
      */
     public static final int Toolbar_logo=11;
     /**
@@ -10936,7 +10936,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:logoDescription
+     * @attr name com.smm.lib.test:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
@@ -10949,7 +10949,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:maxButtonHeight
+     * @attr name com.smm.lib.test:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
@@ -10959,7 +10959,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:navigationContentDescription
+     * @attr name com.smm.lib.test:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
@@ -10971,7 +10971,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:navigationIcon
+     * @attr name com.smm.lib.test:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
@@ -10983,7 +10983,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:popupTheme
+     * @attr name com.smm.lib.test:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
@@ -10993,7 +10993,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:subtitle
+     * @attr name com.smm.lib.test:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
@@ -11005,7 +11005,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:subtitleTextAppearance
+     * @attr name com.smm.lib.test:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
@@ -11016,7 +11016,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:subtitleTextColor
+     * @attr name com.smm.lib.test:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
@@ -11026,7 +11026,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.loveplusplus.update.test:title
+     * @attr name com.smm.lib.test:title
      */
     public static final int Toolbar_title=20;
     /**
@@ -11039,7 +11039,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:titleMargin
+     * @attr name com.smm.lib.test:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
@@ -11052,7 +11052,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:titleMarginBottom
+     * @attr name com.smm.lib.test:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
@@ -11065,7 +11065,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:titleMarginEnd
+     * @attr name com.smm.lib.test:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
@@ -11078,7 +11078,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:titleMarginStart
+     * @attr name com.smm.lib.test:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
@@ -11091,7 +11091,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:titleMarginTop
+     * @attr name com.smm.lib.test:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
@@ -11104,7 +11104,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:titleMargins
+     * @attr name com.smm.lib.test:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
@@ -11116,7 +11116,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:titleTextAppearance
+     * @attr name com.smm.lib.test:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
@@ -11127,7 +11127,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:titleTextColor
+     * @attr name com.smm.lib.test:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -11139,9 +11139,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.loveplusplus.update.test:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.loveplusplus.update.test:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.loveplusplus.update.test:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.smm.lib.test:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.smm.lib.test:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.smm.lib.test:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -11161,8 +11161,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.loveplusplus.update.test:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.loveplusplus.update.test:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.smm.lib.test:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.smm.lib.test:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11194,7 +11194,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:backgroundTint
+     * @attr name com.smm.lib.test:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
@@ -11214,7 +11214,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.loveplusplus.update.test:backgroundTintMode
+     * @attr name com.smm.lib.test:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -11311,7 +11311,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:paddingEnd
+     * @attr name com.smm.lib.test:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
@@ -11324,7 +11324,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.loveplusplus.update.test:paddingStart
+     * @attr name com.smm.lib.test:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
@@ -11336,7 +11336,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.loveplusplus.update.test:theme
+     * @attr name com.smm.lib.test:theme
      */
     public static final int View_theme=4;
   }

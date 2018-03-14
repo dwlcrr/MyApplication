@@ -10,9 +10,10 @@
         android:name="android.test.InstrumentationTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.loveplusplus.update.test"
-        android:targetPackage="com.loveplusplus.update.test" />
+        android:label="Tests for com.smm.lib.test"
+        android:targetPackage="com.smm.lib.test" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -24,7 +25,7 @@
         <uses-library android:name="android.test.runner" />
 
         <service
-            android:name="com.smm.lib.DownloadService"
+            android:name="com.smm.lib.update.DownloadService"
             android:exported="false" />
 
         <provider

@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import okhttp3.Call;
+import okhttp3.Callback;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
@@ -20,6 +22,8 @@ public abstract class BaseRequest<R extends BaseRequest> {
     protected Map<String, String> headers;
     protected Map<String, String> urlParams;
     private Request mRequest;
+    protected transient Callback callback;
+    protected transient Call call;
 
     public BaseRequest(String url) {
         this.url = url;
@@ -83,7 +87,21 @@ public abstract class BaseRequest<R extends BaseRequest> {
         return requestBody;
     }
 
+    /**
+     * 同步请求
+     */
     public Response execute() throws IOException {
         return getCall().execute();
+    }
+
+    /**
+     * 非阻塞方法，异步请求，但是回调在子线程中执行
+     */
+    public void execute(Callback callback) {
+        this.callback = callback;
+        call = getCall();
+        if (call != null) {
+            call.enqueue(callback);
+        }
     }
 }
