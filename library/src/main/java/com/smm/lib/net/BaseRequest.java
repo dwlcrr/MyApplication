@@ -4,13 +4,11 @@ package com.smm.lib.net;
 import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
-
 
 public abstract class BaseRequest<R extends BaseRequest> {
 
@@ -72,11 +70,11 @@ public abstract class BaseRequest<R extends BaseRequest> {
     public abstract Request generateRequest(RequestBody requestBody);
 
 
-    public okhttp3.Call generateCall(Request request) {
+    public Call generateCall(Request request) {
         return SmmNet.ins().getClient().newCall(request);
     }
 
-    public okhttp3.Call getCall() {
+    public Call getCall() {
         //构建请求体，返回call对象
         RequestBody requestBody = generateRequestBody();
         mRequest = generateRequest(wrapRequestBody(requestBody));
@@ -94,14 +92,4 @@ public abstract class BaseRequest<R extends BaseRequest> {
         return getCall().execute();
     }
 
-    /**
-     * 非阻塞方法，异步请求，但是回调在子线程中执行
-     */
-    public void execute(Callback callback) {
-        this.callback = callback;
-        call = getCall();
-        if (call != null) {
-            call.enqueue(callback);
-        }
-    }
 }

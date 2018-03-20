@@ -4,7 +4,7 @@ import android.widget.Toast;
 import com.example.test.base.MyApplication;
 import com.example.test.base.MySp;
 import com.example.test.entity.UserInfoResult;
-import com.example.test.net.center.UserCenter;
+import com.example.test.net.api.UserApi;
 import com.smm.lib.utils.base.StrUtil;
 import rx.Observable;
 
@@ -33,7 +33,7 @@ public class UserInfoManager extends DataManager<UserInfoResult> {
 
     @Override
     protected Observable getData() {
-        return UserCenter.getUserInfo()
+        return UserApi.getUserInfo()
                 .map(userInfoResult -> {
                     if (userInfoResult != null) {
                         switch (userInfoResult.code) {
@@ -58,7 +58,7 @@ public class UserInfoManager extends DataManager<UserInfoResult> {
     }
 
     public void refreshToken() {
-        UserCenter.refreshToken()
+        UserApi.refreshToken()
                 .subscribe(
                         refreshTokenResult -> {
                             if (refreshTokenResult != null

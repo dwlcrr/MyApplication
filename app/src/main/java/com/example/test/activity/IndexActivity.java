@@ -11,9 +11,17 @@ import com.example.test.base.BaseActivity;
 public class IndexActivity extends BaseActivity implements OnClickListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void loadXml(Bundle savedInstanceState) {
         setContentView(R.layout.index);
+    }
+
+    @Override
+    protected void initData() {
+
+    }
+
+    @Override
+    protected void initView() {
         findView(R.id.btn_request).setOnClickListener(this);
         findView(R.id.btn_view).setOnClickListener(this);
         findView(R.id.btn_update).setOnClickListener(this);
@@ -23,6 +31,7 @@ public class IndexActivity extends BaseActivity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_request:
+                startActivity(new Intent(this,SimpleRequestActivity.class));
                 break;
             case R.id.btn_view:
                 break;

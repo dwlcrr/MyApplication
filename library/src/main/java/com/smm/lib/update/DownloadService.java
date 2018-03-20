@@ -31,7 +31,7 @@ public class DownloadService extends IntentService {
     private Builder mBuilder;
     private String version;
     private String urlStr;
-    private  File dir;
+    private File dir;
 
     public DownloadService() {
         super("DownloadService");
@@ -44,7 +44,7 @@ public class DownloadService extends IntentService {
         urlStr = intent.getStringExtra(FinalConstants.APK_DOWNLOAD_URL);
         dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
         File file = apkExist(version);
-        if (file != null) {
+        if (file != null && file.exists() && file.length()!=0) {
             installAPk(this, file);
             return;
         }
@@ -77,18 +77,27 @@ public class DownloadService extends IntentService {
 
             in = urlConnection.getInputStream();
             File apkFile = null;
+            File tmpFile = null;
             if (dir != null && dir.exists()) {
                 Uri uri = Uri.withAppendedPath(Uri.fromFile(dir), "smm_v".concat(version).concat(".apk"));
+                Uri tmpUri = Uri.withAppendedPath(Uri.fromFile(dir), "smm_v".concat(version).concat(".apk.tmp"));
                 try {
                     apkFile = new File(new URI(uri.toString()));
+                    if(!apkFile.exists()){
+                        apkFile.createNewFile();
+                    }
+                    tmpFile = new File(new URI(tmpUri.toString()));
                 }catch (Exception e){
                     e.printStackTrace();
                 }
             }
+            if (!tmpFile.getParentFile().exists()) {
+                tmpFile.getParentFile().mkdirs();
+            }
             if (!apkFile.getParentFile().exists()) {
                 apkFile.getParentFile().mkdirs();
             }
-            out = new FileOutputStream(apkFile);
+            out = new FileOutputStream(tmpFile);
             byte[] buffer = new byte[BUFFER_SIZE];
 
             int oldProgress = 0;
@@ -104,9 +113,12 @@ public class DownloadService extends IntentService {
                 }
                 oldProgress = progress;
             }
-            // 下载完成
-            installAPk(this, apkFile);
-            mNotifyManager.cancel(NOTIFICATION_ID);
+            // 如果下载完成了 改文件名后缀为.apk
+            if(bytesum == bytetotal){
+                tmpFile.renameTo(apkFile);
+                installAPk(this, apkFile);
+                mNotifyManager.cancel(NOTIFICATION_ID);
+            }
         } catch (Exception e) {
             Log.e(TAG, "download apk file error:" + e.getMessage());
         } finally {

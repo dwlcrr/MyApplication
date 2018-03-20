@@ -25,7 +25,7 @@ package com.smm.lib.view.wheel;
  */
 public interface OnWheelChangedListener {
 	/**
-	 * Callback method to be invoked when current item changed
+	 * BaseCallback method to be invoked when current item changed
 	 * 
 	 * @param wheel
 	 *            the wheel view whose state has changed

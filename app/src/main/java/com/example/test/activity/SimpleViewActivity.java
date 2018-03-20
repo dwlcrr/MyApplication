@@ -14,9 +14,18 @@ import com.example.test.base.BaseActivity;
 public class SimpleViewActivity extends BaseActivity implements OnClickListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void loadXml(Bundle savedInstanceState) {
         setContentView(R.layout.simple_view_show);
+    }
+
+    @Override
+    protected void initData() {
+
+    }
+
+    @Override
+    protected void initView() {
+
     }
 
     @Override

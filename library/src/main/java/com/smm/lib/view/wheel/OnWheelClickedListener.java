@@ -25,7 +25,7 @@ package com.smm.lib.view.wheel;
  */
 public interface OnWheelClickedListener {
 	/**
-	 * Callback method to be invoked when current item clicked
+	 * BaseCallback method to be invoked when current item clicked
 	 * 
 	 * @param wheel
 	 *            the wheel view

@@ -3,6 +3,7 @@ package com.example.test.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 
@@ -12,10 +13,18 @@ import com.example.test.base.BaseActivity;
 public class RxRequestActivity extends BaseActivity implements OnClickListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void loadXml(Bundle savedInstanceState) {
         setContentView(R.layout.request_show);
+    }
+
+    @Override
+    protected void initData() {
         testOk();
+    }
+
+    @Override
+    protected void initView() {
+
     }
 
     @Override

@@ -17,7 +17,7 @@ import com.example.test.R;
 import com.google.gson.Gson;
 import com.lzy.imagepicker.view.SystemBarTintManager;
 
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     public BaseActivity baseActivity;
     protected Gson mGson;
@@ -30,14 +30,20 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        baseActivity = this;
+        mGson = new Gson();
+        loadXml(savedInstanceState);
         initView();
+        initData();
         initSystemBarTint();
     }
 
-    private void initView() {
-        baseActivity = this;
-        mGson = new Gson();
-    }
+    protected abstract void loadXml(Bundle savedInstanceState);
+
+    protected abstract void initData();
+
+    protected abstract void initView();
 
     /** 子类可以重写改变状态栏颜色 */
     protected int setStatusBarColor() {

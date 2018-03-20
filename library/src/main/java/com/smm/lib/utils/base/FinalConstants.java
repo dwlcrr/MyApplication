@@ -10,4 +10,10 @@ public class FinalConstants {
     public static final int TYPE_DIALOG = 1;
     public static final String UPDATE_URL = "https://raw.githubusercontent.com/feicien/android-auto-update/develop/extras/update.json";
     public static final String TAG = "1";
+
+    /**
+     * 缓存 key
+     */
+    public static final String UPDATE_KEY = "update_key";
+    public static final String TEST_CACHE_LIST = "test_cache_list";
 }

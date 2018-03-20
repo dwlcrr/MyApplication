@@ -4,22 +4,21 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.Html;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Toast;
 
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.entity.CheckUpdate;
-import com.example.test.net.center.AppCenter;
+import com.example.test.net.api.AppApi;
+import com.example.test.net.callback.DialogCallback;
 import com.example.test.utils.rx.RxUtils;
-import com.google.gson.Gson;
+import com.smm.lib.okgo.model.Response;
 import com.smm.lib.update.DownloadService;
 import com.smm.lib.utils.base.FinalConstants;
-
-import java.io.IOException;
-
-import okhttp3.Call;
 
 /**
  * 更新软件
@@ -28,10 +27,19 @@ import okhttp3.Call;
  */
 public class UpdateActivity extends BaseActivity implements OnClickListener {
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void loadXml(Bundle savedInstanceState) {
         setContentView(R.layout.update);
+    }
+
+    @Override
+    protected void initData() {
+
+    }
+
+    @Override
+    protected void initView() {
         findView(R.id.btn_update).setOnClickListener(this);
     }
 
@@ -39,13 +47,13 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_update:
-                update();
+                testUpdate();
                 break;
         }
     }
 
     private void update() {
-        AppCenter.checkUpdate().subscribe(RxUtils.subscribeNext(result -> {
+        AppApi.checkUpdate().subscribe(RxUtils.subscribeNext(result -> {
             if (result.code == 0 && result.data != null) {
                 CheckUpdate.DataBean data = result.data;
                 if (data.update) {
@@ -57,19 +65,19 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
     }
 
     private void testUpdate() {
-        AppCenter.check(new okhttp3.Callback() {
+        AppApi.check(this,new DialogCallback<CheckUpdate>(this) {
             @Override
-            public void onFailure(Call call, IOException e) {
-
-            }
-
-            @Override
-            public void onResponse(Call call, okhttp3.Response response) {
-                CheckUpdate checkUpdate = new Gson().fromJson(response.body().toString(),CheckUpdate.class);
-                if (checkUpdate.data.update) {
-                    String url = "https://raw.githubusercontent.com/feicien/android-auto-update/develop/extras/android-auto-update-v1.2.apk";
-                    show(UpdateActivity.this, checkUpdate.data.desc, url, checkUpdate.data.version);
+            public void onSuccess(Response<CheckUpdate> response) {
+                CheckUpdate.DataBean dataBean = response.body().data;
+                if(dataBean.update){
+                    Toast.makeText(baseActivity,dataBean.desc,Toast.LENGTH_LONG).show();
+                    String url = "http://ucan.25pp.com/Wandoujia_web_seo_baidu_homepage.apk";
+                    show(UpdateActivity.this, dataBean.desc, url, dataBean.version);
                 }
+            }
+            @Override
+            public void onError(Response<CheckUpdate> response) {
+
             }
         });
     }
@@ -79,7 +87,14 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
         builder.setTitle(com.smm.lib.R.string.android_auto_update_dialog_title);
         builder.setMessage(Html.fromHtml(content))
                 .setPositiveButton(com.smm.lib.R.string.android_auto_update_dialog_btn_download, (
-                        dialog, id) -> goToDownload(context, downloadUrl, apkCode))
+                        dialog, id) -> {
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            goToDownload(context, downloadUrl, apkCode);
+                        }
+                    }, 1000);
+                })
                 .setNegativeButton(com.smm.lib.R.string.android_auto_update_dialog_btn_cancel,
                         (dialog, id) -> {
                         });

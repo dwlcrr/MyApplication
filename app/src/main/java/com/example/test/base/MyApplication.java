@@ -8,6 +8,7 @@ import com.example.test.net.NetConfig;
 import com.example.test.utils.other.UUIDUtils;
 import com.smm.lib.BuildConfig;
 import com.smm.lib.net.SmmNet;
+import com.smm.lib.okgo.OkGo;
 import com.smm.lib.utils.base.DisplayUtils;
 import com.smm.lib.utils.base.Logger;
 import com.smm.lib.utils.base.StrUtil;
@@ -43,25 +44,11 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         ins = this;
-
+        initOkGo();
         MyApplication.DEFAULT_DEGREE_FONT_SIZE = DisplayUtils.dip2px(this, 10);
         MyApplication.TOUCH_MIN = (int) (DisplayUtils.getScreenHeight(this) * 0.04);
         MyApplication.TOUCH_MIN = MyApplication.TOUCH_MIN > 5 ? MyApplication.TOUCH_MIN : 5;
-        //添加网络请求公共 headers
-        SmmNet.ins().addInterceptor(new Interceptor() {
-            @Override
-            public Response intercept(Chain chain) throws IOException {
-                Request.Builder requestBuilder = chain.request().newBuilder()
-                        .addHeader(NetConfig.SMM_DEVICE, NetConfig.SMM_DEVICE_VALUE)
-                        .addHeader(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE)
-                        .addHeader(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE)
-                        .addHeader(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
-                if (StrUtil.isNotEmpty(MySp.token)) {
-                    requestBuilder.addHeader("smm-token", MySp.token);
-                }
-                return chain.proceed(requestBuilder.build());
-            }
-        });
+
         //初始化 token
         MySp.token = MySp.ins().getString(MySp.KEY_TOKEN, "");
         //初始化umeng share
@@ -88,6 +75,40 @@ public class MyApplication extends Application {
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
+    }
+
+    private void initOkGo() {
+
+        //添加网络请求公共 headers
+        SmmNet.ins().addInterceptor(new Interceptor() {
+            @Override
+            public Response intercept(Chain chain) throws IOException {
+                Request.Builder requestBuilder = chain.request().newBuilder()
+                        .addHeader(NetConfig.SMM_DEVICE, NetConfig.SMM_DEVICE_VALUE)
+                        .addHeader(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE)
+                        .addHeader(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE)
+                        .addHeader(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
+                if (StrUtil.isNotEmpty(MySp.token)) {
+                    requestBuilder.addHeader("smm-token", MySp.token);
+                }
+                return chain.proceed(requestBuilder.build());
+            }
+        });
+
+        OkGo.getInstance().addInterceptor(new Interceptor() {
+            @Override
+            public Response intercept(Chain chain) throws IOException {
+                Request.Builder requestBuilder = chain.request().newBuilder()
+                        .addHeader(NetConfig.SMM_DEVICE, NetConfig.SMM_DEVICE_VALUE)
+                        .addHeader(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE)
+                        .addHeader(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE)
+                        .addHeader(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
+                if (StrUtil.isNotEmpty(MySp.token)) {
+                    requestBuilder.addHeader("smm-token", MySp.token);
+                }
+                return chain.proceed(requestBuilder.build());
+            }
+        });
     }
 
 }

@@ -26,5 +26,7 @@
         <activity android:name="com.example.test.activity.TestRequestActivity" />
         <activity android:name="com.example.test.activity.SimpleRequestActivity" />
         <activity android:name="com.example.test.activity.RxRequestActivity" />
+
+        <activity android:name=".activity.web.WebActivity" />
     </application>
 </manifest>
