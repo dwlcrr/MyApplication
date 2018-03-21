@@ -8,10 +8,10 @@ package android.support.v7.recyclerview;
 
 public final class R {
     public static final class attr {
-        public static int layoutManager = 0x7f0400a4;
-        public static int reverseLayout = 0x7f0400ec;
-        public static int spanCount = 0x7f0400fb;
-        public static int stackFromEnd = 0x7f040101;
+        public static int layoutManager = 0x7f0400a5;
+        public static int reverseLayout = 0x7f0400fd;
+        public static int spanCount = 0x7f04010c;
+        public static int stackFromEnd = 0x7f040112;
     }
     public static final class dimen {
         public static int item_touch_helper_max_drag_scroll_per_frame = 0x7f08007f;
@@ -19,10 +19,10 @@ public final class R {
         public static int item_touch_helper_swipe_escape_velocity = 0x7f080081;
     }
     public static final class id {
-        public static int item_touch_helper_previous_elevation = 0x7f0c0049;
+        public static int item_touch_helper_previous_elevation = 0x7f0c004f;
     }
     public static final class styleable {
-        public static int[] RecyclerView = { 0x010100f1, 0x010100c4, 0x7f0400a4, 0x7f0400ec, 0x7f0400fb, 0x7f040101 };
+        public static int[] RecyclerView = { 0x010100f1, 0x010100c4, 0x7f0400a5, 0x7f0400fd, 0x7f04010c, 0x7f040112 };
         public static int RecyclerView_android_descendantFocusability = 0;
         public static int RecyclerView_android_orientation = 1;
         public static int RecyclerView_layoutManager = 2;

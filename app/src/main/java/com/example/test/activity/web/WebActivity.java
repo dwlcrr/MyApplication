@@ -24,7 +24,6 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
-
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 

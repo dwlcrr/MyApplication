@@ -23,18 +23,11 @@ import android.os.Looper;
 import com.smm.lib.BuildConfig;
 import com.smm.lib.okgo.cache.CacheEntity;
 import com.smm.lib.okgo.cache.CacheMode;
-import com.smm.lib.okgo.cookie.CookieJarImpl;
 import com.smm.lib.okgo.interceptor.HttpLoggingInterceptor;
 import com.smm.lib.okgo.model.HttpHeaders;
 import com.smm.lib.okgo.model.HttpParams;
-import com.smm.lib.okgo.request.DeleteRequest;
 import com.smm.lib.okgo.request.GetRequest;
-import com.smm.lib.okgo.request.HeadRequest;
-import com.smm.lib.okgo.request.OptionsRequest;
-import com.smm.lib.okgo.request.PatchRequest;
 import com.smm.lib.okgo.request.PostRequest;
-import com.smm.lib.okgo.request.PutRequest;
-import com.smm.lib.okgo.request.TraceRequest;
 import com.smm.lib.okgo.utils.HttpUtils;
 
 import java.security.KeyManagementException;
@@ -155,35 +148,6 @@ public class OkGo {
         return new PostRequest<>(url);
     }
 
-    /** put请求 */
-    public static <T> PutRequest<T> put(String url) {
-        return new PutRequest<>(url);
-    }
-
-    /** head请求 */
-    public static <T> HeadRequest<T> head(String url) {
-        return new HeadRequest<>(url);
-    }
-
-    /** delete请求 */
-    public static <T> DeleteRequest<T> delete(String url) {
-        return new DeleteRequest<>(url);
-    }
-
-    /** options请求 */
-    public static <T> OptionsRequest<T> options(String url) {
-        return new OptionsRequest<>(url);
-    }
-
-    /** patch请求 */
-    public static <T> PatchRequest<T> patch(String url) {
-        return new PatchRequest<>(url);
-    }
-
-    /** trace请求 */
-    public static <T> TraceRequest<T> trace(String url) {
-        return new TraceRequest<>(url);
-    }
 
     /** 必须在全局Application先调用，获取context上下文，否则缓存无法使用 */
     public OkGo init(Application app) {
@@ -206,46 +170,14 @@ public class OkGo {
         return okHttpClient;
     }
 
-    /** 必须设置 */
-    public OkGo setOkHttpClient(OkHttpClient okHttpClient) {
-        HttpUtils.checkNotNull(okHttpClient, "okHttpClient == null");
-        this.okHttpClient = okHttpClient;
-        return this;
-    }
-
-    /** 获取全局的cookie实例 */
-    public CookieJarImpl getCookieJar() {
-        return (CookieJarImpl) okHttpClient.cookieJar();
-    }
-
-    /** 超时重试次数 */
-    public OkGo setRetryCount(int retryCount) {
-        if (retryCount < 0) throw new IllegalArgumentException("retryCount must > 0");
-        mRetryCount = retryCount;
-        return this;
-    }
-
     /** 超时重试次数 */
     public int getRetryCount() {
         return mRetryCount;
     }
 
-    /** 全局的缓存模式 */
-    public OkGo setCacheMode(CacheMode cacheMode) {
-        mCacheMode = cacheMode;
-        return this;
-    }
-
     /** 获取全局的缓存模式 */
     public CacheMode getCacheMode() {
         return mCacheMode;
-    }
-
-    /** 全局的缓存过期时间 */
-    public OkGo setCacheTime(long cacheTime) {
-        if (cacheTime <= -1) cacheTime = CacheEntity.CACHE_NEVER_EXPIRE;
-        mCacheTime = cacheTime;
-        return this;
     }
 
     /** 获取全局的缓存过期时间 */
@@ -300,39 +232,4 @@ public class OkGo {
         }
     }
 
-    /** 根据Tag取消请求 */
-    public static void cancelTag(OkHttpClient client, Object tag) {
-        if (client == null || tag == null) return;
-        for (Call call : client.dispatcher().queuedCalls()) {
-            if (tag.equals(call.request().tag())) {
-                call.cancel();
-            }
-        }
-        for (Call call : client.dispatcher().runningCalls()) {
-            if (tag.equals(call.request().tag())) {
-                call.cancel();
-            }
-        }
-    }
-
-    /** 取消所有请求请求 */
-    public void cancelAll() {
-        for (Call call : getOkHttpClient().dispatcher().queuedCalls()) {
-            call.cancel();
-        }
-        for (Call call : getOkHttpClient().dispatcher().runningCalls()) {
-            call.cancel();
-        }
-    }
-
-    /** 取消所有请求请求 */
-    public static void cancelAll(OkHttpClient client) {
-        if (client == null) return;
-        for (Call call : client.dispatcher().queuedCalls()) {
-            call.cancel();
-        }
-        for (Call call : client.dispatcher().runningCalls()) {
-            call.cancel();
-        }
-    }
 }

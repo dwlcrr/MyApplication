@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\company project\MyApplication\library\src\main\res"/><source path="E:\company project\MyApplication\library\build\generated\res\rs\debug"/><source path="E:\company project\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\company project\MyApplication\library\src\main\res"><file name="wheel_bg" path="E:\company project\MyApplication\library\src\main\res\drawable\wheel_bg.xml" qualifiers="" type="drawable"/><file name="wheel_val" path="E:\company project\MyApplication\library\src\main\res\drawable\wheel_val.xml" qualifiers="" type="drawable"/><file name="delete_selector" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\delete_selector.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="custom_tab" path="E:\company project\MyApplication\library\src\main\res\layout\custom_tab.xml" qualifiers="" type="layout"/><file name="listview_footer" path="E:\company project\MyApplication\library\src\main\res\layout\listview_footer.xml" qualifiers="" type="layout"/><file name="clear_normal" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\clear_normal.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="clear_pressed" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\clear_pressed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="qiye" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\qiye.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="red_point" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\red_point.png" qualifiers="xhdpi-v4" type="mipmap"/><file path="E:\company project\MyApplication\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="PagerSlidingTabStrip">
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\company project\MyApplication\library\src\main\res"/><source path="E:\company project\MyApplication\library\build\generated\res\rs\debug"/><source path="E:\company project\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\company project\MyApplication\library\src\main\res"><file name="dd_mask_in" path="E:\company project\MyApplication\library\src\main\res\anim\dd_mask_in.xml" qualifiers="" type="anim"/><file name="dd_mask_out" path="E:\company project\MyApplication\library\src\main\res\anim\dd_mask_out.xml" qualifiers="" type="anim"/><file name="dd_menu_in" path="E:\company project\MyApplication\library\src\main\res\anim\dd_menu_in.xml" qualifiers="" type="anim"/><file name="dd_menu_out" path="E:\company project\MyApplication\library\src\main\res\anim\dd_menu_out.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_in" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_dialog_scale_in.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_out" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_dialog_scale_out.xml" qualifiers="" type="anim"/><file name="pickerview_slide_in_bottom" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_slide_in_bottom.xml" qualifiers="" type="anim"/><file name="pickerview_slide_out_bottom" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_slide_out_bottom.xml" qualifiers="" type="anim"/><file name="selector_pickerview_btn" path="E:\company project\MyApplication\library\src\main\res\drawable\selector_pickerview_btn.xml" qualifiers="" type="drawable"/><file name="wheel_bg" path="E:\company project\MyApplication\library\src\main\res\drawable\wheel_bg.xml" qualifiers="" type="drawable"/><file name="wheel_val" path="E:\company project\MyApplication\library\src\main\res\drawable\wheel_val.xml" qualifiers="" type="drawable"/><file name="delete_selector" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\delete_selector.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="custom_tab" path="E:\company project\MyApplication\library\src\main\res\layout\custom_tab.xml" qualifiers="" type="layout"/><file name="include_pickerview_topbar" path="E:\company project\MyApplication\library\src\main\res\layout\include_pickerview_topbar.xml" qualifiers="" type="layout"/><file name="layout_basepickerview" path="E:\company project\MyApplication\library\src\main\res\layout\layout_basepickerview.xml" qualifiers="" type="layout"/><file name="listview_footer" path="E:\company project\MyApplication\library\src\main\res\layout\listview_footer.xml" qualifiers="" type="layout"/><file name="pickerview_options" path="E:\company project\MyApplication\library\src\main\res\layout\pickerview_options.xml" qualifiers="" type="layout"/><file name="pickerview_time" path="E:\company project\MyApplication\library\src\main\res\layout\pickerview_time.xml" qualifiers="" type="layout"/><file name="clear_normal" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\clear_normal.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="clear_pressed" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\clear_pressed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="qiye" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\qiye.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="red_point" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\red_point.png" qualifiers="xhdpi-v4" type="mipmap"/><file path="E:\company project\MyApplication\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="PagerSlidingTabStrip">
         <attr format="color" name="pstsIndicatorColor"/>
         <attr format="color" name="pstsUnderlineColor"/>
         <attr format="color" name="pstsDividerColor"/>
@@ -16,4 +16,199 @@
         
         <attr format="float" name="pstsScaleZoomMax"/>
         <attr format="boolean" name="pstsSmoothScrollWhenClickTab"/>
-    </declare-styleable></file><file path="E:\company project\MyApplication\library\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="white">#ffffff</color><color name="gray_line">#F6F6F6</color><color name="gray_ae">#AEAEAE</color><color name="gray_66">#666666</color><color name="gray_light">#c8c8c8</color><color name="black2">#555555</color><color name="steelblue">#4682B4</color><color name="royalblue">#4169E1</color><color name="red">#ff6600</color><color name="light_blue">#01ABE9</color><color name="rg_quotation_select">#169BD5</color><color name="indicatorText_color">#0790ee</color></file><file path="E:\company project\MyApplication\library\src\main\res\values\strings.xml" qualifiers=""><string name="android_auto_update_dialog_title">发现新版本</string><string name="android_auto_update_notify_ticker">发现新版本,点击进行升级</string><string name="android_auto_update_notify_content">发现新版本,点击进行升级</string><string name="android_auto_update_dialog_btn_download">立即下载</string><string name="android_auto_update_dialog_btn_cancel">以后再说</string><string name="android_auto_update_toast_no_new_update">已经是最新版本</string><string name="android_auto_update_download_progress">正在下载:%1$d%%</string><string name="android_auto_update_dialog_checking">正在检查版本</string></file><file name="update_apk_paths" path="E:\company project\MyApplication\library\src\main\res\xml\update_apk_paths.xml" qualifiers="" type="xml"/></source><source path="E:\company project\MyApplication\library\build\generated\res\rs\debug"/><source path="E:\company project\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\company project\MyApplication\library\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\company project\MyApplication\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPaddingTopBottom"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectedColor"/><attr format="float" name="pstsScaleZoomMax"/><attr format="boolean" name="pstsSmoothScrollWhenClickTab"/></declare-styleable></configuration></mergedItems></merger>
+    </declare-styleable><declare-styleable name="NumberProgressBar">
+        <attr format="integer" name="progress_current"/>
+        <attr format="integer" name="progress_max"/>
+
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+
+        <attr format="dimension" name="progress_text_offset"/>
+
+        <attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="Themes">
+        <attr format="reference" name="numberProgressBarStyle"/>
+    </declare-styleable><declare-styleable name="DropDownMenu">
+        
+        <attr format="color" name="underlineColor"/>
+        
+        <attr format="color" name="dividerColor"/>
+        
+        <attr format="color" name="textSelectedColor"/>
+        
+        <attr format="color" name="textUnselectedColor"/>
+        
+        <attr format="color" name="menuBackgroundColor"/>
+        
+        <attr format="color" name="maskColor"/>
+        
+        <attr format="dimension" name="menuTextSize"/>
+        
+        <attr format="reference" name="menuSelectedIcon"/>
+        
+        <attr format="reference" name="menuUnselectedIcon"/>
+    </declare-styleable><declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr format="dimension" name="wheelview_textSize"/>
+        <attr format="color" name="wheelview_textColorOut"/>
+        <attr format="color" name="wheelview_textColorCenter"/>
+        <attr format="color" name="wheelview_dividerColor"/>
+        <attr format="float" name="wheelview_lineSpacingMultiplier"/>
+    </declare-styleable></file><file path="E:\company project\MyApplication\library\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="white">#ffffff</color><color name="gray_line">#F6F6F6</color><color name="gray_ae">#AEAEAE</color><color name="gray_66">#666666</color><color name="gray_light">#c8c8c8</color><color name="black2">#555555</color><color name="steelblue">#4682B4</color><color name="royalblue">#4169E1</color><color name="red">#ff6600</color><color name="light_blue">#01ABE9</color><color name="rg_quotation_select">#169BD5</color><color name="indicatorText_color">#0790ee</color><color name="mask_color">#88888888</color><color name="blue_app">#22abea</color><color name="drop_down_unselected">#ffffff</color><color name="base_title_color">#464a4d</color><color name="material_text_color_47">#333333</color><color name="divider_color_c7">#d3d3d3</color><color name="pickerview_timebtn_nor">#057dff</color><color name="pickerview_timebtn_pre">#c2daf5</color><color name="pickerview_bg_topbar">#f5f5f5</color><color name="pickerview_topbar_title">#000000</color><color name="pickerview_wheelview_textcolor_out">#a8a8a8</color><color name="pickerview_wheelview_textcolor_center">#2a2a2a</color><color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color><color name="pickerview_bgColor_overlay">#60000000</color><color name="pickerview_bgColor_default">#FFFFFFFF</color></file><file path="E:\company project\MyApplication\library\src\main\res\values\dimens.xml" qualifiers=""><dimen name="pickerview_topbar_height">44dp</dimen><dimen name="pickerview_topbar_padding">20dp</dimen><dimen name="pickerview_topbar_btn_textsize">17sp</dimen><dimen name="pickerview_topbar_title_textsize">18sp</dimen><dimen name="pickerview_textsize">20sp</dimen></file><file path="E:\company project\MyApplication\library\src\main\res\values\integers.xml" qualifiers=""><integer name="animation_default_duration">300</integer></file><file path="E:\company project\MyApplication\library\src\main\res\values\strings.xml" qualifiers=""><string name="android_auto_update_dialog_title">发现新版本</string><string name="android_auto_update_notify_ticker">发现新版本,点击进行升级</string><string name="android_auto_update_notify_content">发现新版本,点击进行升级</string><string name="android_auto_update_dialog_btn_download">立即下载</string><string name="android_auto_update_dialog_btn_cancel">以后再说</string><string name="android_auto_update_toast_no_new_update">已经是最新版本</string><string name="android_auto_update_download_progress">正在下载:%1$d%%</string><string name="android_auto_update_dialog_checking">正在检查版本</string><string name="pickerview_cancel">取消</string><string name="pickerview_submit">确定</string><string name="pickerview_year">年</string><string name="pickerview_month">月</string><string name="pickerview_day">日</string><string name="pickerview_hours">时</string><string name="pickerview_minutes">分</string><string name="pickerview_seconds">秒</string></file><file path="E:\company project\MyApplication\library\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style><style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#3498DB</item>
+
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#3498DB</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Passing_Green">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#70A800</item>
+
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#70A800</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Beauty_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#FF3D7F</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#FF3D7F</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Warning_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#E74C3C</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#E74C3C</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Relax_Blue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#6DBCDB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#6DBCDB</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Grace_Yellow">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#FFC73B</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#FFC73B</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Funny_Orange">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#FF530D</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#FF530D</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Twinkle_Night">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#ECF0F1</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#ECF0F1</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+        
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style><style mce_bogus="1" name="pickerview_dialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
+    </style></file><file name="update_apk_paths" path="E:\company project\MyApplication\library\src\main\res\xml\update_apk_paths.xml" qualifiers="" type="xml"/><file name="to_down" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\to_down.png" qualifiers="xhdpi-v4" type="mipmap"/></source><source path="E:\company project\MyApplication\library\build\generated\res\rs\debug"/><source path="E:\company project\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\company project\MyApplication\library\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\company project\MyApplication\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPaddingTopBottom"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectedColor"/><attr format="float" name="pstsScaleZoomMax"/><attr format="boolean" name="pstsSmoothScrollWhenClickTab"/></declare-styleable><declare-styleable name="DropDownMenu"><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="color" name="textSelectedColor"/><attr format="color" name="textUnselectedColor"/><attr format="color" name="menuBackgroundColor"/><attr format="color" name="maskColor"/><attr format="dimension" name="menuTextSize"/><attr format="reference" name="menuSelectedIcon"/><attr format="reference" name="menuUnselectedIcon"/></declare-styleable><declare-styleable name="NumberProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr></declare-styleable><declare-styleable name="pickerview"><attr name="wheelview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr><attr format="dimension" name="wheelview_textSize"/><attr format="color" name="wheelview_textColorOut"/><attr format="color" name="wheelview_textColorCenter"/><attr format="color" name="wheelview_dividerColor"/><attr format="float" name="wheelview_lineSpacingMultiplier"/></declare-styleable><declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable></configuration></mergedItems></merger>

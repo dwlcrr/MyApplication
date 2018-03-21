@@ -28,5 +28,11 @@
         <activity android:name="com.example.test.activity.RxRequestActivity" />
 
         <activity android:name=".activity.web.WebActivity" />
+        <activity android:name=".activity.view.DropDownMenuActivity"/>
+
+        <!-- pickview -->
+        <activity android:name=".activity.view.pickview.PickerViewActivity"/>
+        <activity android:name=".activity.view.pickview.JsonDataActivity"/>
+        <activity android:name=".activity.view.pickview.FragmentTestActivity"/>
     </application>
 </manifest>

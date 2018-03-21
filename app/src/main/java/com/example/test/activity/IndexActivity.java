@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.example.test.R;
+import com.example.test.activity.view.pickview.PickerViewActivity;
 import com.example.test.base.BaseActivity;
 
 public class IndexActivity extends BaseActivity implements OnClickListener {
@@ -31,7 +32,7 @@ public class IndexActivity extends BaseActivity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_request:
-                startActivity(new Intent(this,SimpleRequestActivity.class));
+                startActivity(new Intent(this,PickerViewActivity.class));
                 break;
             case R.id.btn_view:
                 break;

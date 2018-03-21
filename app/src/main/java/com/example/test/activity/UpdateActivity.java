@@ -4,12 +4,10 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.Html;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
-
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.entity.CheckUpdate;
@@ -65,16 +63,17 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
     }
 
     private void testUpdate() {
-        AppApi.check(this,new DialogCallback<CheckUpdate>(this) {
+        AppApi.check(this, new DialogCallback<CheckUpdate>(this) {
             @Override
             public void onSuccess(Response<CheckUpdate> response) {
                 CheckUpdate.DataBean dataBean = response.body().data;
-                if(dataBean.update){
-                    Toast.makeText(baseActivity,dataBean.desc,Toast.LENGTH_LONG).show();
+                if (dataBean.update) {
+                    Toast.makeText(baseActivity, dataBean.desc, Toast.LENGTH_LONG).show();
                     String url = "http://ucan.25pp.com/Wandoujia_web_seo_baidu_homepage.apk";
                     show(UpdateActivity.this, dataBean.desc, url, dataBean.version);
                 }
             }
+
             @Override
             public void onError(Response<CheckUpdate> response) {
 
@@ -88,12 +87,7 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
         builder.setMessage(Html.fromHtml(content))
                 .setPositiveButton(com.smm.lib.R.string.android_auto_update_dialog_btn_download, (
                         dialog, id) -> {
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            goToDownload(context, downloadUrl, apkCode);
-                        }
-                    }, 1000);
+                    goToDownload(context, downloadUrl, apkCode);
                 })
                 .setNegativeButton(com.smm.lib.R.string.android_auto_update_dialog_btn_cancel,
                         (dialog, id) -> {

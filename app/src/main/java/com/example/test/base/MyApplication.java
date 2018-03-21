@@ -3,12 +3,12 @@ package com.example.test.base;
 import android.app.Application;
 import android.content.Context;
 import android.support.multidex.MultiDex;
-
 import com.example.test.net.NetConfig;
 import com.example.test.utils.other.UUIDUtils;
 import com.smm.lib.BuildConfig;
 import com.smm.lib.net.SmmNet;
 import com.smm.lib.okgo.OkGo;
+import com.smm.lib.okgo.model.HttpHeaders;
 import com.smm.lib.utils.base.DisplayUtils;
 import com.smm.lib.utils.base.Logger;
 import com.smm.lib.utils.base.StrUtil;
@@ -16,15 +16,13 @@ import com.tencent.bugly.crashreport.CrashReport;
 import com.umeng.socialize.Config;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
-
 import java.io.IOException;
-
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * Created by wyouflf on 15/10/28.
+ * Created by dwl on 15/10/28.
  */
 public class MyApplication extends Application {
 
@@ -95,20 +93,16 @@ public class MyApplication extends Application {
             }
         });
 
-        OkGo.getInstance().addInterceptor(new Interceptor() {
-            @Override
-            public Response intercept(Chain chain) throws IOException {
-                Request.Builder requestBuilder = chain.request().newBuilder()
-                        .addHeader(NetConfig.SMM_DEVICE, NetConfig.SMM_DEVICE_VALUE)
-                        .addHeader(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE)
-                        .addHeader(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE)
-                        .addHeader(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
-                if (StrUtil.isNotEmpty(MySp.token)) {
-                    requestBuilder.addHeader("smm-token", MySp.token);
-                }
-                return chain.proceed(requestBuilder.build());
-            }
-        });
+        HttpHeaders headers = new HttpHeaders();
+        headers.put(NetConfig.SMM_DEVICE, NetConfig.SMM_DEVICE_VALUE); //header不支持中文，不允许有特殊字符
+        headers.put(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE);
+        headers.put(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE);
+        headers.put(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
+        if (StrUtil.isNotEmpty(MySp.token)) {
+            headers.put("smm-token", MySp.token);
+        }
+        OkGo.getInstance().init(this)
+                .addCommonHeaders(headers);
     }
 
 }
