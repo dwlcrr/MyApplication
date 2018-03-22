@@ -1,1 +1,1 @@
-include ':app',':library', ':umeng'
+include ':app',':library', ':umeng', ":imageseletor", ":downloaderHelper"

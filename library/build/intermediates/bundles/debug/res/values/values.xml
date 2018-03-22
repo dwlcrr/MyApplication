@@ -31,6 +31,7 @@
     <color name="steelblue">#4682B4</color>
     <color name="white">#ffffff</color>
     <declare-styleable name="DropDownMenu"><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="color" name="textSelectedColor"/><attr format="color" name="textUnselectedColor"/><attr format="color" name="menuBackgroundColor"/><attr format="color" name="maskColor"/><attr format="dimension" name="menuTextSize"/><attr format="reference" name="menuSelectedIcon"/><attr format="reference" name="menuUnselectedIcon"/></declare-styleable>
+    <declare-styleable name="MaxHeightView"><attr format="reference|float" name="mhv_HeightRatio"/><attr format="reference|dimension" name="mhv_HeightDimen"/></declare-styleable>
     <declare-styleable name="NumberProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility">
             <enum name="visible" value="0"/>
             <enum name="invisible" value="1"/>
@@ -64,6 +65,12 @@
     <string name="pickerview_seconds">秒</string>
     <string name="pickerview_submit">确定</string>
     <string name="pickerview_year">年</string>
+    <style name="AlertDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>

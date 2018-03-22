@@ -80,4 +80,10 @@
         <attr name="wheelview_lineSpacingMultiplier" format="float"/>
     </declare-styleable>
 
+    <!--MaxHeightView-->
+    <declare-styleable name="MaxHeightView">
+        <attr name="mhv_HeightRatio" format="reference|float" />
+        <attr name="mhv_HeightDimen" format="reference|dimension" />
+    </declare-styleable>
+
 </resources>

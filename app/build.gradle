@@ -156,4 +156,6 @@ dependencies {
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
     compile project(path: ':library')
     compile project(path: ':umeng')
+    compile project(path: ':imageseletor')
+    compile project(path: ':downloaderHelper')
 }
