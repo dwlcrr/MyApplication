@@ -24,6 +24,10 @@
       </value>
     </option>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/library/src/main/res/drawable/shape_btn_blue.xml" />
+    <file url="file://$PROJECT_DIR$/library/src/main/res/drawable/shape_btn_orangle.xml" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

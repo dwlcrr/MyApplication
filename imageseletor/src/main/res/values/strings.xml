@@ -1,0 +1,20 @@
+<resources>
+    <string name="album_activity_title">Photo</string>
+    <string name="action_settings">Settings</string>
+    <string name="album_empy">No photo</string>
+    <string name="folder_size">%1$s photos</string>
+    <string name="out_of_limit">You can choose %1$d photos at most.</string>
+    <string name="tip_take_photo">Take a photo</string>
+    <string name="msg_no_camera">no system camera</string>
+    <string name="no_image">no photos,take one</string>
+    <string name="img_error">error photo</string>
+    <string name="update_count">(%1$d/%2$d)completed</string>
+    <string name="btn_submit_text">ok</string>
+    <string name="crop_activity_title">select photo</string>
+    <string name="label_general_folder_name">all photos</string>
+    <string name="permission_title_rationale">need permission</string>
+    <string name="label_ok">ok</string>
+    <string name="label_cancel">cancel</string>
+    <string name="permission_read_storage_rationale">需要读取外部存储权限，来加载手机图片</string>
+    <string name="permission_denied_error_msg">权限获取失败，无法加载图片！</string>
+</resources>

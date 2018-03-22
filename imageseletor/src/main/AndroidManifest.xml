@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.lijunguan.imgselector">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".album.AlbumActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/album_activity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AlbumTheme" />
+        <activity
+            android:name=".album.ShowOnePhotoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/album_activity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AlbumTheme" />
+        <activity
+            android:name=".cropimage.CropActivity"
+            android:label="@string/crop_activity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AlbumTheme" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="io.github.lijunguan.imgselector"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- 元数据 -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
