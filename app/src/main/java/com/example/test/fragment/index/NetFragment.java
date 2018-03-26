@@ -1,4 +1,4 @@
-package com.example.test.activity;
+package com.example.test.fragment.index;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -8,49 +8,56 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.loadmore.LoadMoreView;
 import com.chad.library.adapter.base.loadmore.SimpleLoadMoreView;
 import com.example.test.R;
 import com.example.test.adapter.NewsAdapter;
-import com.example.test.base.BaseActivity;
+import com.example.test.base.BaseFragment;
 import com.example.test.entity.base.GankModel;
 import com.example.test.entity.base.GankResponse;
 import com.example.test.net.api.AppApi;
 import com.example.test.net.callback.NewsCallback;
 import com.smm.lib.okgo.model.Response;
-
 import java.util.List;
 
 /**
- * 一般请求类
+ * 网络测试 fragment
+ * Created by dwl on 2018/3/23.
  */
-public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshLayout.OnRefreshListener, BaseQuickAdapter.RequestLoadMoreListener, OnClickListener {
-
+public class NetFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener, BaseQuickAdapter.RequestLoadMoreListener, View.OnClickListener {
     private RecyclerView recyclerView;
     private SwipeRefreshLayout refreshLayout;
     private NewsAdapter newsAdapter;
     private boolean isInitCache = false;
     private int page = 1;
 
-    @Override
-    protected void loadXml(Bundle savedInstanceState) {
-        setContentView(R.layout.act_refresh);
+    public static NetFragment newInstance(int index){
+        Bundle bundle = new Bundle();
+        bundle.putInt("index", 'A' + index);
+        NetFragment fragment = new NetFragment();
+        fragment.setArguments(bundle);
+        return fragment;
     }
 
     @Override
-    public void initView() {
-        recyclerView = findViewById(R.id.recyclerView);
-        refreshLayout = findViewById(R.id.refreshLayout);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return initView(inflater,container,savedInstanceState);
     }
 
     @Override
-    public void initData() {
+    protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.act_refresh, null);
+        recyclerView = view.findViewById(R.id.recyclerView);
+        refreshLayout = view.findViewById(R.id.refreshLayout);
+        return view;
+    }
+
+    @Override
+    protected void initData() {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         newsAdapter = new NewsAdapter(null);
         newsAdapter.openLoadAnimation(BaseQuickAdapter.SCALEIN);
         newsAdapter.isFirstOnly(false);
@@ -65,17 +72,9 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
         onRefresh();
     }
 
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-
-        }
-    }
-
     @Override
     public void onRefresh() {
-        AppApi.cacheList(page, this, new NewsCallback<GankResponse<List<GankModel>>>() {
+        AppApi.cacheList(page, getActivity(), new NewsCallback<GankResponse<List<GankModel>>>() {
             @Override
             public void onSuccess(Response<GankResponse<List<GankModel>>> response) {
                 List<GankModel> results = response.body().results;
@@ -112,8 +111,13 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
     }
 
     @Override
+    public void onClick(View v) {
+
+    }
+
+    @Override
     public void onLoadMoreRequested() {
-        AppApi.cacheList(page, this, new NewsCallback<GankResponse<List<GankModel>>>() {
+        AppApi.cacheList(page, getActivity(), new NewsCallback<GankResponse<List<GankModel>>>() {
             @Override
             public void onSuccess(Response<GankResponse<List<GankModel>>> response) {
                 List<GankModel> results = response.body().results;
@@ -123,7 +127,7 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
                 } else {
                     //显示没有更多数据
                     newsAdapter.loadMoreComplete();
-                    View noDataView = LayoutInflater.from(SimpleRequestActivity.this).inflate(R.layout.item_no_data, (ViewGroup) recyclerView.getParent(), false);
+                    View noDataView = LayoutInflater.from(getActivity()).inflate(R.layout.item_no_data, (ViewGroup) recyclerView.getParent(), false);
                     newsAdapter.addFooterView(noDataView);
                 }
             }
@@ -135,7 +139,7 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
                 SimpleLoadMoreView simpleLoadMoreView = new SimpleLoadMoreView();
                 simpleLoadMoreView.setLoadMoreStatus(LoadMoreView.STATUS_FAIL);
                 newsAdapter.setLoadMoreView(simpleLoadMoreView);
-                baseActivity.showToast(response.getException().getMessage());
+                showToast(response.getException().getMessage());
             }
         });
 

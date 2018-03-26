@@ -11,7 +11,7 @@ import com.example.test.R;
 import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseActivity;
 import com.example.test.fragment.FindFragment;
-import com.example.test.fragment.IndexFragment;
+import com.example.test.fragment.index.IndexFragment;
 import com.example.test.fragment.MineFragment;
 import com.example.test.fragment.NewsFragment;
 

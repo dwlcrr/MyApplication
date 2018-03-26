@@ -21,6 +21,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 /**
  * 若把初始化内容放到initData实现,就是采用Lazy方式加载的Fragment
@@ -107,5 +108,9 @@ public abstract class BaseFragment extends Fragment {
 
     public void setTitle(String title) {
         fragmentTitle = title;
+    }
+
+    public void showToast(String msg) {
+        Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,4 +1,4 @@
-package com.example.test.fragment;
+package com.example.test.fragment.index;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -7,9 +7,11 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.example.test.R;
 import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseFragment;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +21,7 @@ import java.util.List;
  */
 public class IndexFragment extends BaseFragment{
 
-    private String[] titles = new String[]{"推荐", "娱乐", "科技", "军事", "奥运会", "视频", "情感", "图片", "时尚", "教育"};
+    private String[] titles = new String[]{"net", "view", "rx", "recyclerview", "webview", "thread", "other"};
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
     private FragmentAdapter adapter;
@@ -47,13 +49,18 @@ public class IndexFragment extends BaseFragment{
         mTabLayout = view.findViewById(R.id.tablayout);
 
         mTitles = new ArrayList<>();
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < titles.length; i++) {
             mTitles.add(titles[i]);
         }
         mFragments = new ArrayList<>();
-        for (int i = 0; i < mTitles.size(); i++) {
-            mFragments.add(TabFragment.newInstance(i));
-        }
+        mFragments.add(NetFragment.newInstance(0));
+        mFragments.add(ViewFragment.newInstance(1));
+        mFragments.add(RxFragment.newInstance(2));
+        mFragments.add(RecyclerviewFragment.newInstance(3));
+        mFragments.add(WebviewFragment.newInstance(4));
+        mFragments.add(ThreadFragment.newInstance(5));
+        mFragments.add(OtherFragment.newInstance(6));
+
         adapter = new FragmentAdapter(getChildFragmentManager(), mFragments, mTitles);
         mViewPager.setAdapter(adapter);//给ViewPager设置适配器
         mTabLayout.setupWithViewPager(mViewPager);//将TabLayout和ViewPager关联起来
