@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Toast;
+
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.entity.CheckUpdate;
@@ -16,6 +16,7 @@ import com.example.test.net.callback.DialogCallback;
 import com.example.test.utils.rx.RxUtils;
 import com.smm.lib.okgo.model.Response;
 import com.smm.lib.update.DownloadService;
+import com.smm.lib.updateApp.UpdateDialog;
 import com.smm.lib.utils.base.FinalConstants;
 
 /**
@@ -68,7 +69,6 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
             public void onSuccess(Response<CheckUpdate> response) {
                 CheckUpdate.DataBean dataBean = response.body().data;
                 if (dataBean.update) {
-                    Toast.makeText(baseActivity, dataBean.desc, Toast.LENGTH_LONG).show();
                     String url = "http://ucan.25pp.com/Wandoujia_web_seo_baidu_homepage.apk";
                     show(UpdateActivity.this, dataBean.desc, url, dataBean.version);
                 }
@@ -87,7 +87,9 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
         builder.setMessage(Html.fromHtml(content))
                 .setPositiveButton(com.smm.lib.R.string.android_auto_update_dialog_btn_download, (
                         dialog, id) -> {
-                    goToDownload(context, downloadUrl, apkCode);
+//                    goToDownload(context, downloadUrl, apkCode);
+                    UpdateDialog updateDialog = new UpdateDialog(context);
+                    updateDialog.show();
                 })
                 .setNegativeButton(com.smm.lib.R.string.android_auto_update_dialog_btn_cancel,
                         (dialog, id) -> {

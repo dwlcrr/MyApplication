@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.example.test.R;
+import com.example.test.base.BaseFragment;
 import com.example.test.entity.User;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,7 @@ import rx.functions.Func1;
 /**
  * Created by guxiuzhong on 2015/7/6.
  */
-public class TestRxFragment extends Fragment {
+public class TestRxFragment extends BaseFragment {
 
     public static Fragment getInstance(Bundle bundle) {
         TestRxFragment fragment = new TestRxFragment();
@@ -36,19 +37,20 @@ public class TestRxFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragmnet_layout, container, false);
+        return initView(inflater,container,savedInstanceState);
     }
 
     @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        initView(view);
+    protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragmnet_layout, container, false);
+        TextView tv = view.findViewById(R.id.tv_id);
+        tv.setText(getArguments().getString("title"));
+        return view;
     }
 
-    private void initView(View view) {
-        TextView tv = (TextView) view.findViewById(R.id.tv_id);
-        tv.setText(getArguments().getString("title"));
-        testRx();
+    @Override
+    protected void initData() {
+
     }
 
     private void testRx() {

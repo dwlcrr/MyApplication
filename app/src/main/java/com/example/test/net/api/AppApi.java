@@ -55,8 +55,7 @@ public class AppApi extends BaseRxApi {
 
     public static void cacheList(int page, Context context, NewsCallback<GankResponse<List<GankModel>>> callback) {
         String  url = Urls.URL_GANK_BASE + "fresh1" + "/" + 10 + "/" + page;
-        Request request = OkGo.<GankResponse<List<GankModel>>>get(url)
-                .tag(context);
+        Request request = OkGo.<GankResponse<List<GankModel>>>get(url).tag(context);
         if (page == 1) {
             request.cacheTime(5000)
                     .cacheMode(CacheMode.FIRST_CACHE_THEN_REQUEST)
@@ -65,5 +64,16 @@ public class AppApi extends BaseRxApi {
             request.cacheMode(CacheMode.NO_CACHE);
         }
         request.execute(callback);
+    }
+
+    public static Request isCache(int page ,Request request){
+        if (page == 1) {
+            request.cacheTime(5000)
+                    .cacheMode(CacheMode.FIRST_CACHE_THEN_REQUEST)
+                    .cacheKey(FinalConstants.TEST_CACHE_LIST);
+        }else {
+            request.cacheMode(CacheMode.NO_CACHE);
+        }
+        return request;
     }
 }

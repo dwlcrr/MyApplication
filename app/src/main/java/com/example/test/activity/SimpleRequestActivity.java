@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.loadmore.LoadMoreView;
 import com.chad.library.adapter.base.loadmore.SimpleLoadMoreView;
@@ -22,7 +21,6 @@ import com.example.test.entity.base.GankResponse;
 import com.example.test.net.api.AppApi;
 import com.example.test.net.callback.NewsCallback;
 import com.smm.lib.okgo.model.Response;
-
 import java.util.List;
 
 /**

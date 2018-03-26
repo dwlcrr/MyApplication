@@ -64,9 +64,9 @@ public class WebActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-        toolbar = (Toolbar)findViewById(R.id.toolbar);
-        pb = (ProgressBar) findViewById(R.id.pb);
-        webView = (WebView) findViewById(R.id.webView);
+        toolbar = findViewById(R.id.toolbar);
+        pb = findViewById(R.id.pb);
+        webView = findViewById(R.id.webView);
 
         String url = getIntent().getStringExtra(URL);
         String title = getIntent().getStringExtra(TITLE);

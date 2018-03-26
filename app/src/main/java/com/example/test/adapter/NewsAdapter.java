@@ -15,16 +15,10 @@
  */
 package com.example.test.adapter;
 
-import android.view.View;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.example.test.R;
-import com.example.test.activity.web.WebActivity;
 import com.example.test.entity.base.GankModel;
-import com.lzy.ninegrid.ImageInfo;
-import com.lzy.ninegrid.NineGridView;
-import com.lzy.ninegrid.preview.NineGridViewClickAdapter;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -39,34 +33,23 @@ import java.util.List;
 public class NewsAdapter extends BaseQuickAdapter<GankModel,BaseViewHolder> {
 
     public NewsAdapter(List<GankModel> data) {
-        super(R.layout.item_news, data);
+        super(R.layout.item_main_list, data);
     }
 
     @Override
     protected void convert(BaseViewHolder baseViewHolder, final GankModel model) {
-        baseViewHolder.setText(R.id.title, model.desc)//
-                .setText(R.id.desc, model.desc)//
-                .setText(R.id.pubDate, model.publishedAt.toString())//
-                .setText(R.id.source, model.source);
+//        baseViewHolder.setText(R.id.title, model.desc)//
+//                .setText(R.id.desc, model.desc)//
+//                .setText(R.id.pubDate, model.publishedAt.toString())//
+//                .setText(R.id.source, model.source);
+//
+//        View view = baseViewHolder.getConvertView();
+//        view.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                WebActivity.runActivity(mContext, model.desc, model.url);
+//            }
+//        });
 
-        View view = baseViewHolder.getConvertView();
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                WebActivity.runActivity(mContext, model.desc, model.url);
-            }
-        });
-
-        NineGridView nineGrid = baseViewHolder.getView(R.id.nineGrid);
-        ArrayList<ImageInfo> imageInfo = new ArrayList<>();
-        if (model.images != null) {
-            for (String image : model.images) {
-                ImageInfo info = new ImageInfo();
-                info.setThumbnailUrl(image);
-                info.setBigImageUrl(image);
-                imageInfo.add(info);
-            }
-        }
-        nineGrid.setAdapter(new NineGridViewClickAdapter(mContext, imageInfo));
     }
 }

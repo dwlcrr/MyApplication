@@ -25,21 +25,10 @@ import android.view.ViewGroup;
 /**
  * 若把初始化内容放到initData实现,就是采用Lazy方式加载的Fragment
  * 若不需要Lazy加载则initData方法内留空,初始化内容放到initViews即可
- * -
  * -注1: 如果是与ViewPager一起使用，调用的是setUserVisibleHint。
- * ------可以调用mViewPager.setOffscreenPageLimit(size),若设置了该属性 则viewpager会缓存指定数量的Fragment
+ * -可以调用mViewPager.setOffscreenPageLimit(size),若设置了该属性 则viewpager会缓存指定数量的Fragment
  * -注2: 如果是通过FragmentTransaction的show和hide的方法来控制显示，调用的是onHiddenChanged.
  * -注3: 针对初始就show的Fragment 为了触发onHiddenChanged事件 达到lazy效果 需要先hide再show
- */
-
-/**
- * ================================================
- * 作    者：jeasonlzy（廖子尧）Github地址：https://github.com/jeasonlzy
- * 版    本：1.0
- * 创建日期：16/9/11
- * 描    述：
- * 修订历史：
- * ================================================
  */
 public abstract class BaseFragment extends Fragment {
 
@@ -59,7 +48,12 @@ public abstract class BaseFragment extends Fragment {
         return view;
     }
 
-    /** 如果是与ViewPager一起使用，调用的是setUserVisibleHint */
+    /** 如果是与ViewPager一起使用，调用的是setUserVisibleHint
+     * Android应用开发过程中，ViewPager同时加载多个fragment，以实现多tab页面快速切换,
+     * 但是fragment初始化时若加载的内容较多，就可能导致整个应用启动速度缓慢，影响用户体验。
+     * 为了提高用户体验，我们会使用一些懒加载方案，实现加载延迟。
+     * 这时我们会用到getUserVisibleHint()与setUserVisibleHint()这两个方法。
+     */
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);

@@ -8,12 +8,12 @@
     <application
         android:name="com.example.test.base.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <activity android:name="com.example.test.activity.IndexActivity">
+        <activity android:name="com.example.test.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,5 +34,9 @@
         <activity android:name=".activity.view.pickview.PickerViewActivity"/>
         <activity android:name=".activity.view.pickview.JsonDataActivity"/>
         <activity android:name=".activity.view.pickview.FragmentTestActivity"/>
+
+        <!-- 注册service -->
+        <service android:name="com.smm.lib.updateApp.service.DownloadService"/>
+
     </application>
 </manifest>

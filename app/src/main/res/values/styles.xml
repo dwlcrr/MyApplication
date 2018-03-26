@@ -91,4 +91,14 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
     </style>
+
+    <style name="MyCustomTabLayout">
+        <!-- 改变指示器下标的颜色-->
+        <item name="tabIndicatorColor">#3F51B5</item>
+        <!-- 改变选中字体的颜色-->
+        <item name="tabSelectedTextColor">#3F51B5</item>
+        <!-- 改变未选中字体的颜色-->
+        <item name="tabTextColor">#030015</item>
+    </style>
+
 </resources>
