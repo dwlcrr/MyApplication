@@ -2,21 +2,21 @@ package com.example.test.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.example.test.R;
 import com.example.test.base.BaseFragment;
+import com.example.test.utils.data.UserInfoManager;
+import com.example.test.utils.rx.RxUtils;
+import rx.Subscription;
 
 /**
  * Created by dwl on 2018/3/6.
  * 我的
  */
-public class MineFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener, BaseQuickAdapter.RequestLoadMoreListener {
+public class MineFragment extends BaseFragment {
 
     public static Fragment getInstance() {
         MineFragment fragment = new MineFragment();
@@ -41,16 +41,21 @@ public class MineFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     @Override
     protected void initData() {
-        onRefresh();
-    }
 
-    @Override
-    public void onRefresh() {
+        Subscription s = UserInfoManager.INS().rxBehavior()
+                .compose(RxUtils.subscribeInMain())
+                .subscribe(RxUtils.subscribeNext(userInfoResult -> {
 
-    }
+                }));
+        addRx(s);
 
-    @Override
-    public void onLoadMoreRequested() {
-
+        Subscription s1 = UserInfoManager.INS()
+                .rxBehavior()
+                .filter(userInfoResult -> userInfoResult != null)
+                .map(userInfoResult -> userInfoResult.data)
+                .filter(userInfo -> userInfo != null && userInfo.user_id != 0)
+                .compose(RxUtils.subscribeInMain())
+                .subscribe(userInfo -> userInfo.notify());
+        rx.add(s);
     }
 }

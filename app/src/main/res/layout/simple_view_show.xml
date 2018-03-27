@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.test.view.myview.MyView
+    <com.example.test.view.myview.other.MyView
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:visibility="gone"

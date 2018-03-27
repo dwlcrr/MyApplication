@@ -20,6 +20,7 @@ import com.example.test.entity.base.GankResponse;
 import com.example.test.net.api.AppApi;
 import com.example.test.net.callback.NewsCallback;
 import com.smm.lib.okgo.model.Response;
+import com.smm.lib.view.dialog.SimpleHUD;
 import java.util.List;
 
 /**
@@ -69,6 +70,7 @@ public class NetFragment extends BaseFragment implements SwipeRefreshLayout.OnRe
 
         //开启loading,获取数据
         refreshLayout.post(() -> refreshLayout.setRefreshing(true));
+        SimpleHUD.showLoadingMessage(getActivity(),"正在加载", true);
         onRefresh();
     }
 
@@ -102,6 +104,7 @@ public class NetFragment extends BaseFragment implements SwipeRefreshLayout.OnRe
 
             @Override
             public void onFinish() {
+                SimpleHUD.dismiss();
                 //可能需要移除之前添加的布局
                 newsAdapter.removeAllFooterView();
                 //最后调用结束刷新的方法

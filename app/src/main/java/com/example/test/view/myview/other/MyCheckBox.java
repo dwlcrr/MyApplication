@@ -1,4 +1,4 @@
-package com.example.test.view.myview;
+package com.example.test.view.myview.other;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;

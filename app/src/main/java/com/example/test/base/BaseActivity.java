@@ -12,14 +12,19 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
+
 import com.bumptech.glide.Glide;
 import com.example.test.R;
 import com.google.gson.Gson;
+
+import rx.Subscription;
+import rx.subscriptions.CompositeSubscription;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
     public BaseActivity baseActivity;
     protected Gson mGson;
+    protected CompositeSubscription rx = new CompositeSubscription();
 
     @SuppressWarnings("unchecked")
     public <T extends View> T findView(int id) {
@@ -136,5 +141,19 @@ public abstract class BaseActivity extends AppCompatActivity {
                 .load(url)//
                 .error(R.mipmap.ic_launcher)//
                 .into(imageView);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        rx.unsubscribe();
+    }
+
+    public void addRx(Subscription s) {
+        rx.add(s);
+    }
+
+    public void clearRx() {
+        rx.clear();
     }
 }

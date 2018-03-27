@@ -1,4 +1,4 @@
-package com.example.test.view.myview;
+package com.example.test.view.myview.other;
 
 import android.content.Context;
 import android.content.res.TypedArray;

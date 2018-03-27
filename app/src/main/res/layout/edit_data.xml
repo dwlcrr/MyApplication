@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/il_titile"
+        layout="@layout/layout_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_logo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+
+                <TextView
+                    style="@style/editData_tv_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="头像" />
+
+                <com.example.test.view.thirdPart.CircleImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/iv_logoNav"
+                    android:src="@mipmap/company_shop_header_bg" />
+
+                <ImageView
+                    android:id="@+id/iv_logoNav"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/arrow_right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+
+                <View
+                    style="@style/Horizontal"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_nickNameLabel"
+                    style="@style/editData_tv_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="昵称" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/common_textView"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/iv_name"
+                    android:gravity="center|right"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    tools:text="笑" />
+
+                <ImageView
+                    android:id="@+id/iv_name"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/arrow_right" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_namereal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <View
+                    style="@style/Horizontal"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_nickNameLabelreal"
+                    style="@style/editData_tv_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="姓名" />
+
+                <TextView
+                    android:id="@+id/tv_namereal"
+                    style="@style/common_textView"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/iv_namereal"
+                    android:gravity="center|right"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    tools:text="笑" />
+
+                <ImageView
+                    android:id="@+id/iv_namereal"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/arrow_right" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_sex"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+
+                <View
+                    style="@style/Horizontal"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    style="@style/editData_tv_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="性别" />
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    style="@style/common_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/iv_sex"
+                    android:gravity="center"
+                    tools:text="女" />
+
+                <ImageView
+                    android:id="@+id/iv_sex"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/arrow_right" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

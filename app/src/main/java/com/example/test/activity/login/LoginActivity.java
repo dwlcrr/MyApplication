@@ -1,25 +1,24 @@
-package com.example.test.activity;
+package com.example.test.activity.login;
 
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 
 /**
- * Rx异步请求类
+ * 登录
  */
-public class RxRequestActivity extends BaseActivity implements OnClickListener {
+public class LoginActivity extends BaseActivity implements OnClickListener {
 
     @Override
     protected void loadXml(Bundle savedInstanceState) {
-        setContentView(R.layout.request_show);
+        setContentView(R.layout.login);
     }
 
     @Override
     protected void initData() {
-        testOk();
+
     }
 
     @Override
@@ -39,7 +38,4 @@ public class RxRequestActivity extends BaseActivity implements OnClickListener {
         }
     }
 
-    private void testOk() {
-
-    }
 }

@@ -23,6 +23,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import rx.Subscription;
+import rx.subscriptions.CompositeSubscription;
+
 /**
  * 若把初始化内容放到initData实现,就是采用Lazy方式加载的Fragment
  * 若不需要Lazy加载则initData方法内留空,初始化内容放到initViews即可
@@ -38,6 +41,7 @@ public abstract class BaseFragment extends Fragment {
     private boolean isPrepared;                 //标志位，View已经初始化完成。
     private boolean isFirstLoad = true;         //是否第一次加载
     protected LayoutInflater inflater;
+    protected CompositeSubscription rx = new CompositeSubscription();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -49,7 +53,8 @@ public abstract class BaseFragment extends Fragment {
         return view;
     }
 
-    /** 如果是与ViewPager一起使用，调用的是setUserVisibleHint
+    /**
+     * 如果是与ViewPager一起使用，调用的是setUserVisibleHint
      * Android应用开发过程中，ViewPager同时加载多个fragment，以实现多tab页面快速切换,
      * 但是fragment初始化时若加载的内容较多，就可能导致整个应用启动速度缓慢，影响用户体验。
      * 为了提高用户体验，我们会使用一些懒加载方案，实现加载延迟。
@@ -112,5 +117,19 @@ public abstract class BaseFragment extends Fragment {
 
     public void showToast(String msg) {
         Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        rx.unsubscribe();
+    }
+
+    public void addRx(Subscription s) {
+        rx.add(s);
+    }
+
+    public void clearRx() {
+        rx.clear();
     }
 }

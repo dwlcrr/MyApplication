@@ -102,5 +102,24 @@
         <item name="android:textSize">16sp</item>
         <item name="textAllCaps">false</item>
     </style>
+    <!-- 资讯选择品目 -->
+    <style name="info_pop_anim_style">
+        <item name="android:windowEnterAnimation">@anim/info_menu_in</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/info_menu_out</item>
+        <!-- 指定消失的动画xml -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="editData_tv_label">
+        <item name="android:textColor">@color/gray_32</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
 
+    <style name="common_textView">
+        <item name="android:textColor">@color/gray_66</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.test.view.myview;
+package com.example.test.view.myview.other;
 
 import android.content.Context;
 import android.os.Handler;
@@ -12,13 +12,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
 import com.bumptech.glide.Glide;
 import com.example.test.R;
 import com.example.test.entity.AdLunboData;
 import com.smm.lib.utils.base.BaseUtils;
 import com.smm.lib.utils.base.DisplayUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 
