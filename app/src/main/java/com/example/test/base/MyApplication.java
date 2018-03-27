@@ -29,6 +29,8 @@ public class MyApplication extends Application {
     private static MyApplication ins;
     public static int TOUCH_MIN = 5;
     public static int DEFAULT_DEGREE_FONT_SIZE = 0;
+    //mainactivity 是否正在运行
+    public boolean isMainRunning;
 
     public static MyApplication ins() {
         return ins;

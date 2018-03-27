@@ -1,7 +1,6 @@
 package com.example.test.net.webSocket;
 
 import android.os.Handler;
-
 import com.example.test.base.MyApplication;
 import com.example.test.base.MySp;
 import com.example.test.entity.WsLiveMsg;
@@ -13,7 +12,6 @@ import com.koushikdutta.async.http.WebSocket;
 import com.smm.lib.utils.base.Logger;
 import com.smm.lib.utils.base.NetWorkUtils;
 import com.smm.lib.utils.base.StrUtil;
-
 import rx.Observable;
 import rx.subjects.PublishSubject;
 

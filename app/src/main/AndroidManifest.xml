@@ -20,12 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name="com.example.test.activity.login.LoginActivity" />
+        <activity android:name="com.example.test.activity.login.EditDataActivity" />
+        <activity android:name="com.example.test.activity.login.IndexGuideActivity" />
+        <activity android:name="com.example.test.activity.login.SplashActivity" />
         <activity android:name="com.example.test.activity.UpdateActivity" />
         <activity android:name="com.example.test.activity.SimpleViewActivity" />
         <activity android:name="com.example.test.activity.TestRequestActivity" />
         <activity android:name="com.example.test.activity.SimpleRequestActivity" />
-        <activity android:name="com.example.test.activity.login.LoginActivity" />
 
         <activity android:name=".activity.web.WebActivity" />
         <activity android:name=".activity.view.DropDownMenuActivity"/>

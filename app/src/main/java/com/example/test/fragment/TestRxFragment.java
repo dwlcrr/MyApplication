@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.example.test.R;
 import com.example.test.base.BaseFragment;
-import com.example.test.entity.User;
+import com.example.test.entity.user.User;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;

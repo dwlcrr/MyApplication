@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
@@ -16,11 +15,12 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.test.R;
 import com.google.gson.Gson;
+import com.smm.lib.view.swipeback.SwipeBackActivity;
 
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends SwipeBackActivity {
 
     public BaseActivity baseActivity;
     protected Gson mGson;

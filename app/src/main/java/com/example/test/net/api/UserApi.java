@@ -1,7 +1,7 @@
 package com.example.test.net.api;
 
 import com.example.test.entity.RefreshTokenResult;
-import com.example.test.entity.UserInfoResult;
+import com.example.test.entity.user.UserInfoResult;
 import com.example.test.net.NetConfig;
 import com.smm.lib.net.SmmNet;
 import rx.Observable;

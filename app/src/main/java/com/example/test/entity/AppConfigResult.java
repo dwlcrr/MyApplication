@@ -1,4 +1,7 @@
 package com.example.test.entity;
+
+import com.example.test.entity.base.BaseEntity;
+
 /**
  * Created by huliang on 2016/2/29.
  * login返回信息

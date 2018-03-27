@@ -9,6 +9,7 @@ import com.example.test.BuildConfig;
 
 public class NetConfig {
 
+    public static String baseUrl;
     private static final String TEST_SMM_URL = "https://testplatform.smm.cn";
     private static final String TEST_METAL_URL = "https://testplatform.metal.com";
     private static final String TEST_LIVE_WS = "wss://testquotelivewsss.smm.cn/metalquotelivecenter/quotelivecenter/ws";
@@ -26,6 +27,7 @@ public class NetConfig {
     public static String LIVEWS = "";
 
     static {
+        baseUrl = online ? "http://platform.smm.cn":"http://testplatform.smm.cn";
         BASEURL = online ? SMM_URL : TEST_SMM_URL;
         ENURL = online ? METAL_URL : TEST_SMM_URL;
         USERURL = online ? METAL_URL : TEST_METAL_URL;

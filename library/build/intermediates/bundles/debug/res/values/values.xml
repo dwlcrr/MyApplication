@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
     <color name="base_title_color">#464a4d</color>
     <color name="black2">#555555</color>
     <color name="blue_app">#22abea</color>
@@ -38,6 +39,12 @@
             <enum name="invisible" value="1"/>
         </attr></declare-styleable>
     <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPaddingTopBottom"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectedColor"/><attr format="float" name="pstsScaleZoomMax"/><attr format="boolean" name="pstsSmoothScrollWhenClickTab"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
     <declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable>
     <declare-styleable name="pickerview"><attr name="wheelview_gravity">
             <enum name="center" value="17"/>
@@ -73,7 +80,7 @@
         <item name="android:windowIsFloating">true</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -200,20 +207,35 @@
         <item name="progress_reached_bar_height">1.5dp</item>
         <item name="progress_unreached_bar_height">0.75dp</item>
     </style>
+    <style name="SimpleHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@drawable/simplehud_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dp</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
     <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
-        
+        <!-- Dialog的windowFrame框为无 -->
         <item name="android:windowIsFloating">true</item>
-        
+        <!-- 是否漂现在activity上 -->
         <item name="android:windowIsTranslucent">true</item>
-        
+        <!-- 是否半透明 -->
         <item name="android:windowNoTitle">true</item>
         <item name="android:background">@null</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
-        
+        <!-- 去除黑色边框的关键设置项 -->
         <item name="android:backgroundDimEnabled">true</item>
-        
+        <!-- 屏幕背景是否变暗 -->
         <item name="android:backgroundDimAmount">0.3</item>
     </style>
     <style mce_bogus="1" name="pickerview_dialogAnim" parent="android:Animation">

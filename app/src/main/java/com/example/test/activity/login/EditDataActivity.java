@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
-import com.example.test.entity.UserInfoResult;
+import com.example.test.entity.user.UserInfoResult;
 import com.example.test.utils.data.UserInfoManager;
 import com.example.test.utils.rx.RxUtils;
 import rx.Subscription;

@@ -3,7 +3,7 @@ package com.example.test.utils.data;
 import android.widget.Toast;
 import com.example.test.base.MyApplication;
 import com.example.test.base.MySp;
-import com.example.test.entity.UserInfoResult;
+import com.example.test.entity.user.UserInfoResult;
 import com.example.test.net.api.UserApi;
 import com.smm.lib.utils.base.StrUtil;
 import rx.Observable;

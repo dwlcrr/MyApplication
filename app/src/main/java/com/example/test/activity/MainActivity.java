@@ -1,22 +1,37 @@
 package com.example.test.activity;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.animation.GlideAnimation;
+import com.bumptech.glide.request.target.SimpleTarget;
 import com.example.test.R;
+import com.example.test.activity.login.SplashActivity;
 import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseActivity;
+import com.example.test.base.MyApplication;
+import com.example.test.entity.AdList;
 import com.example.test.fragment.FindFragment;
-import com.example.test.fragment.index.IndexFragment;
 import com.example.test.fragment.MineFragment;
 import com.example.test.fragment.NewsFragment;
-
+import com.example.test.fragment.index.IndexFragment;
+import com.example.test.net.api.AdApi;
+import com.example.test.utils.base.SpfsUtil;
+import com.example.test.utils.other.RandomUtil;
+import com.example.test.utils.rx.RxUtils;
+import com.google.gson.Gson;
+import com.smm.lib.utils.base.Logger;
+import com.smm.lib.utils.base.StrUtil;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import rx.Observable;
+import rx.Subscriber;
 
 public class MainActivity extends BaseActivity{
 
@@ -39,13 +54,16 @@ public class MainActivity extends BaseActivity{
 
     @Override
     protected void initData() {
-
+        initStartAd();
     }
 
     @Override
     protected void initView() {
-        mViewPager = findViewById(R.id.viewpager);
-        mTabLayout = findViewById(R.id.tabLayout);
+        MyApplication.ins().isMainRunning = true;
+        //更新软件
+//        UpdateUtil.checkUpdate(baseActivity);
+        mViewPager = (ViewPager) findViewById(R.id.viewpager);
+        mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
         mTitles = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
@@ -53,7 +71,6 @@ public class MainActivity extends BaseActivity{
         }
 
         mFragments = new ArrayList<>();
-
         mFragments.add(IndexFragment.getInstance());
         mFragments.add(NewsFragment.getInstance());
         mFragments.add(FindFragment.getInstance());
@@ -80,4 +97,59 @@ public class MainActivity extends BaseActivity{
         mTabLayout.getTabAt(0).getCustomView().setSelected(true);
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        MyApplication.ins().isMainRunning = false;
+    }
+
+
+    private void initStartAd() {
+        AdApi.getAdPic(AdApi.AD_NAME_START)
+                .flatMap(adList -> {
+                    if (adList != null && adList.code == 0 && adList.data != null && adList.data.size() > 0) {
+                        return Observable.create(new LoadImg(adList.data.get(RandomUtil.contain0(adList.data.size()))));
+                    } else {
+                        return Observable.error(new Exception("返回数据异常"));
+                    }
+                })
+                .compose(RxUtils.subscribeInMain())
+                .subscribe(
+                        RxUtils.subscribeNext(ad -> {
+                            SpfsUtil.save(SplashActivity.SPLASH_AD_INFO, new Gson().toJson(ad));
+                            Logger.error("测试启动广告", "保存===" + ad.title);
+                        }));
+    }
+
+    private class LoadImg implements Observable.OnSubscribe<AdList.Ad> {
+
+        private AdList.Ad ad;
+
+        private LoadImg() {
+        }
+
+        private LoadImg(AdList.Ad ad) {
+            this.ad = ad;
+        }
+
+        @Override
+        public void call(Subscriber<? super AdList.Ad> subscriber) {
+            if (ad == null || StrUtil.isEmpty(ad.pic_url)) {
+                subscriber.onError(new Exception("错误的图片地址"));
+            } else {
+                Glide.with(MainActivity.this).load(ad.pic_url).downloadOnly(new SimpleTarget<File>() {
+
+                    @Override
+                    public void onResourceReady(File resource, GlideAnimation<? super File> glideAnimation) {
+                        subscriber.onNext(ad);
+                    }
+
+                    @Override
+                    public void onLoadFailed(Exception e, Drawable errorDrawable) {
+                        subscriber.onError(e == null ? new Exception("Glide::onLoadFailed") : e);
+                    }
+                });
+            }
+        }
+    }
 }
