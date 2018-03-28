@@ -1,11 +1,12 @@
 package com.example.test.activity;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.entity.CheckUpdate;
@@ -52,11 +53,24 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
             if (result.code == 0 && result.data != null) {
                 CheckUpdate.DataBean data = result.data;
                 if (data.update) {
-                    String url = "https://raw.githubusercontent.com/feicien/android-auto-update/develop/extras/android-auto-update-v1.2.apk";
-                    UpdateUtil.show(UpdateActivity.this, data.desc, url, data.version);
+                    showDialog(data.desc, data.link, data.version);
                 }
             }
         }));
+    }
+
+    private void showDialog(String desc, String downloadUrl, String apkCode) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(com.smm.lib.R.string.update_dialog_title);
+        builder.setMessage(Html.fromHtml(desc))
+                .setPositiveButton(R.string.update_btn_download, (
+                        dialog, id) -> goToDownload(this, downloadUrl, apkCode))
+                .setNegativeButton(R.string.update_btn_cancel,
+                        (dialog, id) -> {});
+        AlertDialog dialog = builder.create();
+        //点击对话框外面,对话框不消失
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.show();
     }
 
     private static void goToDownload(Context context, String downloadUrl, String apkCode) {

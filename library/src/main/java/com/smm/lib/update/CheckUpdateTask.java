@@ -45,7 +45,7 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, String> {
     protected void onPreExecute() {
         if (mShowProgressDialog) {
             dialog = new ProgressDialog(mContext);
-            dialog.setMessage(mContext.getString(R.string.android_auto_update_dialog_checking));
+            dialog.setMessage(mContext.getString(R.string.update_dialog_checking));
             dialog.show();
         }
     }
@@ -79,7 +79,7 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, String> {
                     showDialog(mContext, updateMessage, apkUrl, apkCode);
                 }
             } else if (mShowProgressDialog) {
-                Toast.makeText(mContext, mContext.getString(R.string.android_auto_update_toast_no_new_update), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, mContext.getString(R.string.update_no_new_update), Toast.LENGTH_SHORT).show();
             }
 
         } catch (JSONException e) {
@@ -105,8 +105,8 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, String> {
 
         int smallIcon = context.getApplicationInfo().icon;
         Notification notify = new NotificationCompat.Builder(context)
-                .setTicker(context.getString(R.string.android_auto_update_notify_ticker))
-                .setContentTitle(context.getString(R.string.android_auto_update_notify_content))
+                .setTicker(context.getString(R.string.update_anotify_ticker))
+                .setContentTitle(context.getString(R.string.update_anotify_ticker))
                 .setContentText(content)
                 .setSmallIcon(smallIcon)
                 .setContentIntent(pendingIntent).build();
@@ -124,15 +124,15 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, String> {
     private void show(final Context context, String content, final String downloadUrl, final int apkCode) {
         if (isContextValid(context)) {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
-            builder.setTitle(R.string.android_auto_update_dialog_title);
+            builder.setTitle(R.string.update_dialog_title);
             builder.setMessage(Html.fromHtml(content))
-                    .setPositiveButton(R.string.android_auto_update_dialog_btn_download, new DialogInterface.OnClickListener() {
+                    .setPositiveButton(R.string.update_btn_download, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int id) {
                             goToDownload(context, downloadUrl, apkCode);
                         }
                     })
-                    .setNegativeButton(R.string.android_auto_update_dialog_btn_cancel, new DialogInterface.OnClickListener() {
+                    .setNegativeButton(R.string.update_btn_cancel, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int id) {
                         }

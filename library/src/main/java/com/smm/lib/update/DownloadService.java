@@ -161,7 +161,7 @@ public class DownloadService extends IntentService {
 
     private void updateProgress(int progress) {
         //"正在下载:" + progress + "%"
-        mBuilder.setContentText(this.getString(R.string.android_auto_update_download_progress, progress)).setProgress(100, progress, false);
+        mBuilder.setContentText(this.getString(R.string.update_download_progress, progress)).setProgress(100, progress, false);
         //setContentInent如果不设置在4.0+上没有问题，在4.0以下会报异常
         PendingIntent pendingintent = PendingIntent.getActivity(this, 0, new Intent(), PendingIntent.FLAG_CANCEL_CURRENT);
         mBuilder.setContentIntent(pendingintent);

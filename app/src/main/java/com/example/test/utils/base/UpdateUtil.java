@@ -51,9 +51,9 @@ public class UpdateUtil {
         apkFile = new File(getDir(context), apkName);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(com.smm.lib.R.string.android_auto_update_dialog_title);
+        builder.setTitle(com.smm.lib.R.string.update_dialog_title);
         builder.setMessage(Html.fromHtml(content))
-                .setPositiveButton(com.smm.lib.R.string.android_auto_update_dialog_btn_download, (
+                .setPositiveButton(com.smm.lib.R.string.update_btn_download, (
                         dialog, id) -> {
 //                    goToDownload(context, downloadUrl, apkCode);
                     //如果已经存在最新的apk 则安装  apkName = "smm_v1.0.apk";
@@ -65,9 +65,8 @@ public class UpdateUtil {
                         updateDialog.show();
                     }
                 })
-                .setNegativeButton(com.smm.lib.R.string.android_auto_update_dialog_btn_cancel,
-                        (dialog, id) -> {
-                        });
+                .setNegativeButton(com.smm.lib.R.string.update_btn_cancel,
+                        (dialog, id) -> {});
         AlertDialog dialog = builder.create();
         //点击对话框外面,对话框不消失
         dialog.setCanceledOnTouchOutside(false);
