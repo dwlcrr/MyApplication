@@ -15,15 +15,18 @@ import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
+
 import com.smm.lib.R;
 import com.smm.lib.updateApp.utils.DebugUtils;
 import com.smm.lib.updateApp.utils.Utils_Parse;
 import com.smm.lib.utils.base.PhoneUtils;
 import com.smm.lib.view.progressBar.NumberProgressBar;
+
 import java.io.File;
 
 /**
@@ -38,13 +41,11 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
     private Button btn_download;
     private NumberProgressBar numberProgressBar;
 
-    //淘宝 app 下载地址
-//    private static final String firstUrl = "http://ucan.25pp.com/Wandoujia_web_seo_baidu_homepage.apk";
-    String firstUrl = "https://raw.githubusercontent.com/feicien/android-auto-update/develop/extras/android-auto-update-v1.2.apk";
-    private File firstFile, apkFile;
-    private String firstName, apkName;
-    private static final String FIRST_ACTION = "download_helper_first_action";
+    private File tempFile, apkFile;
+    private String tempName, apkName;
+    private String downloadUrl;
 
+    private static final String FIRST_ACTION = "download_helper_first_action";
     private DownloadHelper mDownloadHelper;
     private File dir;
     private static final String START = "开始";
@@ -63,8 +64,8 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
             if (null != intent) {
                 switch (intent.getAction()) {
                     case FIRST_ACTION: {
-                        FileInfo firstFileInfo = (FileInfo) intent.getSerializableExtra(DownloadConstant.EXTRA_INTENT_DOWNLOAD);
-                        updateTextview(title, numberProgressBar, firstFileInfo, firstName, btn_download);
+                        FileInfo tempFileInfo = (FileInfo) intent.getSerializableExtra(DownloadConstant.EXTRA_INTENT_DOWNLOAD);
+                        updateTextview(title, numberProgressBar, tempFileInfo, tempName, btn_download);
                     }
                     break;
                     default:
@@ -76,7 +77,7 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
     /**
      * @param context 弹窗上面的标题
      */
-    public UpdateDialog(Context context) {
+    public UpdateDialog(Context context, String tempName, String apkName, String downloadUrl) {
         super(context, R.style.AlertDialog);
         this.setContentView(R.layout.update_dialog);
         this.context = context;
@@ -85,23 +86,24 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
         int screenWidth = new PhoneUtils(context).getScreenWidth();
 
         WindowManager.LayoutParams lParams = window.getAttributes();
-        lParams.width = screenWidth/10*9;
-        lParams.height = lParams.WRAP_CONTENT;
+        lParams.width = screenWidth / 10 * 9;
+        lParams.height = ViewGroup.LayoutParams.WRAP_CONTENT;
         lParams.gravity = Gravity.CENTER;
         lParams.alpha = 0.95f;
         window.setAttributes(lParams);
-        this.setCanceledOnTouchOutside(true);// 点击非有效区域隐藏
+        this.setCanceledOnTouchOutside(true);
+        this.tempName = tempName;
+        this.apkName = apkName;
+        this.downloadUrl = downloadUrl;
         init();// 初始化界面
     }
 
     private void init() {
-        title = (TextView) findViewById(R.id.title);
-        btn_download = (Button) findViewById(R.id.btn_download);
-        numberProgressBar = (NumberProgressBar) findViewById(R.id.update_progressBar);
+        title = findViewById(R.id.title);
+        btn_download = findViewById(R.id.btn_download);
+        numberProgressBar = findViewById(R.id.update_progressBar);
 
-        firstName = "smm_v1.0.apk.temp";
-        apkName = "smm_v1.0.apk";
-        firstFile = new File(getDir(), firstName);
+        tempFile = new File(getDir(), tempName);
         apkFile = new File(getDir(), apkName);
 
         mDownloadHelper = DownloadHelper.getInstance();
@@ -155,7 +157,8 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
         if (fileInfo.getDownloadStatus() == DownloadStatus.COMPLETE) {
             btn.setText("下载完成");
             btn.setBackgroundColor(0xff5c0d);
-            firstFile.renameTo(apkFile); //temp文件名去掉改成apk文件
+            //temp文件名去掉改成apk文件
+            tempFile.renameTo(apkFile);
             if (apkFile.exists()) {
                 installAPk(context, apkFile);
             }
@@ -185,7 +188,8 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         int i = view.getId();
-        if (i == R.id.btn_download) {//apkName = "smm_v1.0.apk";
+        if (i == R.id.btn_download) {
+            //apkName = "smm_v1.0.apk";
             String apkTempName = apkName.replace("smm_v", "").replace(".apk", "");
             if (apkFile.exists() && apkTempName.equals("1.0")) {
                 installAPk(context, apkFile);
@@ -198,12 +202,12 @@ public class UpdateDialog extends Dialog implements View.OnClickListener {
     private void apkClick() {
         String firstContent = btn_download.getText().toString().trim();
         if (TextUtils.equals(firstContent, START)) {
-            mDownloadHelper.addTask(firstUrl, firstFile, FIRST_ACTION).submit(context);
+            mDownloadHelper.addTask(downloadUrl, tempFile, FIRST_ACTION).submit(context);
             btn_download.setText(PAUST);
             btn_download.setBackgroundResource(R.drawable.shape_btn_orangle);
 
         } else {
-            mDownloadHelper.pauseTask(firstUrl, firstFile, FIRST_ACTION).submit(context);
+            mDownloadHelper.pauseTask(downloadUrl, tempFile, FIRST_ACTION).submit(context);
             btn_download.setText(START);
             btn_download.setBackgroundResource(R.drawable.shape_btn_blue);
         }

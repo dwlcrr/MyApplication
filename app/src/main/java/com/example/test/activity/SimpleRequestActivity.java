@@ -43,8 +43,8 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
 
     @Override
     public void initView() {
-        recyclerView = findViewById(R.id.recyclerView);
-        refreshLayout = findViewById(R.id.refreshLayout);
+        recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        refreshLayout = (SwipeRefreshLayout) findViewById(R.id.refreshLayout);
     }
 
     @Override

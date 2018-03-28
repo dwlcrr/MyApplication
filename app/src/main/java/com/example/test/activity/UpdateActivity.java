@@ -1,10 +1,8 @@
 package com.example.test.activity;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -12,11 +10,9 @@ import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.entity.CheckUpdate;
 import com.example.test.net.api.AppApi;
-import com.example.test.net.callback.DialogCallback;
+import com.example.test.utils.base.UpdateUtil;
 import com.example.test.utils.rx.RxUtils;
-import com.smm.lib.okgo.model.Response;
 import com.smm.lib.update.DownloadService;
-import com.smm.lib.updateApp.UpdateDialog;
 import com.smm.lib.utils.base.FinalConstants;
 
 /**
@@ -46,7 +42,7 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_update:
-                testUpdate();
+                UpdateUtil.checkUpdate(this);
                 break;
         }
     }
@@ -57,47 +53,10 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
                 CheckUpdate.DataBean data = result.data;
                 if (data.update) {
                     String url = "https://raw.githubusercontent.com/feicien/android-auto-update/develop/extras/android-auto-update-v1.2.apk";
-                    show(UpdateActivity.this, data.desc, url, data.version);
+                    UpdateUtil.show(UpdateActivity.this, data.desc, url, data.version);
                 }
             }
         }));
-    }
-
-    private void testUpdate() {
-        AppApi.check(this, new DialogCallback<CheckUpdate>(this) {
-            @Override
-            public void onSuccess(Response<CheckUpdate> response) {
-                CheckUpdate.DataBean dataBean = response.body().data;
-                if (dataBean.update) {
-                    String url = "http://ucan.25pp.com/Wandoujia_web_seo_baidu_homepage.apk";
-                    show(UpdateActivity.this, dataBean.desc, url, dataBean.version);
-                }
-            }
-
-            @Override
-            public void onError(Response<CheckUpdate> response) {
-
-            }
-        });
-    }
-
-    private void show(final Context context, String content, final String downloadUrl, final String apkCode) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(com.smm.lib.R.string.android_auto_update_dialog_title);
-        builder.setMessage(Html.fromHtml(content))
-                .setPositiveButton(com.smm.lib.R.string.android_auto_update_dialog_btn_download, (
-                        dialog, id) -> {
-//                    goToDownload(context, downloadUrl, apkCode);
-                    UpdateDialog updateDialog = new UpdateDialog(context);
-                    updateDialog.show();
-                })
-                .setNegativeButton(com.smm.lib.R.string.android_auto_update_dialog_btn_cancel,
-                        (dialog, id) -> {
-                        });
-        AlertDialog dialog = builder.create();
-        //点击对话框外面,对话框不消失
-        dialog.setCanceledOnTouchOutside(false);
-        dialog.show();
     }
 
     private static void goToDownload(Context context, String downloadUrl, String apkCode) {

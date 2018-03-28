@@ -43,7 +43,7 @@ public class PhoneUtils {
      *
      * @return
      */
-    public static int getScreenWidth() {
+    public int getScreenWidth() {
         return screenWidth;
     }
 
@@ -111,7 +111,7 @@ public class PhoneUtils {
      * @param percent
      * @return
      */
-    public static int percentOfScreenWidth(float percent) {
+    public int percentOfScreenWidth(float percent) {
         if ((percent <= 0) || (percent > 1.0f)) {
             percent = 1.0f;
         }

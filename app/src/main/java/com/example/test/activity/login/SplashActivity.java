@@ -101,7 +101,7 @@ public class SplashActivity extends BaseActivity implements OnClickListener {
     }
 
     /**
-     * 启动广告
+     * 启动广告 我要彻底改变 优柔寡断！！！理智呢，二货
      */
     private void startAd() {
         final String adJson = SpfsUtil.get(SPLASH_AD_INFO);
@@ -135,12 +135,7 @@ public class SplashActivity extends BaseActivity implements OnClickListener {
                 Logger.error("splash", "onResourceReady");
                 adSkip.setVisibility(View.VISIBLE);
                 tvSkipCount.setText(String.valueOf(TIME_DISPLAY_AD));
-                adSkip.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        startMain();
-                    }
-                });
+                adSkip.setOnClickListener(v -> startMain());
 
                 if (StrUtil.isNotEmpty(finalAd.link_type) && StrUtil.isNotEmpty(finalAd.link_addr)) {
 

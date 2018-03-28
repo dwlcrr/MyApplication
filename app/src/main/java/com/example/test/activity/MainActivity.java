@@ -22,6 +22,7 @@ import com.example.test.fragment.NewsFragment;
 import com.example.test.fragment.index.IndexFragment;
 import com.example.test.net.api.AdApi;
 import com.example.test.utils.base.SpfsUtil;
+import com.example.test.utils.base.UpdateUtil;
 import com.example.test.utils.other.RandomUtil;
 import com.example.test.utils.rx.RxUtils;
 import com.google.gson.Gson;
@@ -55,13 +56,13 @@ public class MainActivity extends BaseActivity{
     @Override
     protected void initData() {
         initStartAd();
+        //更新软件
+        UpdateUtil.checkUpdate(this);
     }
 
     @Override
     protected void initView() {
         MyApplication.ins().isMainRunning = true;
-        //更新软件
-//        UpdateUtil.checkUpdate(baseActivity);
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
@@ -77,8 +78,8 @@ public class MainActivity extends BaseActivity{
         mFragments.add(MineFragment.getInstance());
 
         adapter = new FragmentAdapter(getSupportFragmentManager(), mFragments, mTitles);
-        mViewPager.setAdapter(adapter);//给ViewPager设置适配器
-        mTabLayout.setupWithViewPager(mViewPager);//将TabLayout和ViewPager关联起来
+        mViewPager.setAdapter(adapter);
+        mTabLayout.setupWithViewPager(mViewPager);
 
         mTabLayout.setSelectedTabIndicatorHeight(0);
 
