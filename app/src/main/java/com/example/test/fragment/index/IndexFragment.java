@@ -7,11 +7,9 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.example.test.R;
 import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseFragment;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -72,6 +70,11 @@ public class IndexFragment extends BaseFragment{
 
     @Override
     protected void initData() {
+
+    }
+
+    @Override
+    protected void setListener() {
 
     }
 

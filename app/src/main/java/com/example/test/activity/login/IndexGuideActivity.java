@@ -3,12 +3,11 @@ package com.example.test.activity.login;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 
 /**
- * 启动页
+ * 引导页
  */
 public class IndexGuideActivity extends BaseActivity implements OnClickListener {
 

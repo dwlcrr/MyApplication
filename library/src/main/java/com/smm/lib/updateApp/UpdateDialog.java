@@ -24,7 +24,7 @@ import com.smm.lib.R;
 import com.smm.lib.updateApp.utils.DebugUtils;
 import com.smm.lib.updateApp.utils.Utils_Parse;
 import com.smm.lib.utils.base.PhoneUtils;
-import com.smm.lib.view.progressBar.NumberProgressBar;
+import com.smm.lib.view.progressCheck.NumberProgressBar;
 import java.io.File;
 
 /**

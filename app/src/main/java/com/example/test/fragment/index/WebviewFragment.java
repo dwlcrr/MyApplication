@@ -1,18 +1,18 @@
 package com.example.test.fragment.index;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.example.test.R;
+import com.example.test.base.BaseFragment;
 
 /**
  * Webview Fragment
  * Created by dwl on 2018/3/23.
  */
-public class WebviewFragment extends Fragment {
+public class WebviewFragment extends BaseFragment {
     private TextView textView;
 
     public static WebviewFragment newInstance(int index){
@@ -25,9 +25,24 @@ public class WebviewFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return initView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.tab_fragment, null);
         textView = view.findViewById(R.id.text);
         textView.setText(String.valueOf((char) getArguments().getInt("index")));
         return view;
+    }
+
+    @Override
+    protected void initData() {
+
+    }
+
+    @Override
+    protected void setListener() {
+
     }
 }

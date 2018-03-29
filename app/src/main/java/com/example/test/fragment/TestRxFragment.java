@@ -53,6 +53,11 @@ public class TestRxFragment extends BaseFragment {
 
     }
 
+    @Override
+    protected void setListener() {
+
+    }
+
     private void testRx() {
         //1 .使用create( ),最基本的创建方式：先创建个数据发射源,很好理解，就是发射数据用的
         Observable<String> sender = Observable.create(new OnSubscribe<String>() {

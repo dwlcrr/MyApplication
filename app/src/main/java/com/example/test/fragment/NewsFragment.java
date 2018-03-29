@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.example.test.R;
 import com.example.test.base.BaseFragment;
@@ -42,6 +41,11 @@ public class NewsFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     @Override
     protected void initData() {
         onRefresh();
+    }
+
+    @Override
+    protected void setListener() {
+
     }
 
     @Override

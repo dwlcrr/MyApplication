@@ -75,6 +75,11 @@ public class NetFragment extends BaseFragment implements SwipeRefreshLayout.OnRe
     }
 
     @Override
+    protected void setListener() {
+
+    }
+
+    @Override
     public void onRefresh() {
         AppApi.cacheList(page, getActivity(), new NewsCallback<GankResponse<List<GankModel>>>() {
             @Override

@@ -13,7 +13,7 @@
         android:layout_marginLeft="20dp"
         android:text="0/0" />
 
-    <com.smm.lib.view.progressBar.NumberProgressBar
+    <com.smm.lib.view.progressCheck.NumberProgressBar
         android:id="@+id/update_progressBar"
         style="@style/NumberProgressBar_Default"
         android:layout_below="@+id/title"

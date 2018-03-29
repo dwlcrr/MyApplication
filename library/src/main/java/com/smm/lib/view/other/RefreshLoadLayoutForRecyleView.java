@@ -1,4 +1,4 @@
-package com.smm.lib.view;
+package com.smm.lib.view.other;
 
 import android.content.Context;
 import android.support.v4.widget.SwipeRefreshLayout;

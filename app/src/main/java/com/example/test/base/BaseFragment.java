@@ -101,11 +101,14 @@ public abstract class BaseFragment extends Fragment {
         }
         isFirstLoad = false;
         initData();
+        setListener();
     }
 
     protected abstract View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState);
 
     protected abstract void initData();
+
+    protected abstract void setListener();
 
     public String getTitle() {
         return TextUtils.isEmpty(fragmentTitle) ? "" : fragmentTitle;

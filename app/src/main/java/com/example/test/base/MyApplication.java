@@ -5,6 +5,7 @@ import android.content.Context;
 import android.support.multidex.MultiDex;
 import com.example.test.net.NetConfig;
 import com.example.test.utils.other.UUIDUtils;
+import com.meituan.android.walle.WalleChannelReader;
 import com.smm.lib.BuildConfig;
 import com.smm.lib.net.SmmNet;
 import com.smm.lib.okgo.OkGo;
@@ -13,7 +14,7 @@ import com.smm.lib.utils.base.DisplayUtils;
 import com.smm.lib.utils.base.Logger;
 import com.smm.lib.utils.base.StrUtil;
 import com.tencent.bugly.crashreport.CrashReport;
-import com.umeng.socialize.Config;
+import com.umeng.analytics.MobclickAgent;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 import java.io.IOException;
@@ -26,6 +27,7 @@ import okhttp3.Response;
  */
 public class MyApplication extends Application {
 
+    public static final String UMENG_APPKEY = "573140f967e58ec3f7003821";
     private static MyApplication ins;
     public static int TOUCH_MIN = 5;
     public static int DEFAULT_DEGREE_FONT_SIZE = 0;
@@ -51,10 +53,17 @@ public class MyApplication extends Application {
 
         //初始化 token
         MySp.token = MySp.ins().getString(MySp.KEY_TOKEN, "");
-        //初始化umeng share
-        PlatformConfig.setTwitter("cigXbBPTp6lQ4sQjGdm6IT8Gq", "Yr0Y0JO07FDS72Ldz4ESPBKpgE1bHdwv1c7FwXUbUpqPDHWRLk");
-        Config.MORE_TITLE = "More";
+        //获取 channel
+        String channel = WalleChannelReader.getChannel(this, "dev");
+        Logger.debug("渠道channel===" + channel);
+        //Umeng配置
+        //微信    wx12342956d1cab4f9,a5ae111de7d9ea137e88a5e02c07c94d
+        UMShareAPI.init(this, UMENG_APPKEY);
+        PlatformConfig.setWeixin("wxb2f9aa35fa849254", "3639d0acb870a59390ed8a77aca475c8");
+        PlatformConfig.setQQZone("101027766", "ddd75dfc3384ec7bd5eb88a67cab3f6a");
+        PlatformConfig.setSinaWeibo("2884735682", "19396b9b99cd3c39e82d634640e1dd2b", "http://sns.whalecloud.com");
         UMShareAPI.get(this);
+        MobclickAgent.startWithConfigure(new MobclickAgent.UMAnalyticsConfig(this, UMENG_APPKEY, channel));
         //bugly 初始化
         CrashReport.initCrashReport(getApplicationContext(), "d3c9965132", BuildConfig.DEBUG);
         CrashReport.setAppChannel(getApplicationContext(), BuildConfig.FLAVOR);

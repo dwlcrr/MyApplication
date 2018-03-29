@@ -1,4 +1,4 @@
-package com.smm.lib.view.progressBar;
+package com.smm.lib.view.progressCheck;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,8 +11,8 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 import com.smm.lib.R;
-import static com.smm.lib.view.progressBar.NumberProgressBar.ProgressTextVisibility.Invisible;
-import static com.smm.lib.view.progressBar.NumberProgressBar.ProgressTextVisibility.Visible;
+import static com.smm.lib.view.progressCheck.NumberProgressBar.ProgressTextVisibility.Invisible;
+import static com.smm.lib.view.progressCheck.NumberProgressBar.ProgressTextVisibility.Visible;
 
 /**
  * Created by daimajia on 14-4-30.

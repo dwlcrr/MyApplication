@@ -1,4 +1,4 @@
-package com.smm.lib.view.progressBar;
+package com.smm.lib.view.progressCheck;
 
 /**
  * Created by lelexxx on 15-4-23.
