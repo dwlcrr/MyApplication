@@ -30,6 +30,11 @@ public class TestRequestActivity extends BaseActivity implements OnClickListener
     }
 
     @Override
+    protected void setListener() {
+
+    }
+
+    @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_request1:

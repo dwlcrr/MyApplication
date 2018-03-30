@@ -29,11 +29,6 @@ public class MineFragment extends BaseFragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return initView(inflater, container, savedInstanceState);
-    }
-
-    @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragmnet_layout, container, false);
         TextView tv = view.findViewById(R.id.tv_id);

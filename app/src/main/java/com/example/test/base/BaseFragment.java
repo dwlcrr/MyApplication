@@ -49,7 +49,9 @@ public abstract class BaseFragment extends Fragment {
         isFirstLoad = true;
         View view = initView(inflater, container, savedInstanceState);
         isPrepared = true;
-        lazyLoad();
+        initData();
+        setListener();
+//        lazyLoad();
         return view;
     }
 

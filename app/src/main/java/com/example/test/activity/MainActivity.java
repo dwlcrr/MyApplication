@@ -22,7 +22,6 @@ import com.example.test.fragment.NewsFragment;
 import com.example.test.fragment.index.IndexFragment;
 import com.example.test.net.api.AdApi;
 import com.example.test.utils.base.SpfsUtil;
-import com.example.test.utils.base.UpdateUtil;
 import com.example.test.utils.other.RandomUtil;
 import com.example.test.utils.rx.RxUtils;
 import com.google.gson.Gson;
@@ -57,7 +56,7 @@ public class MainActivity extends BaseActivity{
     protected void initData() {
         initStartAd();
         //更新软件
-        UpdateUtil.checkUpdate(this);
+//        UpdateUtil.checkUpdate(this);
     }
 
     @Override
@@ -96,6 +95,11 @@ public class MainActivity extends BaseActivity{
             }
         }
         mTabLayout.getTabAt(0).getCustomView().setSelected(true);
+    }
+
+    @Override
+    protected void setListener() {
+
     }
 
     @Override

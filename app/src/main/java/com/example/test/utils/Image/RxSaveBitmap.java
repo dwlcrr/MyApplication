@@ -1,12 +1,11 @@
-package com.example.test.utils.other;
+package com.example.test.utils.Image;
 
 import android.graphics.Bitmap;
 import android.os.Environment;
 import android.util.Log;
-
+import com.example.test.utils.other.Md5Utils;
 import java.io.File;
 import java.io.FileOutputStream;
-
 import rx.Observable;
 import rx.Subscriber;
 

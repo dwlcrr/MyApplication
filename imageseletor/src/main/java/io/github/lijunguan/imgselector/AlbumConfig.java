@@ -14,6 +14,7 @@ import android.support.annotation.ColorInt;
 public class AlbumConfig implements Parcelable {
 
     public static final int DEFAULT_MAX_COUNT = 9;
+    public static final int UNLIMIT_MAX_COUNT = Integer.MAX_VALUE;
     /**
      * 选择模式， SINGLE_MODE = 0 ，MULTI_MODE = 1
      */

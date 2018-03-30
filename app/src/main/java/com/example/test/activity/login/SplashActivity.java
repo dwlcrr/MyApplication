@@ -84,6 +84,12 @@ public class SplashActivity extends BaseActivity implements OnClickListener {
             }
         }
     }
+
+    @Override
+    protected void setListener() {
+
+    }
+
     private void startMainDelay(long delayTime) {
         Handler handler = new Handler();
         handler.postDelayed(() -> startMain(), delayTime);
@@ -119,8 +125,8 @@ public class SplashActivity extends BaseActivity implements OnClickListener {
 
         View adView = findViewById(R.id.ad);
         View adSkip = adView.findViewById(R.id.ad_skip);
-        TextView tvSkipCount = (TextView) adView.findViewById(R.id.tv_skip_count);
-        ImageView ivAd = (ImageView) adView.findViewById(R.id.iv_ad);
+        TextView tvSkipCount = adView.findViewById(R.id.tv_skip_count);
+        ImageView ivAd = adView.findViewById(R.id.iv_ad);
 
         AdList.Ad finalAd = ad;
         Logger.error("测试启动广告", "显示===" + finalAd.title);

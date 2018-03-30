@@ -27,11 +27,6 @@ public class ThreadFragment extends BaseFragment implements View.OnClickListener
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return initView(inflater,container,savedInstanceState);
-    }
-
-    @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_thread, null);
         tv_update = view.findViewById(R.id.tv_update);

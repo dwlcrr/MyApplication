@@ -27,6 +27,10 @@ public class UpdateUtil {
     private static File apkFile;
     private static File dir;
 
+    /**
+     * 检查更新
+     * @param context
+     */
     public static void checkUpdate(Activity context) {
         AppApi.check(context, new DialogCallback<CheckUpdate>(context) {
             @Override

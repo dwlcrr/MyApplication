@@ -48,6 +48,11 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
     }
 
     @Override
+    protected void setListener() {
+
+    }
+
+    @Override
     public void initData() {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

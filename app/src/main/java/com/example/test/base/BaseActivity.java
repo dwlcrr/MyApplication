@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.Window;
@@ -40,14 +39,15 @@ public abstract class BaseActivity extends SwipeBackActivity {
         loadXml(savedInstanceState);
         initView();
         initData();
+        setListener();
         initSystemBarTint();
     }
 
     protected abstract void loadXml(Bundle savedInstanceState);
 
     protected abstract void initData();
-
     protected abstract void initView();
+    protected abstract void setListener();
 
     /** 子类可以重写改变状态栏颜色 */
     protected int setStatusBarColor() {
@@ -101,17 +101,6 @@ public abstract class BaseActivity extends SwipeBackActivity {
         TypedValue typedValue = new TypedValue();
         getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValue, true);
         return typedValue.data;
-    }
-
-    /** 初始化 Toolbar */
-    public void initToolBar(Toolbar toolbar, boolean homeAsUpEnabled, String title) {
-        toolbar.setTitle(title);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(homeAsUpEnabled);
-    }
-
-    public void initToolBar(Toolbar toolbar, boolean homeAsUpEnabled, int resTitle) {
-        initToolBar(toolbar, homeAsUpEnabled, getString(resTitle));
     }
 
     public void showToast(String msg) {

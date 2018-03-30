@@ -7,9 +7,11 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.example.test.R;
 import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseFragment;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,11 +38,6 @@ public class IndexFragment extends BaseFragment{
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return initView(inflater, container, savedInstanceState);
-    }
-
-    @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.index_fragment, container, false);
         mViewPager = view.findViewById(R.id.viewpager);
@@ -57,7 +54,9 @@ public class IndexFragment extends BaseFragment{
         mFragments.add(RecyclerviewFragment.newInstance(3));
         mFragments.add(WebviewFragment.newInstance(4));
         mFragments.add(ThreadFragment.newInstance(5));
-        mFragments.add(OtherFragment.newInstance(6));
+        OtherFragment otherFragment = OtherFragment.newInstance(6);
+        mFragments.add(otherFragment);
+        otherFragment.setLiveVideoListener(liveVideoListener);
 
         adapter = new FragmentAdapter(getChildFragmentManager(), mFragments, mTitles);
         mViewPager.setAdapter(adapter);//给ViewPager设置适配器
@@ -67,6 +66,21 @@ public class IndexFragment extends BaseFragment{
         return view;
     }
 
+    private OtherFragment.LiveVideoListener liveVideoListener = new OtherFragment.LiveVideoListener() {
+        @Override
+        public boolean playVideo(String url) {
+            if(url.startsWith("https:")){
+                //improve your life  from heart
+
+            }
+            return true;
+        }
+
+        @Override
+        public boolean playFirstVideo(String url) {
+            return false;
+        }
+    };
 
     @Override
     protected void initData() {

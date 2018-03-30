@@ -43,11 +43,6 @@ public class NetFragment extends BaseFragment implements SwipeRefreshLayout.OnRe
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return initView(inflater,container,savedInstanceState);
-    }
-
-    @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.act_refresh, null);
         recyclerView = view.findViewById(R.id.recyclerView);

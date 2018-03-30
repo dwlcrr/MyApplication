@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.http.SslError;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebChromeClient;
@@ -18,20 +17,13 @@ import com.example.test.base.BaseActivity;
 import com.smm.lib.utils.base.DisplayUtils;
 
 /**
- * ================================================
- * 作    者：jeasonlzy（廖子尧）Github地址：https://github.com/jeasonlzy
- * 版    本：1.0
- * 创建日期：16/9/11
- * 描    述：
- * 修订历史：
- * ================================================
+ * webview
  */
 public class WebActivity extends BaseActivity {
 
     public final static String URL = "url";
     public final static String TITLE = "title";
 
-    private Toolbar toolbar;
     private ProgressBar pb;
     private WebView webView;
 
@@ -49,18 +41,17 @@ public class WebActivity extends BaseActivity {
 
     @Override
     protected void initData() {
-        webView.loadDataWithBaseURL(null, addChangeImgJs("ddddd + content"), "text/html", "UTF-8", null);
+        webView.loadDataWithBaseURL(null, addChangeImgJs("ddddd + content"),
+                "text/html", "UTF-8", null);
     }
 
     @Override
     protected void initView() {
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
         pb = (ProgressBar) findViewById(R.id.pb);
         webView = (WebView) findViewById(R.id.webView);
-
         String url = getIntent().getStringExtra(URL);
-        String title = getIntent().getStringExtra(TITLE);
-        initToolBar(toolbar, true, title);
+//        String title = getIntent().getStringExtra(TITLE);
+//        initToolBar(toolbar, true, title);
 
         pb.setMax(100);
         WebSettings ws = webView.getSettings();
@@ -104,6 +95,11 @@ public class WebActivity extends BaseActivity {
             }
         });
         webView.loadUrl(url);
+    }
+
+    @Override
+    protected void setListener() {
+
     }
 
     private String addChangeImgJs(String str) {

@@ -31,6 +31,11 @@ public class EditDataActivity extends BaseActivity implements OnClickListener {
     }
 
     @Override
+    protected void setListener() {
+
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
         UserInfoManager.INS().refresh();

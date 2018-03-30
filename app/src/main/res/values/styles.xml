@@ -2,10 +2,9 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -110,6 +109,21 @@
         <!-- 指定消失的动画xml -->
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:background">@color/transparent</item>
+    </style>
+    <!-- 分享对话框样式 -->
+    <style name="ShareDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SavePhoto">
+        <item name="android:textColor">@color/gray_32</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center</item>
     </style>
     <style name="editData_tv_label">
         <item name="android:textColor">@color/gray_32</item>

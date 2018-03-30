@@ -27,11 +27,6 @@ public class ViewFragment extends BaseFragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return initView(inflater,container,savedInstanceState);
-    }
-
-    @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.tab_fragment, null);
         textView = view.findViewById(R.id.text);
@@ -49,12 +44,8 @@ public class ViewFragment extends BaseFragment {
     protected void setListener() {
 
         switchButton.setChecked(true);
-        switchButton.isChecked();
-        switchButton.toggle();     //switch state
         switchButton.toggle(false);//switch without animation
         switchButton.setShadowEffect(true);//disable shadow effect
-        switchButton.setEnabled(false);//disable button
-        switchButton.setEnableEffect(false);//disable the switch animation
         switchButton.setOnCheckedChangeListener((view, isChecked) -> {
             if(isChecked){
 
