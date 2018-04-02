@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title></title>
+    <script type="text/javascript">
+        function smmappToken(text){
+            document.getElementById('ttt').innerHTML=text;
+        }
+        //这个function是需要被java调用的
+        function jsText(text){
+            document.getElementById('ttt').innerHTML=text;
+        }
+    </script>
+</head>
+<body>
+<br><br>
+<input type="button" onclick="smmappjs.showToast('测试js调用系统api')" value="调用系统api Toast"/><br/>
+<br><br>
+<input type="button" onclick="smmappjs.showJsText('测试java回调js')" value="让java方法回调html中的js方法"/>
+<div id="ttt"></div>
+</body>
+</html>  

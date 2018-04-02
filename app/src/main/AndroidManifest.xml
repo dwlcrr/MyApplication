@@ -29,6 +29,7 @@
         <activity android:name="com.example.test.activity.TestRequestActivity" />
         <activity android:name="com.example.test.activity.SimpleRequestActivity" />
 
+        <activity android:name=".activity.web.WebSmmActivity"/>
         <activity android:name=".activity.web.WebActivity" />
         <activity android:name=".activity.view.DropDownMenuActivity"/>
 

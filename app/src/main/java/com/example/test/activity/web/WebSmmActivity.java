@@ -16,16 +16,16 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.test.BuildConfig;
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
-import com.example.test.utils.base.FinalConstant;
 import com.example.test.utils.base.SpfsUtil;
 import com.example.test.utils.other.IntentUtil;
-import com.example.test.utils.share.ShareUtils;
+import com.smm.lib.utils.base.DisplayUtils;
 import com.smm.lib.utils.base.Logger;
 import com.smm.lib.utils.base.StrUtil;
 import com.smm.lib.utils.validate.TelCallUtils;
@@ -197,53 +197,21 @@ public class WebSmmActivity extends BaseActivity {
         webType = getIntent().getIntExtra(WEB_TYPE, 0);
         switch (webType) {
             case 0:
-                initRightBtn(R.mipmap.ic_launcher, new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        String title = webView.getTitle();
-                        String url = webView.getUrl();
-                        if (StrUtil.isEmpty(title)) title = "掌上有色分享";
-                        if (StrUtil.isEmpty(url)) return;
-                        String text = url;
-                        ShareUtils.oneKeyShare(WebSmmActivity.this, text, title, url, R.mipmap.ic_launcher, null);
-                    }
-                });
-                break;
-            case 1:
-                initRightBtn(R.mipmap.ic_launcher, new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        String title = "SMM金融服务";
-                        String text = "安全、快捷、一键申请";
-                        String url = FinalConstant.JR_URL;
-                        ShareUtils.oneKeyShare(WebSmmActivity.this, text, title, url, R.mipmap.ic_launcher, null);
-                    }
-                });
-                break;
-            case 2:
-                initRightBtn(R.mipmap.ic_launcher, new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        TelCallUtils.callTelWithDialog(FinalConstant.KEFU_PHONE,WebSmmActivity.this);
-                    }
-                });
+
                 break;
         }
 
     }
 
-    private void initRightBtn(int resId, View.OnClickListener listener) {
-        ImageView share = (ImageView) findViewById(R.id.iv_camera);
-        share.setImageResource(resId);
-        share.setVisibility(View.VISIBLE);
-        share.setOnClickListener(listener);
-    }
-
     @Override
     protected void initData() {
-        String url = getIntent().getStringExtra(WEB_SMM_URL);
+//        String url = getIntent().getStringExtra(WEB_SMM_URL);
+        String url = "file:///android_asset/test.html";
         if (StrUtil.isEmpty(url)) url = "http://www.smm.cn/";
+        //加载url
         webView.loadUrl(url);
+        //加载html内容
+        webView.loadDataWithBaseURL(null, addChangeImgJs("html content"), "text/html", "UTF-8", null);
     }
 
     @Override
@@ -316,16 +284,61 @@ public class WebSmmActivity extends BaseActivity {
         }
 
         @JavascriptInterface
-        public void getToken() {
+        public void showToast(String text){
+            Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+        }
+        @JavascriptInterface
+        public void showJsText(String text){
+            webView.loadUrl("javascript:jsText('"+text+"')");
+        }
+        @JavascriptInterface
+        public void getToken(String tokenName) {
             if (webView != null) {
-                webView.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (!Uri.parse(webView.getUrl()).getHost().endsWith(".smm.cn")) return;
-                        webView.loadUrl("javascript:smmappToken('" + SpfsUtil.USERTOKEN + "')");
-                    }
+                webView.post(() -> {
+                    if (!Uri.parse(webView.getUrl()).getHost().endsWith(".smm.cn")) return;
+                    webView.loadUrl("javascript:smmappToken('" + SpfsUtil.USERTOKEN + "')");
                 });
             }
         }
+    }
+
+    private String addChangeImgJs(String str) {
+        return str + "<script type=\"text/javascript\">" +
+                "function click(e){" +
+                "e.preventDefault();" +
+                "window.location.href='smmapp://img/single?url='+e.target.src" +
+                "};" +
+                "  var w = " + DisplayUtils.px2dip(this, DisplayUtils.getScreenWidth(this)) + ";" +
+                "w = w-20;" +
+                "var imgs = document.getElementsByTagName('img');" +
+                "for(var i=0;i<imgs.length;i++){" +
+                "  var img = imgs[i];" +
+                "      var width = parseInt(img.style.width);" +
+                "var height = parseInt(img.style.height);" +
+                "if(width > w){" +
+                "height = height*w/width;" +
+                "width = w;" +
+                "img.setAttribute('style','height:'+height+'px;width:'+width+'px');" +
+                "}" +
+                "if(img.onclick ==null || img.onclick == undefined){" +
+                "img.onclick = click" +
+                "}" +
+                "}" +
+                "document.getElementsByTagName('body')[0].style.marginLeft= '12px';" +
+                "document.getElementsByTagName('body')[0].style.marginRight= '12px';" +
+                "document.getElementsByTagName('body')[0].style.textAlign= 'justify';" +
+                "document.getElementsByTagName('body')[0].style.wordBreak= 'break-word';" +
+                "function enlarge(large){" +
+                "if(large == 1){" +
+//                "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust = '100%%';" +
+                "document.getElementsByTagName('body')[0].style.fontSize= '20px';" +
+                "document.getElementsByTagName('body')[0].style.lineHeight= '33px';" +
+                "}else{" +
+//                "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust = '90%%';" +
+                "document.getElementsByTagName('body')[0].style.fontSize= '17px';" +
+                "document.getElementsByTagName('body')[0].style.lineHeight= '28px';" +
+                "}" +
+                "}" +
+                "</script>";
     }
 }

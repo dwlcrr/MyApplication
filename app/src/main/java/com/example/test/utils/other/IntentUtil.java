@@ -5,12 +5,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Pair;
 import android.widget.Toast;
-
 import com.example.test.activity.web.WebActivity;
 import com.example.test.net.NetConfig;
 import com.example.test.utils.base.SpfsUtil;
 import com.smm.lib.utils.base.StrUtil;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;

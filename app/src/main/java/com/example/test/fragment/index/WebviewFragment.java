@@ -6,8 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import com.example.test.R;
-import com.example.test.activity.web.WebActivity;
+import com.example.test.activity.web.WebSmmActivity;
 import com.example.test.base.BaseFragment;
 
 /**
@@ -43,7 +44,7 @@ public class WebviewFragment extends BaseFragment {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), WebActivity.class));
+                startActivity(new Intent(getActivity(), WebSmmActivity.class));
             }
         });
     }
