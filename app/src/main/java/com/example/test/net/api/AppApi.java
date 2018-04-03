@@ -24,7 +24,6 @@ import rx.Observable;
 
 public class AppApi extends BaseRxApi {
     private static final String appUrl = NetConfig.BASEURL + "/appcenter";
-
     /**
      * 检查更新
      */

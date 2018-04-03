@@ -52,7 +52,9 @@ public class MineFragment extends BaseFragment {
         Subscription s = UserInfoManager.INS().rxBehavior()
                 .compose(RxUtils.subscribeInMain())
                 .subscribe(RxUtils.subscribeNext(userInfoResult -> {
+                        if(userInfoResult!=null&&userInfoResult.data!=null){
 
+                        }
                 }));
         addRx(s);
 

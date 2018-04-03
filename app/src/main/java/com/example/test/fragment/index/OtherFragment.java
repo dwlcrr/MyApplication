@@ -1,6 +1,7 @@
 package com.example.test.fragment.index;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,6 +12,9 @@ import android.widget.Toast;
 
 import com.example.test.R;
 import com.example.test.base.BaseFragment;
+import com.example.test.net.webSocket.WebSocketManager;
+import com.example.test.utils.base.FinalConstant;
+import com.example.test.utils.rx.ObsetverUtil.NotificationCenter;
 import com.example.test.utils.share.ShareUtils;
 import com.tbruyelle.rxpermissions.RxPermissions;
 
@@ -26,6 +30,7 @@ public class OtherFragment extends BaseFragment {
 
     private TextView textView;
     private LiveVideoListener mLiveVideoListener;
+    private NotificationCenter center;
 
     public static OtherFragment newInstance(int index) {
         Bundle bundle = new Bundle();
@@ -58,6 +63,7 @@ public class OtherFragment extends BaseFragment {
 
     @Override
     protected void initData() {
+        center = NotificationCenter.defaultCenter();
         mLiveVideoListener.playFirstVideo("url");
     }
 
@@ -66,6 +72,8 @@ public class OtherFragment extends BaseFragment {
         textView.setOnClickListener(view -> {
             share();
             selectPicture();
+            //向Other1Fragment传递数据
+            center.postNotificationName(FinalConstant.MESS_BROADCAST, "name");
         });
     }
 
@@ -101,6 +109,13 @@ public class OtherFragment extends BaseFragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if (resultCode == Activity.RESULT_OK) {
+                WebSocketManager webSocketManager = WebSocketManager.ins();
+                webSocketManager.logoutLive();
+                webSocketManager.tryConnectLive();
+            }
+        }
         if (resultCode == getActivity().RESULT_OK) {
             //从图片选择器 选择多张图片
             if (requestCode == ImageSelector.REQUEST_SELECT_IMAGE) {

@@ -95,7 +95,13 @@ public class NetWorkUtils {
 		}
 		return flag;
 	}
+	
+	public static boolean isMobileNet(Context context) {
 
+		NetworkInfo networkInfo = ((ConnectivityManager) context
+				.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
+		return networkInfo != null && networkInfo.getType() == ConnectivityManager.TYPE_MOBILE;
+	}
 	/**
 	 * 监测手机网络
 	 * 

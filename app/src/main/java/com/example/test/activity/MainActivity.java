@@ -16,7 +16,7 @@ import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseActivity;
 import com.example.test.base.MyApplication;
 import com.example.test.entity.AdList;
-import com.example.test.fragment.FindFragment;
+import com.example.test.fragment.FoundFragment;
 import com.example.test.fragment.MineFragment;
 import com.example.test.fragment.NewsFragment;
 import com.example.test.fragment.index.IndexFragment;
@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity{
         mFragments = new ArrayList<>();
         mFragments.add(IndexFragment.getInstance());
         mFragments.add(NewsFragment.getInstance());
-        mFragments.add(FindFragment.getInstance());
+        mFragments.add(FoundFragment.getInstance());
         mFragments.add(MineFragment.getInstance());
 
         adapter = new FragmentAdapter(getSupportFragmentManager(), mFragments, mTitles);

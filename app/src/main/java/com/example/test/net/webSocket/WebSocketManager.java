@@ -149,7 +149,10 @@ public class WebSocketManager {
             handler.removeCallbacks(reconnectLive);
         }
     }
-
+    /**
+     * 获取socket的消息
+     * @return
+     */
     public Observable<WsLiveMsg> observerLive() {
         return liveObserver;
     }

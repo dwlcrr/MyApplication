@@ -64,6 +64,7 @@ public abstract class DataManager<T> {
     public void refresh() {
         getData().subscribe(newdata -> set(newdata), error -> {
         });
+        getData().subscribe(newdata -> set(newdata), error ->{});
     }
 
     public Observable<T> refreshAction() {
