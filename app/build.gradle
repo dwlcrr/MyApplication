@@ -20,8 +20,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.testapplication"
-        minSdkVersion 1
-        targetSdkVersion 23
+        minSdkVersion 19
+        targetSdkVersion 26
         versionCode 1
         versionName "1.5.0"
         ndk {
@@ -115,6 +115,7 @@ android {
     dexOptions {
         javaMaxHeapSize "4g"
     }
+    //使用本地目录作为仓库
     repositories {
         flatDir {
             dirs 'libs'
@@ -145,7 +146,7 @@ dependencies {
     compile 'com.gxz.pagerslidingtabstrip:library:1.3'
     compile 'com.readystatesoftware.chuck:library:1.0.4'
     compile 'com.google.protobuf:protobuf-java:3.2.0'
-    compile 'com.koushikdutta.async:androidasync:2.1.9'
+    compile 'com.koushikdutta.async:androidasync:2.+'
     compile 'com.android.support:multidex:1.0.1'
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.2.1'

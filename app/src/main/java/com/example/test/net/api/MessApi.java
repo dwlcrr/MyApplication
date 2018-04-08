@@ -12,7 +12,7 @@ import rx.Observable;
  */
 
 public class MessApi extends BaseRxApi {
-    private static final String messUrl = NetConfig.baseUrl + "/msgcenter";
+    private static final String messUrl = NetConfig.baseUrl + "/ msgcenter";
 
     /**
      * 获取消息未读数

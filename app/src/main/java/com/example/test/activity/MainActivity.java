@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
@@ -22,14 +23,19 @@ import com.example.test.fragment.NewsFragment;
 import com.example.test.fragment.index.IndexFragment;
 import com.example.test.net.api.AdApi;
 import com.example.test.utils.base.SpfsUtil;
+import com.example.test.utils.data.UnreadMsgSizeManager;
+import com.example.test.utils.data.UserInfoManager;
 import com.example.test.utils.other.RandomUtil;
 import com.example.test.utils.rx.RxUtils;
 import com.google.gson.Gson;
 import com.smm.lib.utils.base.Logger;
 import com.smm.lib.utils.base.StrUtil;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
+
 import rx.Observable;
 import rx.Subscriber;
 
@@ -99,7 +105,12 @@ public class MainActivity extends BaseActivity{
 
     @Override
     protected void setListener() {
-
+        Vector v = new Vector(10);
+        for (int i = 1; i < 100; i++) {
+            Object o = new Object();
+            v.add(o);
+            o = null;
+        }
     }
 
     @Override
@@ -108,6 +119,16 @@ public class MainActivity extends BaseActivity{
         MyApplication.ins().isMainRunning = false;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (StrUtil.isNotEmpty(SpfsUtil.USERTOKEN)) {
+            UserInfoManager.INS().refresh();
+            UnreadMsgSizeManager.INS().refresh();
+        } else {
+            SpfsUtil.clearUserInfoSpf();
+        }
+    }
 
     private void initStartAd() {
         AdApi.getAdPic(AdApi.AD_NAME_START)

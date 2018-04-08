@@ -37,17 +37,18 @@ public class FoundFragment extends BaseFragment{
 
     @Override
     protected void initData() {
-        getUserNotReedMessage();
+        getUserUnReadMessage();
     }
 
     /**
      * 取未读消息数
      */
-    private void getUserNotReedMessage() {
+    private void getUserUnReadMessage() {
         Subscription s = UnreadMsgSizeManager.INS()
                 .rxBehavior()
                 .compose(RxUtils.subscribeInMain())
-                .subscribe(unread -> tv_found_noreed.setVisibility(UnreadMsgSizeManager.INS().getCountByMsgtype(UnreadMsgSizeManager.MSG_TYPE_ZXKD) > 0 ? View.VISIBLE : View.INVISIBLE)
+                .subscribe(unread ->
+                        tv_found_noreed.setVisibility(UnreadMsgSizeManager.INS().getCountByMsgtype(UnreadMsgSizeManager.MSG_TYPE_ZXKD) > 0 ? View.VISIBLE : View.INVISIBLE)
                 );
         addRx(s);
     }
@@ -56,5 +57,4 @@ public class FoundFragment extends BaseFragment{
     protected void setListener() {
 
     }
-
 }
