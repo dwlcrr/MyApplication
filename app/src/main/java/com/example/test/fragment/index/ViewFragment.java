@@ -1,11 +1,13 @@
 package com.example.test.fragment.index;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.example.test.R;
+import com.example.test.activity.SimpleViewActivity;
 import com.example.test.base.BaseFragment;
 import com.smm.lib.view.progressCheck.SwitchButton;
 
@@ -28,7 +30,7 @@ public class ViewFragment extends BaseFragment {
 
     @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.tab_fragment, null);
+        View view = inflater.inflate(R.layout.view_fragment, null);
         textView = view.findViewById(R.id.text);
         textView.setText(String.valueOf((char) getArguments().getInt("index")));
         switchButton = view.findViewById(R.id.switch_button);
@@ -53,5 +55,6 @@ public class ViewFragment extends BaseFragment {
 
             }
         });
+        textView.setOnClickListener(view -> startActivity(new Intent(getActivity(), SimpleViewActivity.class)));
     }
 }

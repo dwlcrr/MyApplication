@@ -5,6 +5,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <com.example.test.view.myview.other.Titlebar
+        xmlns:lt="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue_app"
+        android:padding="10sp"
+        lt:leftImage="@mipmap/left_arrow"
+        lt:leftTextColor="@android:color/white"
+        lt:leftTextSize="8sp"
+        lt:titleColor="@android:color/white"
+        lt:titleSize="8sp"
+        lt:titleText="标题" />
+
     <com.example.test.view.myview.other.MyView
         android:layout_width="100dp"
         android:layout_height="60dp"

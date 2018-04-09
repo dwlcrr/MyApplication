@@ -6,17 +6,17 @@ package com.example.test.base;
 
 public class ImportantLink {
 
-/**
- *   android
- *
- *   1.https://snowdream.github.io/awesome-android/Framework.html
- *   2.http://colobu.com/2014/08/15/android-components-collection/
- *   3.http://hukai.me/android-training-course-in-chinese/basics/fragments/communicating.html
- *   4.http://gank.io/post/560e15be2dca930e00da1083#toc_1
- *   5.http://36kr.com/
- *   6.https://juejin.im/
- *
- */
+    /**
+     *   android
+     *
+     *   1.https://snowdream.github.io/awesome-android/Framework.html
+     *   2.http://colobu.com/2014/08/15/android-components-collection/
+     *   3.http://hukai.me/android-training-course-in-chinese/basics/fragments/communicating.html
+     *   4.http://gank.io/post/560e15be2dca930e00da1083#toc_1
+     *   5.http://36kr.com/
+     *   6.https://juejin.im/
+     *
+     */
 
 
     /**

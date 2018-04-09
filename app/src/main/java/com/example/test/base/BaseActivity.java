@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.test.R;
+import com.example.test.view.myview.other.TitleView;
 import com.google.gson.Gson;
 import com.smm.lib.view.swipeback.SwipeBackActivity;
 
@@ -22,13 +23,9 @@ import rx.subscriptions.CompositeSubscription;
 public abstract class BaseActivity extends SwipeBackActivity {
 
     public BaseActivity baseActivity;
+    protected TitleView titleView;
     protected Gson mGson;
     protected CompositeSubscription rx = new CompositeSubscription();
-
-    @SuppressWarnings("unchecked")
-    public <T extends View> T findView(int id) {
-        return (T) findViewById(id);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

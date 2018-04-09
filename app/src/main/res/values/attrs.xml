@@ -15,4 +15,21 @@
         <attr name="mhv_HeightRatio" format="reference|float" />
         <attr name="mhv_HeightDimen" format="reference|dimension" />
     </declare-styleable>
+
+    <declare-styleable name="Titlebar">
+        <attr name="leftImage" format="reference"></attr>
+        <attr name="leftText" format="string|reference"></attr>
+        <attr name="leftTextColor" format="color|reference"></attr>
+        <attr name="leftTextSize" format="dimension|reference"></attr>
+
+        <attr name="titleText" format="string|reference"></attr>
+        <attr name="titleColor" format="color|reference"></attr>
+        <attr name="titleSize" format="dimension|reference"></attr>
+
+        <attr name="rightImage" format="reference"></attr>
+        <attr name="rightText" format="string|reference"></attr>
+        <attr name="rightTextColor" format="color|reference"></attr>
+        <attr name="rightTextSize" format="dimension|reference"></attr>
+
+    </declare-styleable>
 </resources>

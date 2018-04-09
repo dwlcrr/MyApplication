@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.test.view.myview.other.Titlebar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ea8010"
+    android:padding="10sp"
+    lt:leftImage="@mipmap/left_arrow"
+    lt:leftTextColor="@android:color/white"
+    lt:leftTextSize="8sp"
+    lt:titleText="标题"
+    lt:titleColor="@android:color/white"
+    lt:titleSize="8sp">
+
+</com.example.test.view.myview.other.Titlebar>

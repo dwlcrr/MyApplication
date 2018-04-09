@@ -9,11 +9,10 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
-
 import com.example.test.R;
 
 /**
- * Created by dongwanlin on 2017/4/6.
+ * Created by dongwanlin on 2017/9/6.
  */
 
 public class MyView extends View {
