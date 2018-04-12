@@ -26,7 +26,7 @@ public class RecyclerviewFragment extends BaseFragment {
 
     @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.tab_fragment, null);
+        View view = inflater.inflate(R.layout.recyclerview_fragment, null);
         textView = view.findViewById(R.id.text);
         textView.setText(String.valueOf((char) getArguments().getInt("index")));
         return view;

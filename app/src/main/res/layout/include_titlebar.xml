@@ -4,7 +4,7 @@
     android:id="@+id/titlebar"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    android:background="#ea8010"
+    android:background="@color/blue_app"
     android:padding="10sp"
     lt:leftImage="@mipmap/left_arrow"
     lt:leftTextColor="@android:color/white"

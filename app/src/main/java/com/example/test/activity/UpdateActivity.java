@@ -23,7 +23,6 @@ import com.smm.lib.utils.base.FinalConstants;
  */
 public class UpdateActivity extends BaseActivity implements OnClickListener {
 
-
     @Override
     protected void loadXml(Bundle savedInstanceState) {
         setContentView(R.layout.update);
@@ -36,7 +35,7 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
 
     @Override
     protected void initView() {
-        findView(R.id.btn_update).setOnClickListener(this);
+        findViewById(R.id.btn_update).setOnClickListener(this);
     }
 
     @Override

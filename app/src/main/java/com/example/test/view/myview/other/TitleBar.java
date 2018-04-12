@@ -15,9 +15,7 @@ import android.widget.TextView;
 import com.example.test.R;
 
 /**
- * 终结自定义标题栏
- * Created by wytiger on 2017/05/24.
- * https://github.com/wytiger/TitlebarDemo
+ * 自定义标题栏
  */
 public class Titlebar extends RelativeLayout {
     private static final String TAG = "Titlebar";

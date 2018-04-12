@@ -6,17 +6,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import com.example.test.R;
 import com.example.test.base.BaseFragment;
 import com.example.test.utils.data.UnreadMsgSizeManager;
 import com.example.test.utils.rx.RxUtils;
+
 import rx.Subscription;
 
 /**
  * Created by dwl on 2018/3/6.
  * 发现
  */
-public class FoundFragment extends BaseFragment{
+public class FoundFragment extends BaseFragment {
 
     private TextView tv_found_noreed;
 

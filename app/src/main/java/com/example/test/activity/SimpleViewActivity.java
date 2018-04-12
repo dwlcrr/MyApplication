@@ -3,7 +3,6 @@ package com.example.test.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.view.myview.other.Titlebar;
@@ -31,7 +30,7 @@ public class SimpleViewActivity extends BaseActivity implements OnClickListener 
                 .setOnLeftRightClickListener(new Titlebar.OnLeftRightClickListener() {
             @Override
             public void onTitleLeftClick() {
-
+                finish();//
             }
 
             @Override
@@ -49,7 +48,7 @@ public class SimpleViewActivity extends BaseActivity implements OnClickListener 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-
+            // write nothing.I'm sorry.
         }
     }
 

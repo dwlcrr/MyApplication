@@ -8,7 +8,7 @@
 
     <include
         android:id="@+id/il_titile"
-        layout="@layout/layout_title" />
+        layout="@layout/include_titlebar" />
 
     <ScrollView
         android:layout_width="match_parent"

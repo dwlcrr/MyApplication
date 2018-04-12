@@ -1,5 +1,6 @@
 package com.example.test.view.thirdPart;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.Editable;
@@ -11,6 +12,7 @@ import android.view.View.OnFocusChangeListener;
 import android.widget.EditText;
 import com.example.test.R;
 
+@SuppressLint("AppCompatCustomView")
 public class ClearEditText extends EditText implements
         OnFocusChangeListener, TextWatcher {
     /**
@@ -64,10 +66,8 @@ public class ClearEditText extends EditText implements
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_UP) {
             if (getCompoundDrawables()[2] != null) {
-
                 boolean touchable = event.getX() > (getWidth() - getTotalPaddingRight())
-                        && (event.getX() < ((getWidth() - getPaddingRight())));
-
+                        && (event.getX() < (getWidth() - getPaddingRight()));
                 if (touchable) {
                     this.setText("");
                 }
