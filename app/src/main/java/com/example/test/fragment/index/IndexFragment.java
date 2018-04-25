@@ -74,7 +74,6 @@ public class IndexFragment extends BaseFragment {
         mViewPager.setAdapter(adapter);//给ViewPager设置适配器
         mTabLayout.setupWithViewPager(mViewPager);//将TabLayout和ViewPager关联起来
         mTabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
-//        mTabLayout.setTabMode(TabLayout.MODE_FIXED);
         return view;
     }
 
@@ -82,7 +81,6 @@ public class IndexFragment extends BaseFragment {
         @Override
         public boolean playVideo(String url) {
             if (url.startsWith("https:")) {
-                //improve your life  from heart
 
             }
             return true;

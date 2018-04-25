@@ -18,12 +18,8 @@ public class MySp extends BaseSp {
     public static final String KEY_UPDATE_DIALOG_VERSION = "update_dialog_version";
 
     //value 常量
-    public static final String V_USD = "USD";
-    public static final String V_RMB = "RMB";
-
     public static String token = "";
     public static String uuid = "";
-
     private static MySp ins;
 
     public static MySp ins() {

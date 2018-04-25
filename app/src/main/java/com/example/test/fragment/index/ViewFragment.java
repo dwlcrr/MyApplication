@@ -13,11 +13,12 @@ import com.smm.lib.view.progressCheck.SwitchButton;
 
 /**
  * 自定义view fragment
- * Created by dwl on 2018/3/23.
+ * Created by dwl on 2018/3/23
  */
 public class ViewFragment extends BaseFragment {
 
     private TextView textView;
+    private int maxValue;
     private SwitchButton switchButton;
 
     public static ViewFragment newInstance(int index){
