@@ -46,8 +46,8 @@ public class ViewFragment extends BaseFragment {
     @Override
     protected void setListener() {
         switchButton.setChecked(true);
-        switchButton.toggle(false);//switch without animation
-        switchButton.setShadowEffect(true);//disable shadow effect
+        switchButton.toggle(false);
+        switchButton.setShadowEffect(true);
         switchButton.setOnCheckedChangeListener((view, isChecked) -> {
             if(isChecked){
 

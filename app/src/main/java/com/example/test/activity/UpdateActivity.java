@@ -72,7 +72,7 @@ public class UpdateActivity extends BaseActivity implements OnClickListener {
                 .setNegativeButton(R.string.update_btn_cancel,
                         (dialog, id) -> {});
         AlertDialog dialog = builder.create();
-        //点击对话框外面,对话框不消失
+        //点击对话框
         dialog.setCanceledOnTouchOutside(false);
         dialog.show();
     }
