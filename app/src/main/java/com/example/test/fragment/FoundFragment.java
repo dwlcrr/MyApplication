@@ -40,6 +40,9 @@ public class FoundFragment extends BaseFragment {
     @Override
     protected void initData() {
         getUserUnReadMessage();
+//        MainActivityBinding binding = DataBindingUtil.setContentView(this, R.layout.fragmnet_found);
+//        User user = new User("Test", "User");
+//        binding.setUser(user);
     }
 
     /**

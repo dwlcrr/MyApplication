@@ -22,7 +22,7 @@
     <com.example.test.view.myview.other.MyView
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:visibility="gone"
+        android:layout_below="@+id/titlebar"
         custom:titleText="3712"
         custom:titleTextColor="#ff0000"
         custom:titleTextSize="40sp" />

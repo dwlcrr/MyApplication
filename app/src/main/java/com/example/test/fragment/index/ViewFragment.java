@@ -6,13 +6,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import com.example.test.R;
 import com.example.test.activity.SimpleViewActivity;
 import com.example.test.base.BaseFragment;
 import com.smm.lib.view.progressCheck.SwitchButton;
 
 /**
- * 自定义view fragment
+ * 自定义view fragment 
  * Created by dwl on 2018/3/23
  */
 public class ViewFragment extends BaseFragment {
@@ -50,11 +51,10 @@ public class ViewFragment extends BaseFragment {
         switchButton.setShadowEffect(true);
         switchButton.setOnCheckedChangeListener((view, isChecked) -> {
             if(isChecked){
-
+                textView.setOnClickListener(view1 -> startActivity(new Intent(getActivity(), SimpleViewActivity.class)));
             }else {
 
             }
         });
-        textView.setOnClickListener(view -> startActivity(new Intent(getActivity(), SimpleViewActivity.class)));
     }
 }

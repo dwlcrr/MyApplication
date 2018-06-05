@@ -1,67 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <!-- 资讯快递 -->
-    <LinearLayout
-        android:id="@+id/ll_found_zixun"
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="user"
+            type="com.example.test.entity.user.User" />
+    </data>
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/white"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="34dp"
-            android:layout_height="34dp"
-            android:scaleType="fitXY"
-            android:src="@mipmap/found_zxkd" />
-
+        <!-- 资讯快递 -->
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:id="@+id/ll_found_zixun"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
             android:gravity="center_vertical"
-            android:orientation="vertical">
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/found_zxkd" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_found_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="资讯快递"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_found_main2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center_vertical"
+                    android:text="现货价格更新，行情波动，即时推送"
+                    android:textColor="@color/gray_99"
+                    android:textSize="12sp" />
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/tv_found_main"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_vertical"
-                android:text="资讯快递"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
+                android:id="@+id/tv_found_noreed"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/hongdian"
+                android:visibility="gone" />
 
-            <TextView
-                android:id="@+id/tv_found_main2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="3dp"
-                android:gravity="center_vertical"
-                android:text="现货价格更新，行情波动，即时推送"
-                android:textColor="@color/gray_99"
-                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/arrow_right" />
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/tv_found_noreed"
-            android:layout_width="7dp"
-            android:layout_height="7dp"
-            android:layout_marginRight="7dp"
-            android:background="@drawable/hongdian"
-            android:visibility="gone" />
-
-        <ImageView
-            android:layout_width="8dp"
-            android:layout_height="15dp"
-            android:scaleType="fitXY"
-            android:src="@mipmap/arrow_right" />
-    </LinearLayout>
-</RelativeLayout>
+    </RelativeLayout>
+</layout>

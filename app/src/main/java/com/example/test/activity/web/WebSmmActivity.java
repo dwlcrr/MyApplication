@@ -182,22 +182,12 @@ public class WebSmmActivity extends BaseActivity {
         });
         webView.addJavascriptInterface(new SmmWebJs(webView), SMMAPPJS);
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
-        close.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        back.setOnClickListener(v -> onBackPressed());
+        close.setOnClickListener(v -> finish());
         webType = getIntent().getIntExtra(WEB_TYPE, 0);
         switch (webType) {
             case 0:
-
+                webView.loadDataWithBaseURL(null,"htmlcontent","text/html","UTF-8",null);
                 break;
         }
 

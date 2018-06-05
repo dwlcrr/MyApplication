@@ -88,6 +88,7 @@ public class IndexFragment extends BaseFragment {
 
         @Override
         public boolean playFirstVideo(String url) {
+            mTabLayout.setupWithViewPager(mViewPager);
             return false;
         }
     };
@@ -98,7 +99,7 @@ public class IndexFragment extends BaseFragment {
         listenWs();
         webSocketManager.logoutLive();
         webSocketManager.tryConnectLive();
-        //监听网络变化
+        //监听网络
         IntentFilter filter = new IntentFilter();
         filter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
         getActivity().registerReceiver(netReceiver, filter);
@@ -114,6 +115,7 @@ public class IndexFragment extends BaseFragment {
                 .subscribe(msg -> {
                             if (msg.type == WsLiveMsg.TYPE_CONNECT_ERROR) {
                                 //连接失败，自动重连
+                                webSocketManager.tryConnectLive();
                             } else if (msg.type == WsLiveMsg.TYPE_COMMON) {
                                 switch (msg.cmd) {
                                     case WsLiveMsg.CMD_LOGIN:
@@ -130,7 +132,7 @@ public class IndexFragment extends BaseFragment {
         addRx(s);
     }
 
-    private void sendEnterRoom() {
+    private void sendEnterRoom() { //有想法自己去做 不要废话
         int roomId = 1;
         webSocketManager.sendLive("{\"cmd\":\"enter_room\",\"data\":{\"live_room_id\":" + roomId + "}}");
     }

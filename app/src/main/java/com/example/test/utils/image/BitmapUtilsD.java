@@ -1,4 +1,4 @@
-package com.example.test.utils.Image;
+package com.example.test.utils.image;
 
 import android.content.Context;
 import android.content.res.Resources;

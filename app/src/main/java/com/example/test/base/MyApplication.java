@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.support.multidex.MultiDex;
 import com.example.test.net.NetConfig;
+import com.example.test.utils.base.SpfsUtil;
 import com.example.test.utils.other.UUIDUtils;
 import com.meituan.android.walle.WalleChannelReader;
 import com.smm.lib.BuildConfig;
@@ -47,6 +48,7 @@ public class MyApplication extends Application {
         super.onCreate();
         ins = this;
         initOkGo();
+        SpfsUtil.init();
         MyApplication.DEFAULT_DEGREE_FONT_SIZE = DisplayUtils.dip2px(this, 10);
         MyApplication.TOUCH_MIN = (int) (DisplayUtils.getScreenHeight(this) * 0.04);
         MyApplication.TOUCH_MIN = MyApplication.TOUCH_MIN > 5 ? MyApplication.TOUCH_MIN : 5;

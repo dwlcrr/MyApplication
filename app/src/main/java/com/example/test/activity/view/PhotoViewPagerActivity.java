@@ -19,7 +19,7 @@ import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
-import com.example.test.utils.Image.RxSaveBitmap;
+import com.example.test.utils.image.RxSaveBitmap;
 import com.example.test.utils.rx.RxUtils;
 import com.example.test.view.myview.dialog.SavePhotoDialog;
 import com.tbruyelle.rxpermissions.RxPermissions;
