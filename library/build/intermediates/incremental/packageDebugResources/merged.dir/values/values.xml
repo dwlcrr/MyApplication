@@ -45,6 +45,7 @@
             <enum name="bottom" value="2"/>
             <enum name="all" value="3"/>
         </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference|dimension" name="sb_shadow_radius"/><attr format="reference|dimension" name="sb_shadow_offset"/><attr format="reference|color" name="sb_shadow_color"/><attr format="reference|color" name="sb_uncheck_color"/><attr format="reference|color" name="sb_checked_color"/><attr format="reference|dimension" name="sb_border_width"/><attr format="reference|color" name="sb_checkline_color"/><attr format="reference|dimension" name="sb_checkline_width"/><attr format="reference|color" name="sb_uncheckcircle_color"/><attr format="reference|dimension" name="sb_uncheckcircle_width"/><attr format="reference|dimension" name="sb_uncheckcircle_radius"/><attr format="reference|boolean" name="sb_checked"/><attr format="reference|boolean" name="sb_shadow_effect"/><attr format="reference|integer" name="sb_effect_duration"/><attr format="reference|color" name="sb_button_color"/><attr format="reference|boolean" name="sb_show_indicator"/><attr format="reference|color" name="sb_background"/><attr format="reference|boolean" name="sb_enable_effect"/></declare-styleable>
     <declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable>
     <declare-styleable name="pickerview"><attr name="wheelview_gravity">
             <enum name="center" value="17"/>
@@ -57,14 +58,6 @@
     <dimen name="pickerview_topbar_padding">20dp</dimen>
     <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
     <integer name="animation_default_duration">300</integer>
-    <string name="android_auto_update_dialog_btn_cancel">以后再说</string>
-    <string name="android_auto_update_dialog_btn_download">立即下载</string>
-    <string name="android_auto_update_dialog_checking">正在检查版本</string>
-    <string name="android_auto_update_dialog_title">发现新版本</string>
-    <string name="android_auto_update_download_progress">正在下载:%1$d%%</string>
-    <string name="android_auto_update_notify_content">发现新版本,点击进行升级</string>
-    <string name="android_auto_update_notify_ticker">发现新版本,点击进行升级</string>
-    <string name="android_auto_update_toast_no_new_update">已经是最新版本</string>
     <string name="pickerview_cancel">取消</string>
     <string name="pickerview_day">日</string>
     <string name="pickerview_hours">时</string>
@@ -73,6 +66,13 @@
     <string name="pickerview_seconds">秒</string>
     <string name="pickerview_submit">确定</string>
     <string name="pickerview_year">年</string>
+    <string name="update_anotify_ticker">发现新版本,点击进行升级</string>
+    <string name="update_btn_cancel">以后再说</string>
+    <string name="update_btn_download">立即下载</string>
+    <string name="update_dialog_checking">正在检查版本</string>
+    <string name="update_dialog_title">发现新版本</string>
+    <string name="update_download_progress">正在下载:%1$d%%</string>
+    <string name="update_no_new_update">已经是最新版本</string>
     <style name="AlertDialog" parent="android:style/Theme.Dialog">
         <item name="android:background">#00000000</item>
         <item name="android:windowBackground">@android:color/transparent</item>

@@ -25,6 +25,6 @@ android {
 }
 //Umeng share 6.4.4
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:support-v4:26.1.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:support-v4:26.1.0'
 }

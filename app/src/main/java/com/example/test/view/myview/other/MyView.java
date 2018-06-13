@@ -2,13 +2,17 @@ package com.example.test.view.myview.other;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
+import android.view.MotionEvent;
 import android.view.View;
+
 import com.example.test.R;
 
 /**
@@ -92,15 +96,29 @@ public class MyView extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
-    //开始转型，必须转型。学习，学习，学习。
+    //
     @Override
     protected void onDraw(Canvas canvas) {
         mPaint.setColor(Color.YELLOW);
         canvas.drawRect(0, 0, getMeasuredWidth(), getMeasuredHeight(), mPaint);
-        canvas.drawRect(0,0,getMeasuredWidth(),getMeasuredHeight(),mPaint);
         mPaint.setColor(mTitleTextColor);
         float width = mPaint.measureText(mTitleText);
         float height = mPaint.ascent() - mPaint.descent();
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
+        float widthB = (getWidth()-bitmap.getWidth())/2;
+        float heightB = (getHeight()-bitmap.getHeight())/2;
+        canvas.drawBitmap(bitmap,widthB,heightB,mPaint);
+        canvas.drawBitmap(bitmap,widthB,heightB,mPaint);
         canvas.drawText(mTitleText, getWidth() / 2 - mBound.width() / 2, getHeight() / 2 + mBound.height() / 2, mPaint);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        return super.onTouchEvent(event);
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        return super.dispatchTouchEvent(event);
     }
 }

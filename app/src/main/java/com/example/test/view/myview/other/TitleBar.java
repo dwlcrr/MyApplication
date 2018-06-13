@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -251,5 +252,10 @@ public class Titlebar extends RelativeLayout {
         leftLayout.setOnClickListener(v -> leftRightClickListener.onTitleLeftClick());
 
         rightLayout.setOnClickListener(v -> leftRightClickListener.onTitleRightClick());
+    }
+
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+        return super.onInterceptTouchEvent(ev);
     }
 }
