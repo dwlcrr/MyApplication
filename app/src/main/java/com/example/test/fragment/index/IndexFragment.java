@@ -92,7 +92,17 @@ public class IndexFragment extends BaseFragment {
             return false;
         }
     };
+    private OtherFragment.LiveVideoListener liveVideoListener1 = new OtherFragment.LiveVideoListener() {
+        @Override
+        public boolean playVideo(String url) {
+            return false;
+        }
 
+        @Override
+        public boolean playFirstVideo(String url) {
+            return false;
+        }
+    };
     @Override
     protected void initData() {
         webSocketManager = WebSocketManager.ins();
@@ -132,7 +142,7 @@ public class IndexFragment extends BaseFragment {
         addRx(s);
     }
 
-    private void sendEnterRoom() { //有想法自己去做 不要废话
+    private void sendEnterRoom() {
         int roomId = 1;
         webSocketManager.sendLive("{\"cmd\":\"enter_room\",\"data\":{\"live_room_id\":" + roomId + "}}");
     }
@@ -163,4 +173,11 @@ public class IndexFragment extends BaseFragment {
             }
         }
     };
+
+    public void showContent(){
+        if(netReceiver != null){
+            getActivity().unregisterReceiver(netReceiver);
+        }
+        webSocketManager.logoutLive();
+    }
 }

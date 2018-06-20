@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import io.github.lijunguan.imgselector.ImageSelector;
 
 /**
- * 其他测试 fragment
+ * 其他测试（fragment直接互调方法以及观察者模式） fragment
  * Created by dwl on 2018/3/23.
  */
 public class OtherFragment extends BaseFragment {
@@ -77,8 +77,13 @@ public class OtherFragment extends BaseFragment {
         });
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
     /**
-     * 选择图片
+     * 选择图片 商业思维。我本来就想自由点，那就来。
      */
     private void selectPicture() {
         new RxPermissions(getActivity())

@@ -56,7 +56,7 @@ public class MyView extends View {
     public MyView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         /**
-         * 获得我们所定义的自定义样式属性
+         * 获得我们所定义的自定义样式属性  禁贪嗔痴。
          */
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.MyView, defStyle, 0);
         int n = a.getIndexCount();
@@ -107,7 +107,6 @@ public class MyView extends View {
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
         float widthB = (getWidth()-bitmap.getWidth())/2;
         float heightB = (getHeight()-bitmap.getHeight())/2;
-        canvas.drawBitmap(bitmap,widthB,heightB,mPaint);
         canvas.drawBitmap(bitmap,widthB,heightB,mPaint);
         canvas.drawText(mTitleText, getWidth() / 2 - mBound.width() / 2, getHeight() / 2 + mBound.height() / 2, mPaint);
     }

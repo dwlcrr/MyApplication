@@ -29,4 +29,17 @@
         <attr name="rightTextSize" format="dimension|reference"></attr>
 
     </declare-styleable>
+
+    <!--MultiStateView-->
+    <declare-styleable name="MultiStateView">
+        <attr name="loadingView" format="reference" />
+        <attr name="emptyView" format="reference" />
+        <attr name="errorView" format="reference" />
+        <attr name="viewState" format="enum">
+            <enum name="content" value="0" />
+            <enum name="error" value="1" />
+            <enum name="empty" value="2" />
+            <enum name="loading" value="3" />
+        </attr>
+    </declare-styleable>
 </resources>

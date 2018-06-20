@@ -45,7 +45,8 @@ public class MyView1 extends View implements View.OnClickListener {
         mPaint.getTextBounds(text, 0, text.length(), mBounds);
         float textWidth = mBounds.width();
         float textHeight = mBounds.height();
-
+        int width = getWidth() / 2;
+        int height = getHeight() / 2;
         // 绘制字符串
         canvas.drawText(text, getWidth() / 2 - textWidth / 2, getHeight() / 2 + textHeight / 2, mPaint);
     }

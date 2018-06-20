@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@mipmap/left_arrow_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_back"
+            android:background="@drawable/corner_15_dark_bg">
+
+            <com.smm.view.other.ClearEditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/iv_search"
+                android:background="@color/hui_f2f2f2"
+                android:hint="输入“铜”试试"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColorHighlight="@color/hui_999999"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@mipmap/select_big"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyQuoHotSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.smm.view.other.RefreshLoadLayout
+        android:id="@+id/refreshQuoSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/divier">
+
+        <com.smm.view.loadview.SimpleLoadingLayout
+            android:id="@+id/loadingQuoSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lvQuoSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/line_color"
+                android:dividerHeight="1px"
+                android:headerDividersEnabled="false"
+                android:listSelector="#00ffffff"/>
+        </com.smm.view.loadview.SimpleLoadingLayout>
+    </com.smm.view.other.RefreshLoadLayout>
+
+    <com.smm.view.loadview.SimpleLoadingLayout
+        android:id="@+id/loading_quo_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clipToPadding="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="10dp"
+            android:scrollbarStyle="outsideOverlay" />
+    </com.smm.view.loadview.SimpleLoadingLayout>
+</LinearLayout>

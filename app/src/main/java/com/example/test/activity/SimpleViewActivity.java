@@ -3,6 +3,7 @@ package com.example.test.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+
 import com.example.test.R;
 import com.example.test.base.BaseActivity;
 import com.example.test.view.myview.other.Titlebar;
@@ -30,14 +31,26 @@ public class SimpleViewActivity extends BaseActivity implements OnClickListener 
                 .setOnLeftRightClickListener(new Titlebar.OnLeftRightClickListener() {
             @Override
             public void onTitleLeftClick() {
-                finish();//
+                finish();
             }
 
             @Override
             public void onTitleRightClick() {
-
+//                Glide.with(SimpleViewActivity.this).load(R.mipmap.arrow_right).bitmapTransform(new BlurTransformation(SimpleViewActivity.this, 16)).into(mImageView);
             }
         });
+        titlebar.setTitleText("ss").setLeftText("fabu").setRightImage(R.mipmap.download).
+                setOnLeftRightClickListener(new Titlebar.OnLeftRightClickListener() {
+                    @Override
+                    public void onTitleLeftClick() {
+
+                    }
+
+                    @Override
+                    public void onTitleRightClick() {
+
+                    }
+                });
     }
 
     @Override
