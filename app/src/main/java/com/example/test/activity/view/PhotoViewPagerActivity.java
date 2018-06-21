@@ -14,6 +14,7 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
@@ -23,9 +24,11 @@ import com.example.test.utils.image.RxSaveBitmap;
 import com.example.test.utils.rx.RxUtils;
 import com.example.test.view.myview.dialog.SavePhotoDialog;
 import com.tbruyelle.rxpermissions.RxPermissions;
+
 import java.io.File;
 import java.io.Serializable;
 import java.util.List;
+
 import io.github.lijunguan.imgselector.album.widget.HackyViewPager;
 import rx.Observable;
 import rx.Subscription;
@@ -140,9 +143,11 @@ public class PhotoViewPagerActivity extends BaseActivity {
 
     class SamplePagerAdapter extends PagerAdapter {
 
+        int size = photos.size();
+
         @Override
         public int getCount() {
-            return photos.size();
+            return size;
         }
 
         @Override

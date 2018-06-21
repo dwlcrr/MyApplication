@@ -155,9 +155,8 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.1'
     implementation 'io.reactivex:rxandroid:1.2.1'
     implementation 'io.reactivex:rxjava:1.2.1'
-
     implementation 'com.tencent.bugly:crashreport:latest.release'
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    implementation 'com.github.chrisbanes:PhotoView:1.2.6'
     implementation project(path: ':library')
     implementation project(path: ':umeng')
     implementation project(path: ':imageseletor')

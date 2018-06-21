@@ -39,11 +39,11 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="10dp"
                 android:layout_toRightOf="@+id/iv_search"
-                android:background="@color/hui_f2f2f2"
+                android:background="@color/gray_99"
                 android:hint="输入“铜”试试"
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
-                android:textColorHighlight="@color/hui_999999"
+                android:textColorHighlight="@color/gray_66"
                 android:textSize="15sp" />
 
             <ImageView
