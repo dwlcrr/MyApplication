@@ -105,7 +105,7 @@ public class IndexFragment extends BaseFragment {
     };
     @Override
     protected void initData() {
-        webSocketManager = WebSocketManager.ins();
+        webSocketManager = WebSocketManager .ins();
         listenWs();
         webSocketManager.logoutLive();
         webSocketManager.tryConnectLive();
@@ -149,7 +149,8 @@ public class IndexFragment extends BaseFragment {
 
     @Override
     protected void setListener() {
-
+        //发布
+        webSocketManager.logoutLive();
     }
 
     @Override
@@ -174,10 +175,4 @@ public class IndexFragment extends BaseFragment {
         }
     };
 
-    public void showContent(){
-        if(netReceiver != null){
-            getActivity().unregisterReceiver(netReceiver);
-        }
-        webSocketManager.logoutLive();
-    }
 }

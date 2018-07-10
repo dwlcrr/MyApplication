@@ -1,5 +1,6 @@
 package com.example.test.fragment.index;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,6 +39,16 @@ public class Other1Fragment extends BaseFragment {
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
     protected void initData() {
         testObserver();
     }
@@ -66,7 +77,7 @@ public class Other1Fragment extends BaseFragment {
     @Override
     protected void setListener() {
         textView.setOnClickListener(view -> {
-
+            NotificationCenter.defaultCenter().addFucntionForNotification(FinalConstant.MESS_BROADCAST,delegate);
         });
     }
 
