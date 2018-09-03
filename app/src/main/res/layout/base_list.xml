@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/il_titile"
+        layout="@layout/include_titlebar" />
+
+    <com.example.test.view.listview.RefreshLoadLayout
+        android:id="@+id/swipe_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.test.view.listview.SimpleLoadingLayout
+            android:id="@+id/loading_simple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lv_baseist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/line_color"
+                android:dividerHeight="1px"
+                android:headerDividersEnabled="false"
+                android:listSelector="#00ffffff"/>
+        </com.example.test.view.listview.SimpleLoadingLayout>
+    </com.example.test.view.listview.RefreshLoadLayout>
+</LinearLayout>

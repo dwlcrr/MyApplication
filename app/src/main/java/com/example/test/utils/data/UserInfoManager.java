@@ -2,9 +2,9 @@ package com.example.test.utils.data;
 
 import android.widget.Toast;
 import com.example.test.base.MyApplication;
-import com.example.test.base.MySp;
 import com.example.test.entity.user.UserInfoResult;
 import com.example.test.net.api.UserApi;
+import com.example.test.utils.base.SpfsUtil;
 import com.smm.lib.utils.base.StrUtil;
 import rx.Observable;
 
@@ -40,14 +40,14 @@ public class UserInfoManager extends DataManager<UserInfoResult> {
                             case 0:
                                 return userInfoResult;
                             case 10003:
-                                MySp.ins().logout();
+                                SpfsUtil.clearUserInfoSpf();
                                 Toast.makeText(MyApplication.getContext(), userInfoResult.msg, Toast.LENGTH_SHORT).show();
                                 break;
                             case 10021:
                                 refreshToken();
                                 break;
                             case 10028:
-                                MySp.ins().logout();
+                                SpfsUtil.clearUserInfoSpf();
                                 Toast.makeText(MyApplication.getContext(), userInfoResult.msg, Toast.LENGTH_SHORT).show();
                                 break;
                         }
@@ -65,7 +65,7 @@ public class UserInfoManager extends DataManager<UserInfoResult> {
                                     && refreshTokenResult.code == 0
                                     && refreshTokenResult.data != null
                                     && StrUtil.isNotEmpty(refreshTokenResult.data.token)) {
-                                MySp.ins().putString(MySp.KEY_TOKEN, refreshTokenResult.data.token);
+                                SpfsUtil.save(SpfsUtil.TOKEN, refreshTokenResult.data.token);
                                 refresh();
                             }
                         },

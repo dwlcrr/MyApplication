@@ -80,29 +80,15 @@ public class IndexFragment extends BaseFragment {
     private OtherFragment.LiveVideoListener liveVideoListener = new OtherFragment.LiveVideoListener() {
         @Override
         public boolean playVideo(String url) {
-            if (url.startsWith("https:")) {
-
-            }
             return true;
         }
 
         @Override
         public boolean playFirstVideo(String url) {
-            mTabLayout.setupWithViewPager(mViewPager);
             return false;
         }
     };
-    private OtherFragment.LiveVideoListener liveVideoListener1 = new OtherFragment.LiveVideoListener() {
-        @Override
-        public boolean playVideo(String url) {
-            return false;
-        }
 
-        @Override
-        public boolean playFirstVideo(String url) {
-            return false;
-        }
-    };
     @Override
     protected void initData() {
         webSocketManager = WebSocketManager .ins();

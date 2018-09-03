@@ -15,7 +15,6 @@ import com.example.test.R;
 import com.example.test.activity.login.SplashActivity;
 import com.example.test.adapter.FragmentAdapter;
 import com.example.test.base.BaseActivity;
-import com.example.test.base.MyApplication;
 import com.example.test.entity.AdList;
 import com.example.test.fragment.FoundFragment;
 import com.example.test.fragment.MineFragment;
@@ -34,14 +33,13 @@ import com.smm.lib.utils.base.StrUtil;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 import rx.Observable;
 import rx.Subscriber;
 
 public class MainActivity extends BaseActivity{
 
-    private String[] titles = new String[]{"首页", "资讯", "发现", "我"};
+    private String[] titles = new String[]{"首页", "商城", "发现", "我的"};
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
     private FragmentAdapter adapter;
@@ -67,12 +65,12 @@ public class MainActivity extends BaseActivity{
 
     @Override
     protected void initView() {
-        MyApplication.ins().isMainRunning = true;
+        SpfsUtil.USERTOKEN = SpfsUtil.get(SpfsUtil.TOKEN);
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
         mTitles = new ArrayList<>();
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < titles.length; i++) {
             mTitles.add(titles[i]);
         }
 
@@ -80,7 +78,7 @@ public class MainActivity extends BaseActivity{
         mFragments.add(IndexFragment.getInstance());
         mFragments.add(NewsFragment.getInstance());
         mFragments.add(FoundFragment.getInstance());
-        mFragments.add(MineFragment.getInstance());
+        mFragments.add(new MineFragment());
 
         adapter = new FragmentAdapter(getSupportFragmentManager(), mFragments, mTitles);
         mViewPager.setAdapter(adapter);
@@ -100,23 +98,18 @@ public class MainActivity extends BaseActivity{
                 imageView.setImageResource(mImgs[i]);
             }
         }
+
         mTabLayout.getTabAt(0).getCustomView().setSelected(true);
     }
 
     @Override
     protected void setListener() {
-        Vector v = new Vector(10);
-        for (int i = 1; i < 100; i++) {
-            Object o = new Object();
-            v.add(o);
-            o = null;
-        }
+
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        MyApplication.ins().isMainRunning = false;
     }
 
     @Override

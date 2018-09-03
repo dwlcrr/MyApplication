@@ -108,7 +108,6 @@ public class SplashActivity extends BaseActivity implements OnClickListener {
 
     /**
      * 启动广告
-     * 我要彻底改变 优柔寡断！！！心里素质太差了！！！
      */
     private void startAd() {
         final String adJson = SpfsUtil.get(SPLASH_AD_INFO);

@@ -33,22 +33,6 @@ ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml
 		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:15:13-37
 	android:name
 		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:14:13-62
-provider#com.smm.lib.UpdateApkFileProvider
-ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:17:9-27:20
-	android:grantUriPermissions
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:21:13-47
-	android:authorities
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:19:13-67
-	android:exported
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:18:13-61
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:23:13-25:60
-	android:resource
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:25:17-57
-	android:name
-		ADDED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml:24:17-67
 uses-sdk
 INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\company project\MyApplication\library\src\main\AndroidManifest.xml

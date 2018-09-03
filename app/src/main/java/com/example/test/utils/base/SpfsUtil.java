@@ -25,7 +25,6 @@ public class SpfsUtil {
     public static final String NICKNAME = "nickname";
     public static String USERTOKEN = "";
 
-
     public static void init() {
         sharedPreferences = MyApplication.ins().getSharedPreferences(PREFERENCES_NAME, Context.MODE_PRIVATE);
     }
@@ -87,12 +86,7 @@ public class SpfsUtil {
 
     //清除用户个人信息
     public static void clearUserInfoSpf() {
-//        sharedPreferences.edit().clear().commit();
-        sharedPreferences.edit().remove(TOKEN).remove(USERNAME).remove(PWD).remove(NICKNAME).remove(VIP_STATUS).remove("zixunvip").commit();
-//        SpfsUtil.save(SpfsUtil.GUIDE, 1);
-//        sharedPreferences.edit().putBoolean(ONCE_QUOTATION, true).commit();
-//        sharedPreferences.edit().putBoolean(ONCE_QUOTATION_DETAILS, true).commit();
-//        sharedPreferences.edit().putBoolean(ONCE_MALL, true).commit();
+        sharedPreferences.edit().remove(TOKEN).remove(USERNAME).remove(PWD).commit();
         USERTOKEN = "";
         UserInfoManager.INS().clear();
         RxBus.getDefault().post(new LoginStatus(2));

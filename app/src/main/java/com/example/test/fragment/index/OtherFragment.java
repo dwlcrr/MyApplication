@@ -2,6 +2,8 @@ package com.example.test.fragment.index;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.ActivityManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -65,7 +67,9 @@ public class OtherFragment extends BaseFragment {
     @Override
     protected void initData() {
         center = NotificationCenter.defaultCenter();
-        mLiveVideoListener.playFirstVideo("url");
+        mLiveVideoListener.playVideo("url");
+        ActivityManager manager = (ActivityManager) getActivity().getSystemService(Context.ACTIVITY_SERVICE);
+        int heapSize = manager.getMemoryClass();
     }
 
     @Override

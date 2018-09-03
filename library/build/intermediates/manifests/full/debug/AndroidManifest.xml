@@ -16,15 +16,20 @@
             android:name="com.smm.lib.update.DownloadService"
             android:exported="false" />
 
-        <provider
-            android:name="com.smm.lib.UpdateApkFileProvider"
-            android:authorities="${applicationId}.update.provider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/update_apk_paths" />
-        </provider>
+        <!-- <provider -->
+        <!-- android:name="com.smm.lib.UpdateApkFileProvider" -->
+        <!-- android:authorities="${applicationId}.update.provider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/update_apk_paths" /> -->
+
+
+        <!-- </provider> -->
+
     </application>
 
 </manifest>

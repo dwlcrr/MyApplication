@@ -2,9 +2,9 @@ package com.example.test.net.webSocket;
 
 import android.os.Handler;
 import com.example.test.base.MyApplication;
-import com.example.test.base.MySp;
 import com.example.test.entity.WsLiveMsg;
 import com.example.test.net.NetConfig;
+import com.example.test.utils.base.SpfsUtil;
 import com.google.gson.Gson;
 import com.koushikdutta.async.callback.CompletedCallback;
 import com.koushikdutta.async.http.AsyncHttpClient;
@@ -104,7 +104,7 @@ public class WebSocketManager {
                     }
                 }
             });
-            sendLive("{\"cmd\":\"login\",\"data\":{\"token\":\"" + MySp.token + "\",\"client_type\":\"app\",\"device_token\":\"" + MySp.uuid + "\"}}");
+            sendLive("{\"cmd\":\"login\",\"data\":{\"token\":\"" + SpfsUtil.USERTOKEN + "\",\"client_type\":\"app\",\"device_token\":\"" +  SpfsUtil.USERTOKEN + "\"}}");
         }
     };
 

@@ -68,6 +68,7 @@ public class Other1Fragment extends BaseFragment {
             public void update(String name, Object obj) {
                 if(name.equals(FinalConstant.MESS_BROADCAST)){
                     String name1 = obj.toString();
+
                 }
             }
         };

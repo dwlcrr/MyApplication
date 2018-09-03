@@ -27,17 +27,17 @@
             android:screenOrientation="portrait"
             android:theme="@style/AlbumTheme" />
 
-        <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="io.github.lijunguan.imgselector"
-            android:exported="false"
-            android:grantUriPermissions="true">
+        <!--<provider-->
+            <!--android:name="android.support.v4.content.FileProvider"-->
+            <!--android:authorities="io.github.lijunguan.imgselector.file"-->
+            <!--android:exported="false"-->
+            <!--android:grantUriPermissions="true">-->
 
-            <!-- 元数据 -->
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
-        </provider>
+            <!--&lt;!&ndash; 元数据 &ndash;&gt;-->
+            <!--<meta-data-->
+                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/file_paths" />-->
+        <!--</provider>-->
     </application>
 
 </manifest>

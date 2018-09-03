@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/il_titile"
+        layout="@layout/include_titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_nickNameLabel"
+                    style="@style/editData_tv_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="昵称" />
+
+                <EditText
+                    android:id="@+id/tv_name"
+                    style="@style/common_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/tv_nickNameLabel"
+                    android:gravity="center|left"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    tools:text="笑" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_namereal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_nickNameLabelreal"
+                    style="@style/editData_tv_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="姓名" />
+
+                <EditText
+                    android:id="@+id/tv_namereal"
+                    style="@style/common_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/tv_nickNameLabelreal"
+                    android:gravity="center|left"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    tools:text="笑" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

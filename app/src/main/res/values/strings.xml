@@ -23,4 +23,23 @@
 
     <string name="picker_json_parse_sample">省市区Json文件解析示例</string>
     <string name="network_error_text">网络不给力,\n点击屏幕，重新加载!</string>
+
+    <string name="network_time_out_message_text">请求超时，请稍后重试！</string>
+    <string name="parse_error_message">数据解析错误！</string>
+    <!-- 登录 注册-->
+    <string name="login_account_hint">请输入您的手机号</string>
+    <string name="login_pass_hint">请输入您的密码</string>
+    <string name="register_vercode_hint">请输入您的验证码</string>
+    <string name="register_select_type">请选择您的行业</string>
+    <string name="register">注册</string>
+    <string name="I_gree">同意手机临泉相关法律协议</string>
+    <string name="send_vercode">发送验证码</string>
+    <string name="login">登录</string>
+    <string name="forget_pass">忘记密码</string>
+
+    <string name="title_activity_header_and_footer_use">HeaderAndFooterUseActivity</string>
+    <string name="error">Network error</string>
+    <string name="network_err">Simulation network error</string>
+    <string name="empty_network_error">Network error, Click Retry</string>
+    <string name="empty_no_data">There is no data, Click Retry</string>
 </resources>

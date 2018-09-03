@@ -29,4 +29,9 @@
     <color name="base_title_color">#464a4d</color>
     <color name="material_text_color_47">#333333</color>
     <color name="divider_color_c7">#d3d3d3</color>
+
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
 </resources>

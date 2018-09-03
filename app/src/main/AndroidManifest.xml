@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.test" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -21,7 +22,11 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.test.activity.login.LoginActivity" />
-        <activity android:name="com.example.test.activity.login.EditDataActivity" />
+        <activity android:name=".activity.login.UpdatePassActivity"/>
+        <activity android:name=".activity.mine.TotalBalanceActivity"/>
+        <activity android:name="com.example.test.activity.mine.MyDataActivity" />
+        <activity android:name=".activity.mine.EditDataActivity"/>
+        <activity android:name=".activity.mine.WithdrawActivity"/>
         <activity android:name="com.example.test.activity.login.IndexGuideActivity" />
         <activity android:name="com.example.test.activity.login.SplashActivity" />
         <activity android:name="com.example.test.activity.UpdateActivity" />

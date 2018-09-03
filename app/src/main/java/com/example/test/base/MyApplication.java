@@ -5,7 +5,6 @@ import android.content.Context;
 import android.support.multidex.MultiDex;
 import com.example.test.net.NetConfig;
 import com.example.test.utils.base.SpfsUtil;
-import com.example.test.utils.other.UUIDUtils;
 import com.meituan.android.walle.WalleChannelReader;
 import com.smm.lib.BuildConfig;
 import com.smm.lib.net.SmmNet;
@@ -53,8 +52,6 @@ public class MyApplication extends Application {
         MyApplication.TOUCH_MIN = (int) (DisplayUtils.getScreenHeight(this) * 0.04);
         MyApplication.TOUCH_MIN = MyApplication.TOUCH_MIN > 5 ? MyApplication.TOUCH_MIN : 5;
 
-        //初始化 token
-        MySp.token = MySp.ins().getString(MySp.KEY_TOKEN, "");
         //获取 channel
         String channel = WalleChannelReader.getChannel(this, "dev");
         Logger.debug("渠道channel===" + channel);
@@ -69,17 +66,6 @@ public class MyApplication extends Application {
         //bugly 初始化
         CrashReport.initCrashReport(getApplicationContext(), "d3c9965132", BuildConfig.DEBUG);
         CrashReport.setAppChannel(getApplicationContext(), BuildConfig.FLAVOR);
-        //初始化 uuid
-        String uuid = MySp.ins().getString(MySp.KEY_UUID, "");
-        if (StrUtil.isEmpty(uuid)) {
-            String newUUID = UUIDUtils.generateUUID(this).toString();
-            if (StrUtil.isNotEmpty(newUUID)) {
-                MySp.ins().putString(MySp.KEY_UUID, uuid);
-                uuid = newUUID;
-            }
-        }
-        MySp.uuid = uuid;
-        Logger.info("smm_uuid", uuid);
     }
 
     @Override
@@ -99,8 +85,8 @@ public class MyApplication extends Application {
                         .addHeader(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE)
                         .addHeader(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE)
                         .addHeader(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
-                if (StrUtil.isNotEmpty(MySp.token)) {
-                    requestBuilder.addHeader("smm-token", MySp.token);
+                if (StrUtil.isNotEmpty(SpfsUtil.USERTOKEN)) {
+                    requestBuilder.addHeader("smm-token", SpfsUtil.USERTOKEN);
                 }
                 return chain.proceed(requestBuilder.build());
             }
@@ -111,8 +97,8 @@ public class MyApplication extends Application {
         headers.put(NetConfig.SMM_VERSION, NetConfig.SMM_VERSION_VALUE);
         headers.put(NetConfig.SMM_DEVICE_INFO, NetConfig.SMM_DEVICE_INFO_VALUE);
         headers.put(NetConfig.SMM_SOURCE, NetConfig.SMM_SOURCE_VALUE);
-        if (StrUtil.isNotEmpty(MySp.token)) {
-            headers.put("smm-token", MySp.token);
+        if (StrUtil.isNotEmpty(SpfsUtil.USERTOKEN)) {
+            headers.put("smm-token", SpfsUtil.USERTOKEN);
         }
         OkGo.getInstance().init(this)
                 .addCommonHeaders(headers);

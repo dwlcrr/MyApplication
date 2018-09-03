@@ -1,10 +1,12 @@
 package com.example.test.net.api;
 
 import android.content.Context;
+
 import com.example.test.BuildConfig;
 import com.example.test.entity.CheckUpdate;
 import com.example.test.entity.base.GankModel;
 import com.example.test.entity.base.GankResponse;
+import com.example.test.entity.user.LoginStatus;
 import com.example.test.net.NetConfig;
 import com.example.test.net.callback.DialogCallback;
 import com.example.test.net.callback.NewsCallback;
@@ -14,7 +16,9 @@ import com.smm.lib.okgo.OkGo;
 import com.smm.lib.okgo.cache.CacheMode;
 import com.smm.lib.okgo.request.base.Request;
 import com.smm.lib.utils.base.FinalConstants;
+
 import java.util.List;
+
 import rx.Observable;
 
 /**
@@ -31,8 +35,7 @@ public class AppApi extends BaseRxApi {
         return request(
                 SmmNet.ins().post(appUrl + "/check_update")
                         .addBodyParams("device_type", "android")
-                        .addBodyParams("app_version", BuildConfig.VERSION_NAME)
-                , CheckUpdate.class);
+                        .addBodyParams("app_version", BuildConfig.VERSION_NAME), CheckUpdate.class);
     }
 
     public static void check(Context context, DialogCallback<CheckUpdate> callback) {
@@ -42,7 +45,20 @@ public class AppApi extends BaseRxApi {
                 .params("app_version", BuildConfig.VERSION_NAME)
                 .execute(callback);
     }
-
+    public static void login(Context context, String loginName,String pass,DialogCallback<LoginStatus> callback) {
+        OkGo.<LoginStatus>post(appUrl + "/login")
+                .tag(context)
+                .params("loginName", loginName)
+                .params("pass", pass)
+                .execute(callback);
+    }
+    public static void updatePass(Context context, String oldPass,String newPass,DialogCallback<LoginStatus> callback) {
+        OkGo.<LoginStatus>post(appUrl + "/updatePass")
+                .tag(context)
+                .params("oldPass", oldPass)
+                .params("newPass", newPass)
+                .execute(callback);
+    }
     public static void dialogRequest(Context context, DialogCallback<CheckUpdate> callback) {
         Request request = OkGo.<CheckUpdate>get(FinalConstants.UPDATE_URL)
                 .tag(context)
@@ -65,12 +81,12 @@ public class AppApi extends BaseRxApi {
         request.execute(callback);
     }
 
-    public static Request isCache(int page ,Request request){
+    public static Request isCache(int page ,Request request) {
         if (page == 1) {
             request.cacheTime(5000)
                     .cacheMode(CacheMode.FIRST_CACHE_THEN_REQUEST)
                     .cacheKey(FinalConstants.TEST_CACHE_LIST);
-        }else {
+        } else {
             request.cacheMode(CacheMode.NO_CACHE);
         }
         return request;

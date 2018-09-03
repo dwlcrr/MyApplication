@@ -28,10 +28,10 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <provider
-            android:name="com.umeng.facebook.FacebookContentProvider"
-            android:authorities="com.facebook.app.FacebookContentProvider711093822396165"
-            android:exported="true" />
+        <!--<provider-->
+            <!--android:name="com.umeng.facebook.FacebookContentProvider"-->
+            <!--android:authorities="com.facebook.app.FacebookContentProvider711093822396165"-->
+            <!--android:exported="true" />-->
 
         <!-- twitter -->
         <activity

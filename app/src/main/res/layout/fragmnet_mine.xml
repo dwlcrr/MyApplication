@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/account_top_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.example.test.view.CircleImageView
+                android:id="@+id/iv_my"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="26dp"
+                android:src="@mipmap/my_personal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/iv_my">
+
+                <TextView
+                    android:id="@+id/tv_loginName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center|left"
+                    android:text="立即登录"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_shop"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/login_bg" />
+
+    <RelativeLayout
+        android:id="@+id/rl_updatePass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/view_shop"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="修改密码"
+            android:textColor="@color/gray_32" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/login_bg" />
+
+    <RelativeLayout
+        android:id="@+id/rl_myInfo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/view_shop"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="查看资料"
+            android:textColor="@color/gray_32" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/login_bg" />
+
+    <RelativeLayout
+        android:id="@+id/rl_withdraw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/view_shop"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="提现"
+            android:textColor="@color/gray_32" />
+
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_balance"
+            android:text="110"
+            android:textColor="@color/gray_32" />
+
+        <ImageView
+            android:id="@+id/iv_balance"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/arrow_right" />
+    </RelativeLayout>
+</LinearLayout>

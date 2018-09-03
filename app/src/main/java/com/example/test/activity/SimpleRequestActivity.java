@@ -35,7 +35,7 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
     private NewsAdapter newsAdapter;
     private boolean isInitCache = false;
     private int page = 1;
-
+    private SimpleLoadMoreView simpleLoadMoreView = new SimpleLoadMoreView();
     @Override
     protected void loadXml(Bundle savedInstanceState) {
         setContentView(R.layout.act_refresh);
@@ -61,12 +61,19 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
         newsAdapter.isFirstOnly(false);
         recyclerView.setAdapter(newsAdapter);
 
+        simpleLoadMoreView.setLoadMoreStatus(LoadMoreView.STATUS_LOADING);
+        newsAdapter.setLoadMoreView(simpleLoadMoreView);
+
         refreshLayout.setColorSchemeColors(Color.RED, Color.BLUE, Color.GREEN);
         refreshLayout.setOnRefreshListener(this);
         newsAdapter.setOnLoadMoreListener(this);
-
         //开启loading,获取数据
-        refreshLayout.post(() -> refreshLayout.setRefreshing(true));
+        refreshLayout.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                refreshLayout.setRefreshing(false);
+            }
+        },100);
         onRefresh();
     }
 
@@ -92,7 +99,7 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
 
             @Override
             public void onCacheSuccess(Response<GankResponse<List<GankModel>>> response) {
-                //一般来说,只需呀第一次初始化界面的时候需要使用缓存刷新界面,以后不需要,所以用一个变量标识
+                //一般来说,只需第一次初始化界面的时候需要使用缓存刷新界面,以后不需要,所以用一个变量标识
                 if (!isInitCache) {
                     //一般来说,缓存回调成功和网络回调成功做的事情是一样的,所以这里直接回调onSuccess
                     onSuccess(response);
@@ -137,7 +144,6 @@ public class SimpleRequestActivity extends BaseActivity implements SwipeRefreshL
             public void onError(Response<GankResponse<List<GankModel>>> response) {
                 //显示数据加载失败,点击重试
 //                newsAdapter.showLoadMoreFailedView();
-                SimpleLoadMoreView simpleLoadMoreView = new SimpleLoadMoreView();
                 simpleLoadMoreView.setLoadMoreStatus(LoadMoreView.STATUS_FAIL);
                 newsAdapter.setLoadMoreView(simpleLoadMoreView);
                 baseActivity.showToast(response.getException().getMessage());
