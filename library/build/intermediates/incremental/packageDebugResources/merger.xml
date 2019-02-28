@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\company project\MyApplication\library\src\main\res"/><source path="E:\company project\MyApplication\library\build\generated\res\rs\debug"/><source path="E:\company project\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\company project\MyApplication\library\src\main\res"><file name="dd_mask_in" path="E:\company project\MyApplication\library\src\main\res\anim\dd_mask_in.xml" qualifiers="" type="anim"/><file name="dd_mask_out" path="E:\company project\MyApplication\library\src\main\res\anim\dd_mask_out.xml" qualifiers="" type="anim"/><file name="dd_menu_in" path="E:\company project\MyApplication\library\src\main\res\anim\dd_menu_in.xml" qualifiers="" type="anim"/><file name="dd_menu_out" path="E:\company project\MyApplication\library\src\main\res\anim\dd_menu_out.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_in" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_dialog_scale_in.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_out" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_dialog_scale_out.xml" qualifiers="" type="anim"/><file name="pickerview_slide_in_bottom" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_slide_in_bottom.xml" qualifiers="" type="anim"/><file name="pickerview_slide_out_bottom" path="E:\company project\MyApplication\library\src\main\res\anim\pickerview_slide_out_bottom.xml" qualifiers="" type="anim"/><file name="progressbar" path="E:\company project\MyApplication\library\src\main\res\anim\progressbar.xml" qualifiers="" type="anim"/><file name="selector_btn" path="E:\company project\MyApplication\library\src\main\res\drawable\selector_btn.xml" qualifiers="" type="drawable"/><file name="selector_pickerview_btn" path="E:\company project\MyApplication\library\src\main\res\drawable\selector_pickerview_btn.xml" qualifiers="" type="drawable"/><file name="shape_btn_blue" path="E:\company project\MyApplication\library\src\main\res\drawable\shape_btn_blue.xml" qualifiers="" type="drawable"/><file name="shape_btn_orangle" path="E:\company project\MyApplication\library\src\main\res\drawable\shape_btn_orangle.xml" qualifiers="" type="drawable"/><file name="wheel_bg" path="E:\company project\MyApplication\library\src\main\res\drawable\wheel_bg.xml" qualifiers="" type="drawable"/><file name="wheel_val" path="E:\company project\MyApplication\library\src\main\res\drawable\wheel_val.xml" qualifiers="" type="drawable"/><file name="delete_selector" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\delete_selector.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_bottom" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\shadow_bottom.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_left" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\shadow_left.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_right" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\shadow_right.png" qualifiers="xhdpi-v4" type="drawable"/><file name="simplehud_bg" path="E:\company project\MyApplication\library\src\main\res\drawable-xhdpi\simplehud_bg.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="custom_tab" path="E:\company project\MyApplication\library\src\main\res\layout\custom_tab.xml" qualifiers="" type="layout"/><file name="include_pickerview_topbar" path="E:\company project\MyApplication\library\src\main\res\layout\include_pickerview_topbar.xml" qualifiers="" type="layout"/><file name="layout_basepickerview" path="E:\company project\MyApplication\library\src\main\res\layout\layout_basepickerview.xml" qualifiers="" type="layout"/><file name="listview_footer" path="E:\company project\MyApplication\library\src\main\res\layout\listview_footer.xml" qualifiers="" type="layout"/><file name="pickerview_options" path="E:\company project\MyApplication\library\src\main\res\layout\pickerview_options.xml" qualifiers="" type="layout"/><file name="pickerview_time" path="E:\company project\MyApplication\library\src\main\res\layout\pickerview_time.xml" qualifiers="" type="layout"/><file name="simplehud" path="E:\company project\MyApplication\library\src\main\res\layout\simplehud.xml" qualifiers="" type="layout"/><file name="swipeback_layout" path="E:\company project\MyApplication\library\src\main\res\layout\swipeback_layout.xml" qualifiers="" type="layout"/><file name="update_dialog" path="E:\company project\MyApplication\library\src\main\res\layout\update_dialog.xml" qualifiers="" type="layout"/><file name="clear_normal" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\clear_normal.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="clear_pressed" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\clear_pressed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_refresh" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\icon_refresh.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_error" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_error.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_info" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_info.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_loading" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_loading.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_success" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_success.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="qiye" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\qiye.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="red_point" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\red_point.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="to_down" path="E:\company project\MyApplication\library\src\main\res\mipmap-xhdpi\to_down.png" qualifiers="xhdpi-v4" type="mipmap"/><file path="E:\company project\MyApplication\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="PagerSlidingTabStrip">
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\demo\MyApplication\library\src\main\res"/><source path="D:\demo\MyApplication\library\build\generated\res\rs\debug"/><source path="D:\demo\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\demo\MyApplication\library\src\main\res"><file name="dd_mask_in" path="D:\demo\MyApplication\library\src\main\res\anim\dd_mask_in.xml" qualifiers="" type="anim"/><file name="dd_mask_out" path="D:\demo\MyApplication\library\src\main\res\anim\dd_mask_out.xml" qualifiers="" type="anim"/><file name="dd_menu_in" path="D:\demo\MyApplication\library\src\main\res\anim\dd_menu_in.xml" qualifiers="" type="anim"/><file name="dd_menu_out" path="D:\demo\MyApplication\library\src\main\res\anim\dd_menu_out.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_in" path="D:\demo\MyApplication\library\src\main\res\anim\pickerview_dialog_scale_in.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_out" path="D:\demo\MyApplication\library\src\main\res\anim\pickerview_dialog_scale_out.xml" qualifiers="" type="anim"/><file name="pickerview_slide_in_bottom" path="D:\demo\MyApplication\library\src\main\res\anim\pickerview_slide_in_bottom.xml" qualifiers="" type="anim"/><file name="pickerview_slide_out_bottom" path="D:\demo\MyApplication\library\src\main\res\anim\pickerview_slide_out_bottom.xml" qualifiers="" type="anim"/><file name="progressbar" path="D:\demo\MyApplication\library\src\main\res\anim\progressbar.xml" qualifiers="" type="anim"/><file name="selector_btn" path="D:\demo\MyApplication\library\src\main\res\drawable\selector_btn.xml" qualifiers="" type="drawable"/><file name="selector_pickerview_btn" path="D:\demo\MyApplication\library\src\main\res\drawable\selector_pickerview_btn.xml" qualifiers="" type="drawable"/><file name="shape_btn_blue" path="D:\demo\MyApplication\library\src\main\res\drawable\shape_btn_blue.xml" qualifiers="" type="drawable"/><file name="shape_btn_orangle" path="D:\demo\MyApplication\library\src\main\res\drawable\shape_btn_orangle.xml" qualifiers="" type="drawable"/><file name="wheel_bg" path="D:\demo\MyApplication\library\src\main\res\drawable\wheel_bg.xml" qualifiers="" type="drawable"/><file name="wheel_val" path="D:\demo\MyApplication\library\src\main\res\drawable\wheel_val.xml" qualifiers="" type="drawable"/><file name="blue_30rd_bg" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\blue_30rd_bg.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="delete_selector" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\delete_selector.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="loading" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\loading.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="login_bg" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\login_bg.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="login_pressed" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\login_pressed.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="no_commit_bt_bg" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\no_commit_bt_bg.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="ptr_rotate_arrow" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\ptr_rotate_arrow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_bottom" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\shadow_bottom.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_left" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\shadow_left.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_right" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\shadow_right.png" qualifiers="xhdpi-v4" type="drawable"/><file name="simplehud_bg" path="D:\demo\MyApplication\library\src\main\res\drawable-xhdpi\simplehud_bg.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="cube_ptr_classic_default_header" path="D:\demo\MyApplication\library\src\main\res\layout\cube_ptr_classic_default_header.xml" qualifiers="" type="layout"/><file name="cube_ptr_simple_loading" path="D:\demo\MyApplication\library\src\main\res\layout\cube_ptr_simple_loading.xml" qualifiers="" type="layout"/><file name="custom_tab" path="D:\demo\MyApplication\library\src\main\res\layout\custom_tab.xml" qualifiers="" type="layout"/><file name="default_load_more_view" path="D:\demo\MyApplication\library\src\main\res\layout\default_load_more_view.xml" qualifiers="" type="layout"/><file name="include_pickerview_topbar" path="D:\demo\MyApplication\library\src\main\res\layout\include_pickerview_topbar.xml" qualifiers="" type="layout"/><file name="layout_basepickerview" path="D:\demo\MyApplication\library\src\main\res\layout\layout_basepickerview.xml" qualifiers="" type="layout"/><file name="listview_footer" path="D:\demo\MyApplication\library\src\main\res\layout\listview_footer.xml" qualifiers="" type="layout"/><file name="load_empty" path="D:\demo\MyApplication\library\src\main\res\layout\load_empty.xml" qualifiers="" type="layout"/><file name="load_ing" path="D:\demo\MyApplication\library\src\main\res\layout\load_ing.xml" qualifiers="" type="layout"/><file name="network_error_view_layout" path="D:\demo\MyApplication\library\src\main\res\layout\network_error_view_layout.xml" qualifiers="" type="layout"/><file name="pickerview_options" path="D:\demo\MyApplication\library\src\main\res\layout\pickerview_options.xml" qualifiers="" type="layout"/><file name="pickerview_time" path="D:\demo\MyApplication\library\src\main\res\layout\pickerview_time.xml" qualifiers="" type="layout"/><file name="refresh_recycler_view" path="D:\demo\MyApplication\library\src\main\res\layout\refresh_recycler_view.xml" qualifiers="" type="layout"/><file name="simplehud" path="D:\demo\MyApplication\library\src\main\res\layout\simplehud.xml" qualifiers="" type="layout"/><file name="swipeback_layout" path="D:\demo\MyApplication\library\src\main\res\layout\swipeback_layout.xml" qualifiers="" type="layout"/><file name="update_dialog" path="D:\demo\MyApplication\library\src\main\res\layout\update_dialog.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="D:\demo\MyApplication\library\src\main\res\mipmap\ic_launcher.png" qualifiers="" type="mipmap"/><file name="spinner_dark_01" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_01.png" qualifiers="" type="mipmap"/><file name="spinner_dark_02" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_02.png" qualifiers="" type="mipmap"/><file name="spinner_dark_03" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_03.png" qualifiers="" type="mipmap"/><file name="spinner_dark_04" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_04.png" qualifiers="" type="mipmap"/><file name="spinner_dark_05" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_05.png" qualifiers="" type="mipmap"/><file name="spinner_dark_06" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_06.png" qualifiers="" type="mipmap"/><file name="spinner_dark_07" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_07.png" qualifiers="" type="mipmap"/><file name="spinner_dark_08" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_08.png" qualifiers="" type="mipmap"/><file name="spinner_dark_09" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_09.png" qualifiers="" type="mipmap"/><file name="spinner_dark_10" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_10.png" qualifiers="" type="mipmap"/><file name="spinner_dark_11" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_11.png" qualifiers="" type="mipmap"/><file name="spinner_dark_12" path="D:\demo\MyApplication\library\src\main\res\mipmap\spinner_dark_12.png" qualifiers="" type="mipmap"/><file name="clear_normal" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\clear_normal.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="clear_pressed" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\clear_pressed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_refresh" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\icon_refresh.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_error" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_error.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_info" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_info.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_loading" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_loading.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="icon_simplehud_success" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\icon_simplehud_success.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="qiye" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\qiye.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="red_point" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\red_point.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="to_down" path="D:\demo\MyApplication\library\src\main\res\mipmap-xhdpi\to_down.png" qualifiers="xhdpi-v4" type="mipmap"/><file path="D:\demo\MyApplication\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="PagerSlidingTabStrip">
         <attr format="color" name="pstsIndicatorColor"/>
         <attr format="color" name="pstsUnderlineColor"/>
         <attr format="color" name="pstsDividerColor"/>
@@ -102,7 +102,47 @@
         <attr format="reference|boolean" name="sb_show_indicator"/>
         <attr format="reference|color" name="sb_background"/>
         <attr format="reference|boolean" name="sb_enable_effect"/>
-    </declare-styleable></file><file path="E:\company project\MyApplication\library\src\main\res\values\colors.xml" qualifiers=""><color name="bottom_color">#34373c</color><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="white">#ffffff</color><color name="gray_line">#F6F6F6</color><color name="gray_ae">#AEAEAE</color><color name="gray_66">#666666</color><color name="gray_light">#c8c8c8</color><color name="black2">#555555</color><color name="steelblue">#4682B4</color><color name="royalblue">#4169E1</color><color name="hui_f2f2f2">#f2f2f2</color><color name="red">#ff6600</color><color name="light_blue">#01ABE9</color><color name="rg_quotation_select">#169BD5</color><color name="indicatorText_color">#0790ee</color><color name="mask_color">#88888888</color><color name="blue_app">#22abea</color><color name="drop_down_unselected">#ffffff</color><color name="base_title_color">#464a4d</color><color name="material_text_color_47">#333333</color><color name="divider_color_c7">#d3d3d3</color><color name="pickerview_timebtn_nor">#057dff</color><color name="pickerview_timebtn_pre">#c2daf5</color><color name="pickerview_bg_topbar">#f5f5f5</color><color name="pickerview_topbar_title">#000000</color><color name="pickerview_wheelview_textcolor_out">#a8a8a8</color><color name="pickerview_wheelview_textcolor_center">#2a2a2a</color><color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color><color name="pickerview_bgColor_overlay">#60000000</color><color name="pickerview_bgColor_default">#FFFFFFFF</color></file><file path="E:\company project\MyApplication\library\src\main\res\values\dimens.xml" qualifiers=""><dimen name="pickerview_topbar_height">44dp</dimen><dimen name="pickerview_topbar_padding">20dp</dimen><dimen name="pickerview_topbar_btn_textsize">17sp</dimen><dimen name="pickerview_topbar_title_textsize">18sp</dimen><dimen name="pickerview_textsize">20sp</dimen></file><file path="E:\company project\MyApplication\library\src\main\res\values\integers.xml" qualifiers=""><integer name="animation_default_duration">300</integer></file><file path="E:\company project\MyApplication\library\src\main\res\values\strings.xml" qualifiers=""><string name="update_dialog_title">发现新版本</string><string name="update_anotify_ticker">发现新版本,点击进行升级</string><string name="update_btn_download">立即下载</string><string name="update_btn_cancel">以后再说</string><string name="update_no_new_update">已经是最新版本</string><string name="update_download_progress">正在下载:%1$d%%</string><string name="update_dialog_checking">正在检查版本</string><string name="pickerview_cancel">取消</string><string name="pickerview_submit">确定</string><string name="pickerview_year">年</string><string name="pickerview_month">月</string><string name="pickerview_day">日</string><string name="pickerview_hours">时</string><string name="pickerview_minutes">分</string><string name="pickerview_seconds">秒</string></file><file path="E:\company project\MyApplication\library\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </declare-styleable><declare-styleable name="MaterialProgressBarSupport">
+        <attr format="boolean" name="progressSmallSize"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="color" name="progressBackgroundColor"/>
+    </declare-styleable><declare-styleable name="MultiStateView">
+        <attr format="reference" name="loadingView"/>
+        <attr format="reference" name="emptyView"/>
+        <attr format="reference" name="errorView"/>
+        <attr format="enum" name="viewState">
+            <enum name="content" value="0"/>
+            <enum name="error" value="1"/>
+            <enum name="empty" value="2"/>
+            <enum name="loading" value="3"/>
+        </attr>
+    </declare-styleable></file><file path="D:\demo\MyApplication\library\src\main\res\values\colors.xml" qualifiers=""><color name="bottom_color">#34373c</color><color name="white">#ffffff</color><color name="gray_line">#F6F6F6</color><color name="gray_ae">#AEAEAE</color><color name="gray_66">#666666</color><color name="gray_light">#c8c8c8</color><color name="black2">#555555</color><color name="steelblue">#4682B4</color><color name="royalblue">#4169E1</color><color name="hui_f2f2f2">#f2f2f2</color><color name="red">#ff6600</color><color name="light_blue">#01ABE9</color><color name="rg_quotation_select">#169BD5</color><color name="indicatorText_color">#0790ee</color><color name="mask_color">#88888888</color><color name="blue_app">#22abea</color><color name="drop_down_unselected">#ffffff</color><color name="base_title_color">#464a4d</color><color name="material_text_color_47">#333333</color><color name="divider_color_c7">#d3d3d3</color><color name="pickerview_timebtn_nor">#057dff</color><color name="pickerview_timebtn_pre">#c2daf5</color><color name="pickerview_bg_topbar">#f5f5f5</color><color name="pickerview_topbar_title">#000000</color><color name="pickerview_wheelview_textcolor_out">#a8a8a8</color><color name="pickerview_wheelview_textcolor_center">#2a2a2a</color><color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color><color name="pickerview_bgColor_overlay">#60000000</color><color name="pickerview_bgColor_default">#FFFFFFFF</color><color name="colorPrimaryDark">#012B55</color><color name="colorPrimary">#34373c</color><color name="colorPrimaryLight">#C4C9E8</color><color name="colorAccent">#02A8F3</color><color name="progress_bar_color">#ff2942</color><color name="progress_bar_background_light">#FFFAFAFA</color><color name="primary_green">#8BC34A</color><color name="background_card">#2a434a</color><color name="hui_999999">#999999</color><color name="div_other">#e1e1e1</color><color name="text_button_pressed">#0093d8</color><integer-array name="refresh_progress_bar_colors">
+        <item>@color/progress_bar_color</item>
+        
+        
+        
+    </integer-array></file><file path="D:\demo\MyApplication\library\src\main\res\values\cube_ptr_attrs.xml" qualifiers=""><declare-styleable name="PtrFrameLayout">
+        
+        <attr format="reference" name="ptr_header"/>
+        <attr format="reference" name="ptr_content"/>
+
+        
+        <attr format="float" name="ptr_resistance"/>
+
+        
+        <attr format="float" name="ptr_ratio_of_header_height_to_refresh"/>
+
+        <attr format="integer" name="ptr_duration_to_close"/>
+        <attr format="integer" name="ptr_duration_to_close_header"/>
+
+        
+        <attr format="boolean" name="ptr_pull_to_fresh"/>
+
+        
+        <attr format="boolean" name="ptr_keep_header_when_refresh"/>
+    </declare-styleable><declare-styleable name="PtrClassicHeader">
+        <attr format="integer" name="ptr_rotate_ani_time"/>
+    </declare-styleable></file><file path="D:\demo\MyApplication\library\src\main\res\values\cube_ptr_string.xml" qualifiers=""><string name="cube_ptr_pull_down">下拉</string><string name="cube_ptr_pull_down_to_refresh">下拉刷新</string><string name="cube_ptr_release_to_refresh">释放刷新</string><string name="cube_ptr_refreshing">加载中…</string><string name="cube_ptr_refresh_complete">更新完成.</string><string name="cube_ptr_last_update">上次更新: </string><string name="cube_ptr_seconds_ago"> 秒之前</string><string name="cube_ptr_minutes_ago"> 分钟之前</string><string name="cube_ptr_hours_ago"> 小时之前</string></file><file path="D:\demo\MyApplication\library\src\main\res\values\dimens.xml" qualifiers=""><dimen name="pickerview_topbar_height">44dp</dimen><dimen name="pickerview_topbar_padding">20dp</dimen><dimen name="pickerview_topbar_btn_textsize">17sp</dimen><dimen name="pickerview_topbar_title_textsize">18sp</dimen><dimen name="pickerview_textsize">20sp</dimen></file><file path="D:\demo\MyApplication\library\src\main\res\values\integers.xml" qualifiers=""><integer name="animation_default_duration">300</integer></file><file path="D:\demo\MyApplication\library\src\main\res\values\strings.xml" qualifiers=""><string name="update_dialog_title">发现新版本</string><string name="update_anotify_ticker">发现新版本,点击进行升级</string><string name="update_btn_download">立即下载</string><string name="update_btn_cancel">以后再说</string><string name="update_no_new_update">已经是最新版本</string><string name="update_download_progress">正在下载:%1$d%%</string><string name="update_dialog_checking">正在检查版本</string><string name="pickerview_cancel">取消</string><string name="pickerview_submit">确定</string><string name="pickerview_year">年</string><string name="pickerview_month">月</string><string name="pickerview_day">日</string><string name="pickerview_hours">时</string><string name="pickerview_minutes">分</string><string name="pickerview_seconds">秒</string><string name="app_loading">加载中…</string><string name="app_loading_more">加载更多…</string><string name="app_no_more_data">没有更多数据了…</string><string name="network_error_text">网络不给力,\n点击屏幕，重新加载!</string><string name="ptr_frame_layout_content_empty">The content view in PtrFrameLayout is empty. Do you forget to specify its id in xml layout file?</string></file><file path="D:\demo\MyApplication\library\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -257,16 +297,150 @@
         <item name="shadow_left">@drawable/shadow_left</item>
         <item name="shadow_right">@drawable/shadow_right</item>
         <item name="shadow_bottom">@drawable/shadow_bottom</item>
-    </style></file><file name="update_apk_paths" path="E:\company project\MyApplication\library\src\main\res\xml\update_apk_paths.xml" qualifiers="" type="xml"/></source><source path="E:\company project\MyApplication\library\build\generated\res\rs\debug"/><source path="E:\company project\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\company project\MyApplication\library\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\company project\MyApplication\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag">
+    </style><style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/loading</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:minWidth">35dp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:maxWidth">65dp</item>
+        <item name="android:maxHeight">65dp</item>
+    </style></file><file path="D:\demo\MyApplication\library\src\main\res\values-en\cube_ptr_string.xml" qualifiers="en"><string name="cube_ptr_pull_down">Pull Down</string><string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string><string name="cube_ptr_release_to_refresh">Release To Refresh</string><string name="cube_ptr_refreshing">Updating…</string><string name="cube_ptr_refresh_complete">Updated.</string><string name="cube_ptr_last_update">last update: </string><string name="cube_ptr_seconds_ago"> seconds ago</string><string name="cube_ptr_minutes_ago"> minutes ago</string><string name="cube_ptr_hours_ago"> hours ago</string></file><file path="D:\demo\MyApplication\library\src\main\res\values-en\strings.xml" qualifiers="en"><string name="update_dialog_title">发现新版本</string><string name="update_anotify_ticker">发现新版本,点击进行升级</string><string name="update_btn_download">立即下载</string><string name="update_btn_cancel">以后再说</string><string name="update_no_new_update">已经是最新版本</string><string name="update_download_progress">正在下载:%1$d%%</string><string name="update_dialog_checking">正在检查版本</string><string name="pickerview_cancel">取消</string><string name="pickerview_submit">确定</string><string name="pickerview_year">年</string><string name="pickerview_month">月</string><string name="pickerview_day">日</string><string name="pickerview_hours">时</string><string name="pickerview_minutes">分</string><string name="pickerview_seconds">秒</string><string name="app_loading">loading…</string><string name="app_loading_more">load more…</string><string name="app_no_more_data">no more data…</string><string name="network_error_text">loading error,\n reload!</string><string name="ptr_frame_layout_content_empty">The content view in PtrFrameLayout is empty. Do you forget to specify its id in xml layout file?</string></file><file name="update_apk_paths" path="D:\demo\MyApplication\library\src\main\res\xml\update_apk_paths.xml" qualifiers="" type="xml"/></source><source path="D:\demo\MyApplication\library\build\generated\res\rs\debug"/><source path="D:\demo\MyApplication\library\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\demo\MyApplication\library\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\demo\MyApplication\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PtrClassicHeader">
+        <attr format="integer" name="ptr_rotate_ani_time"/>
+    </declare-styleable><declare-styleable name="SwipeBackLayout">
+        <attr format="dimension" name="edge_size"/>
+        <attr name="edge_flag">
             <enum name="left" value="0"/>
             <enum name="right" value="1"/>
             <enum name="bottom" value="2"/>
             <enum name="all" value="3"/>
-        </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable><declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPaddingTopBottom"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectedColor"/><attr format="float" name="pstsScaleZoomMax"/><attr format="boolean" name="pstsSmoothScrollWhenClickTab"/></declare-styleable><declare-styleable name="MaxHeightView"><attr format="reference|float" name="mhv_HeightRatio"/><attr format="reference|dimension" name="mhv_HeightDimen"/></declare-styleable><declare-styleable name="DropDownMenu"><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="color" name="textSelectedColor"/><attr format="color" name="textUnselectedColor"/><attr format="color" name="menuBackgroundColor"/><attr format="color" name="maskColor"/><attr format="dimension" name="menuTextSize"/><attr format="reference" name="menuSelectedIcon"/><attr format="reference" name="menuUnselectedIcon"/></declare-styleable><declare-styleable name="NumberProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility">
+        </attr>
+        <attr format="reference" name="shadow_left"/>
+        <attr format="reference" name="shadow_right"/>
+        <attr format="reference" name="shadow_bottom"/>
+    </declare-styleable><declare-styleable name="PtrFrameLayout">
+        
+        <attr format="reference" name="ptr_header"/>
+        <attr format="reference" name="ptr_content"/>
+
+        
+        <attr format="float" name="ptr_resistance"/>
+
+        
+        <attr format="float" name="ptr_ratio_of_header_height_to_refresh"/>
+
+        <attr format="integer" name="ptr_duration_to_close"/>
+        <attr format="integer" name="ptr_duration_to_close_header"/>
+
+        
+        <attr format="boolean" name="ptr_pull_to_fresh"/>
+
+        
+        <attr format="boolean" name="ptr_keep_header_when_refresh"/>
+    </declare-styleable><declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="dimension" name="pstsDividerPaddingTopBottom"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsTextAllCaps"/>
+        <attr format="color" name="pstsTextSelectedColor"/>
+        
+        <attr format="float" name="pstsScaleZoomMax"/>
+        <attr format="boolean" name="pstsSmoothScrollWhenClickTab"/>
+    </declare-styleable><declare-styleable name="MaxHeightView">
+        <attr format="reference|float" name="mhv_HeightRatio"/>
+        <attr format="reference|dimension" name="mhv_HeightDimen"/>
+    </declare-styleable><declare-styleable name="MultiStateView">
+        <attr format="reference" name="loadingView"/>
+        <attr format="reference" name="emptyView"/>
+        <attr format="reference" name="errorView"/>
+        <attr format="enum" name="viewState">
+            <enum name="content" value="0"/>
+            <enum name="error" value="1"/>
+            <enum name="empty" value="2"/>
+            <enum name="loading" value="3"/>
+        </attr>
+    </declare-styleable><declare-styleable name="DropDownMenu">
+        
+        <attr format="color" name="underlineColor"/>
+        
+        <attr format="color" name="dividerColor"/>
+        
+        <attr format="color" name="textSelectedColor"/>
+        
+        <attr format="color" name="textUnselectedColor"/>
+        
+        <attr format="color" name="menuBackgroundColor"/>
+        
+        <attr format="color" name="maskColor"/>
+        
+        <attr format="dimension" name="menuTextSize"/>
+        
+        <attr format="reference" name="menuSelectedIcon"/>
+        
+        <attr format="reference" name="menuUnselectedIcon"/>
+    </declare-styleable><declare-styleable name="NumberProgressBar">
+        <attr format="integer" name="progress_current"/>
+        <attr format="integer" name="progress_max"/>
+
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+
+        <attr format="dimension" name="progress_text_offset"/>
+
+        <attr format="enum" name="progress_text_visibility">
             <enum name="visible" value="0"/>
             <enum name="invisible" value="1"/>
-        </attr></declare-styleable><declare-styleable name="pickerview"><attr name="wheelview_gravity">
+        </attr>
+    </declare-styleable><declare-styleable name="Themes">
+        <attr format="reference" name="numberProgressBarStyle"/>
+    </declare-styleable><declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
             <enum name="center" value="17"/>
             <enum name="left" value="3"/>
             <enum name="right" value="5"/>
-        </attr><attr format="dimension" name="wheelview_textSize"/><attr format="color" name="wheelview_textColorOut"/><attr format="color" name="wheelview_textColorCenter"/><attr format="color" name="wheelview_dividerColor"/><attr format="float" name="wheelview_lineSpacingMultiplier"/></declare-styleable><declare-styleable name="SwitchButton"><attr format="reference|dimension" name="sb_shadow_radius"/><attr format="reference|dimension" name="sb_shadow_offset"/><attr format="reference|color" name="sb_shadow_color"/><attr format="reference|color" name="sb_uncheck_color"/><attr format="reference|color" name="sb_checked_color"/><attr format="reference|dimension" name="sb_border_width"/><attr format="reference|color" name="sb_checkline_color"/><attr format="reference|dimension" name="sb_checkline_width"/><attr format="reference|color" name="sb_uncheckcircle_color"/><attr format="reference|dimension" name="sb_uncheckcircle_width"/><attr format="reference|dimension" name="sb_uncheckcircle_radius"/><attr format="reference|boolean" name="sb_checked"/><attr format="reference|boolean" name="sb_shadow_effect"/><attr format="reference|integer" name="sb_effect_duration"/><attr format="reference|color" name="sb_button_color"/><attr format="reference|boolean" name="sb_show_indicator"/><attr format="reference|color" name="sb_background"/><attr format="reference|boolean" name="sb_enable_effect"/></declare-styleable><declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable></configuration></mergedItems></merger>
+        </attr>
+        <attr format="dimension" name="wheelview_textSize"/>
+        <attr format="color" name="wheelview_textColorOut"/>
+        <attr format="color" name="wheelview_textColorCenter"/>
+        <attr format="color" name="wheelview_dividerColor"/>
+        <attr format="float" name="wheelview_lineSpacingMultiplier"/>
+    </declare-styleable><declare-styleable name="SwitchButton">
+        <attr format="reference|dimension" name="sb_shadow_radius"/>
+        <attr format="reference|dimension" name="sb_shadow_offset"/>
+        <attr format="reference|color" name="sb_shadow_color"/>
+        <attr format="reference|color" name="sb_uncheck_color"/>
+        <attr format="reference|color" name="sb_checked_color"/>
+
+        <attr format="reference|dimension" name="sb_border_width"/>
+        <attr format="reference|color" name="sb_checkline_color"/>
+        <attr format="reference|dimension" name="sb_checkline_width"/>
+        <attr format="reference|color" name="sb_uncheckcircle_color"/>
+        <attr format="reference|dimension" name="sb_uncheckcircle_width"/>
+        <attr format="reference|dimension" name="sb_uncheckcircle_radius"/>
+
+        <attr format="reference|boolean" name="sb_checked"/>
+        <attr format="reference|boolean" name="sb_shadow_effect"/>
+        <attr format="reference|integer" name="sb_effect_duration"/>
+        <attr format="reference|color" name="sb_button_color"/>
+        <attr format="reference|boolean" name="sb_show_indicator"/>
+        <attr format="reference|color" name="sb_background"/>
+        <attr format="reference|boolean" name="sb_enable_effect"/>
+    </declare-styleable><declare-styleable name="MaterialProgressBarSupport">
+        <attr format="boolean" name="progressSmallSize"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="color" name="progressBackgroundColor"/>
+    </declare-styleable></configuration></mergedItems></merger>

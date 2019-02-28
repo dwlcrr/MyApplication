@@ -186,4 +186,14 @@
         <item name="shadow_right">@drawable/shadow_right</item>
         <item name="shadow_bottom">@drawable/shadow_bottom</item>
     </style>
+
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/loading</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:minWidth">35dp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:maxWidth">65dp</item>
+        <item name="android:maxHeight">65dp</item>
+    </style>
 </resources>

@@ -10,7 +10,6 @@ import android.widget.Toast;
  */
 
 public class ToastUtils {
-
     public static void showToast(Context context, String msg){
         Toast.makeText(context, msg, Toast.LENGTH_SHORT)
                 .show();
@@ -20,7 +19,6 @@ public class ToastUtils {
         if (time <= 0){
             time = Toast.LENGTH_SHORT;
         }
-        Toast.makeText(context, msg, time)
-                .show();
+        Toast.makeText(context, msg, time).show();
     }
 }

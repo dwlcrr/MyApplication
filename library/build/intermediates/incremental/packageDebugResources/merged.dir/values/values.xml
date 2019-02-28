@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <integer-array name="refresh_progress_bar_colors">
+        <item>@color/progress_bar_color</item>
+        <!--<item>@color/blue</item>-->
+        <!--<item>@color/yellow</item>-->
+        <!--<item>@color/green</item>-->
+    </integer-array>
     <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <color name="background_card">#2a434a</color>
     <color name="base_title_color">#464a4d</color>
     <color name="black2">#555555</color>
     <color name="blue_app">#22abea</color>
     <color name="bottom_color">#34373c</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#02A8F3</color>
+    <color name="colorPrimary">#34373c</color>
+    <color name="colorPrimaryDark">#012B55</color>
+    <color name="colorPrimaryLight">#C4C9E8</color>
+    <color name="div_other">#e1e1e1</color>
     <color name="divider_color_c7">#d3d3d3</color>
     <color name="drop_down_unselected">#ffffff</color>
     <color name="gray_66">#666666</color>
     <color name="gray_ae">#AEAEAE</color>
     <color name="gray_light">#c8c8c8</color>
     <color name="gray_line">#F6F6F6</color>
+    <color name="hui_999999">#999999</color>
     <color name="hui_f2f2f2">#f2f2f2</color>
     <color name="indicatorText_color">#0790ee</color>
     <color name="light_blue">#01ABE9</color>
@@ -28,37 +38,184 @@
     <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
     <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
     <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="primary_green">#8BC34A</color>
+    <color name="progress_bar_background_light">#FFFAFAFA</color>
+    <color name="progress_bar_color">#ff2942</color>
     <color name="red">#ff6600</color>
     <color name="rg_quotation_select">#169BD5</color>
     <color name="royalblue">#4169E1</color>
     <color name="steelblue">#4682B4</color>
+    <color name="text_button_pressed">#0093d8</color>
     <color name="white">#ffffff</color>
-    <declare-styleable name="DropDownMenu"><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="color" name="textSelectedColor"/><attr format="color" name="textUnselectedColor"/><attr format="color" name="menuBackgroundColor"/><attr format="color" name="maskColor"/><attr format="dimension" name="menuTextSize"/><attr format="reference" name="menuSelectedIcon"/><attr format="reference" name="menuUnselectedIcon"/></declare-styleable>
-    <declare-styleable name="MaxHeightView"><attr format="reference|float" name="mhv_HeightRatio"/><attr format="reference|dimension" name="mhv_HeightDimen"/></declare-styleable>
-    <declare-styleable name="NumberProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility">
+    <declare-styleable name="DropDownMenu">
+        
+        <attr format="color" name="underlineColor"/>
+        
+        <attr format="color" name="dividerColor"/>
+        
+        <attr format="color" name="textSelectedColor"/>
+        
+        <attr format="color" name="textUnselectedColor"/>
+        
+        <attr format="color" name="menuBackgroundColor"/>
+        
+        <attr format="color" name="maskColor"/>
+        
+        <attr format="dimension" name="menuTextSize"/>
+        
+        <attr format="reference" name="menuSelectedIcon"/>
+        
+        <attr format="reference" name="menuUnselectedIcon"/>
+    </declare-styleable>
+    <declare-styleable name="MaterialProgressBarSupport">
+        <attr format="boolean" name="progressSmallSize"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="color" name="progressBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="MaxHeightView">
+        <attr format="reference|float" name="mhv_HeightRatio"/>
+        <attr format="reference|dimension" name="mhv_HeightDimen"/>
+    </declare-styleable>
+    <declare-styleable name="MultiStateView">
+        <attr format="reference" name="loadingView"/>
+        <attr format="reference" name="emptyView"/>
+        <attr format="reference" name="errorView"/>
+        <attr format="enum" name="viewState">
+            <enum name="content" value="0"/>
+            <enum name="error" value="1"/>
+            <enum name="empty" value="2"/>
+            <enum name="loading" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="NumberProgressBar">
+        <attr format="integer" name="progress_current"/>
+        <attr format="integer" name="progress_max"/>
+
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+
+        <attr format="dimension" name="progress_text_offset"/>
+
+        <attr format="enum" name="progress_text_visibility">
             <enum name="visible" value="0"/>
             <enum name="invisible" value="1"/>
-        </attr></declare-styleable>
-    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPaddingTopBottom"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectedColor"/><attr format="float" name="pstsScaleZoomMax"/><attr format="boolean" name="pstsSmoothScrollWhenClickTab"/></declare-styleable>
-    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="dimension" name="pstsDividerPaddingTopBottom"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsTextAllCaps"/>
+        <attr format="color" name="pstsTextSelectedColor"/>
+        
+        <attr format="float" name="pstsScaleZoomMax"/>
+        <attr format="boolean" name="pstsSmoothScrollWhenClickTab"/>
+    </declare-styleable>
+    <declare-styleable name="PtrClassicHeader">
+        <attr format="integer" name="ptr_rotate_ani_time"/>
+    </declare-styleable>
+    <declare-styleable name="PtrFrameLayout">
+        
+        <attr format="reference" name="ptr_header"/>
+        <attr format="reference" name="ptr_content"/>
+
+        
+        <attr format="float" name="ptr_resistance"/>
+
+        
+        <attr format="float" name="ptr_ratio_of_header_height_to_refresh"/>
+
+        <attr format="integer" name="ptr_duration_to_close"/>
+        <attr format="integer" name="ptr_duration_to_close_header"/>
+
+        
+        <attr format="boolean" name="ptr_pull_to_fresh"/>
+
+        
+        <attr format="boolean" name="ptr_keep_header_when_refresh"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeBackLayout">
+        <attr format="dimension" name="edge_size"/>
+        <attr name="edge_flag">
             <enum name="left" value="0"/>
             <enum name="right" value="1"/>
             <enum name="bottom" value="2"/>
             <enum name="all" value="3"/>
-        </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
-    <declare-styleable name="SwitchButton"><attr format="reference|dimension" name="sb_shadow_radius"/><attr format="reference|dimension" name="sb_shadow_offset"/><attr format="reference|color" name="sb_shadow_color"/><attr format="reference|color" name="sb_uncheck_color"/><attr format="reference|color" name="sb_checked_color"/><attr format="reference|dimension" name="sb_border_width"/><attr format="reference|color" name="sb_checkline_color"/><attr format="reference|dimension" name="sb_checkline_width"/><attr format="reference|color" name="sb_uncheckcircle_color"/><attr format="reference|dimension" name="sb_uncheckcircle_width"/><attr format="reference|dimension" name="sb_uncheckcircle_radius"/><attr format="reference|boolean" name="sb_checked"/><attr format="reference|boolean" name="sb_shadow_effect"/><attr format="reference|integer" name="sb_effect_duration"/><attr format="reference|color" name="sb_button_color"/><attr format="reference|boolean" name="sb_show_indicator"/><attr format="reference|color" name="sb_background"/><attr format="reference|boolean" name="sb_enable_effect"/></declare-styleable>
-    <declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable>
-    <declare-styleable name="pickerview"><attr name="wheelview_gravity">
+        </attr>
+        <attr format="reference" name="shadow_left"/>
+        <attr format="reference" name="shadow_right"/>
+        <attr format="reference" name="shadow_bottom"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr format="reference|dimension" name="sb_shadow_radius"/>
+        <attr format="reference|dimension" name="sb_shadow_offset"/>
+        <attr format="reference|color" name="sb_shadow_color"/>
+        <attr format="reference|color" name="sb_uncheck_color"/>
+        <attr format="reference|color" name="sb_checked_color"/>
+
+        <attr format="reference|dimension" name="sb_border_width"/>
+        <attr format="reference|color" name="sb_checkline_color"/>
+        <attr format="reference|dimension" name="sb_checkline_width"/>
+        <attr format="reference|color" name="sb_uncheckcircle_color"/>
+        <attr format="reference|dimension" name="sb_uncheckcircle_width"/>
+        <attr format="reference|dimension" name="sb_uncheckcircle_radius"/>
+
+        <attr format="reference|boolean" name="sb_checked"/>
+        <attr format="reference|boolean" name="sb_shadow_effect"/>
+        <attr format="reference|integer" name="sb_effect_duration"/>
+        <attr format="reference|color" name="sb_button_color"/>
+        <attr format="reference|boolean" name="sb_show_indicator"/>
+        <attr format="reference|color" name="sb_background"/>
+        <attr format="reference|boolean" name="sb_enable_effect"/>
+    </declare-styleable>
+    <declare-styleable name="Themes">
+        <attr format="reference" name="numberProgressBarStyle"/>
+    </declare-styleable>
+    <declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
             <enum name="center" value="17"/>
             <enum name="left" value="3"/>
             <enum name="right" value="5"/>
-        </attr><attr format="dimension" name="wheelview_textSize"/><attr format="color" name="wheelview_textColorOut"/><attr format="color" name="wheelview_textColorCenter"/><attr format="color" name="wheelview_dividerColor"/><attr format="float" name="wheelview_lineSpacingMultiplier"/></declare-styleable>
+        </attr>
+        <attr format="dimension" name="wheelview_textSize"/>
+        <attr format="color" name="wheelview_textColorOut"/>
+        <attr format="color" name="wheelview_textColorCenter"/>
+        <attr format="color" name="wheelview_dividerColor"/>
+        <attr format="float" name="wheelview_lineSpacingMultiplier"/>
+    </declare-styleable>
     <dimen name="pickerview_textsize">20sp</dimen>
     <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
     <dimen name="pickerview_topbar_height">44dp</dimen>
     <dimen name="pickerview_topbar_padding">20dp</dimen>
     <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
     <integer name="animation_default_duration">300</integer>
+    <string name="app_loading">加载中…</string>
+    <string name="app_loading_more">加载更多…</string>
+    <string name="app_no_more_data">没有更多数据了…</string>
+    <string name="cube_ptr_hours_ago"> 小时之前</string>
+    <string name="cube_ptr_last_update">上次更新: </string>
+    <string name="cube_ptr_minutes_ago"> 分钟之前</string>
+    <string name="cube_ptr_pull_down">下拉</string>
+    <string name="cube_ptr_pull_down_to_refresh">下拉刷新</string>
+    <string name="cube_ptr_refresh_complete">更新完成.</string>
+    <string name="cube_ptr_refreshing">加载中…</string>
+    <string name="cube_ptr_release_to_refresh">释放刷新</string>
+    <string name="cube_ptr_seconds_ago"> 秒之前</string>
+    <string name="network_error_text">网络不给力,\n点击屏幕，重新加载!</string>
     <string name="pickerview_cancel">取消</string>
     <string name="pickerview_day">日</string>
     <string name="pickerview_hours">时</string>
@@ -67,6 +224,7 @@
     <string name="pickerview_seconds">秒</string>
     <string name="pickerview_submit">确定</string>
     <string name="pickerview_year">年</string>
+    <string name="ptr_frame_layout_content_empty">The content view in PtrFrameLayout is empty. Do you forget to specify its id in xml layout file?</string>
     <string name="update_anotify_ticker">发现新版本,点击进行升级</string>
     <string name="update_btn_cancel">以后再说</string>
     <string name="update_btn_download">立即下载</string>
@@ -81,7 +239,7 @@
         <item name="android:windowIsFloating">true</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -225,19 +383,28 @@
     </style>
     <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
-        <!-- Dialog的windowFrame框为无 -->
+        
         <item name="android:windowIsFloating">true</item>
-        <!-- 是否漂现在activity上 -->
+        
         <item name="android:windowIsTranslucent">true</item>
-        <!-- 是否半透明 -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="android:background">@null</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
-        <!-- 去除黑色边框的关键设置项 -->
+        
         <item name="android:backgroundDimEnabled">true</item>
-        <!-- 屏幕背景是否变暗 -->
+        
         <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/loading</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:minWidth">35dp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:maxWidth">65dp</item>
+        <item name="android:maxHeight">65dp</item>
     </style>
     <style mce_bogus="1" name="pickerview_dialogAnim" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>

@@ -17,4 +17,10 @@
     <string name="pickerview_hours">时</string>
     <string name="pickerview_minutes">分</string>
     <string name="pickerview_seconds">秒</string>
+
+    <string name="app_loading">加载中…</string>
+    <string name="app_loading_more">加载更多…</string>
+    <string name="app_no_more_data">没有更多数据了…</string>
+    <string name="network_error_text">网络不给力,\n点击屏幕，重新加载!</string>
+    <string name="ptr_frame_layout_content_empty">The content view in PtrFrameLayout is empty. Do you forget to specify its id in xml layout file?</string>
 </resources>

@@ -1,5 +1,9 @@
 package com.smm.lib.utils.base;
 
+import android.content.Context;
+
+import com.smm.lib.updateApp.utils.ToastUtils;
+
 import java.util.List;
 
 /**
@@ -18,6 +22,13 @@ public class StrUtil {
         return cs == null || cs.length() == 0;
     }
 
+    public static boolean isEmpty(Context context,CharSequence cs,String title) {
+        boolean isEmpty = cs == null || cs.length() == 0;
+        if(isEmpty){
+            ToastUtils.showToast(context,title + "不能为空");
+        }
+        return isEmpty;
+    }
     /**
      * 字符串不为 null,长度也不为0
      *

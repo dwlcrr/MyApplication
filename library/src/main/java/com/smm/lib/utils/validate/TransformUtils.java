@@ -93,7 +93,7 @@ public class TransformUtils {
 	}
 	/** * 获取指定日期是星期几
 	  * 参数为null时表示获取当前日期是星期几
-	  * @param date
+	  * @param time
 	  * @return
 	*/
 	public static String getWeekOfDate(String time,int flag) {      
